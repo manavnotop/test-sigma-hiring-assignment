@@ -1,0 +1,151 @@
+{
+  "url": "https://demo.vercel.store/search/bags",
+  "title": "Bags | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e9, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e10, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e11, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e4]\n- button \"Open cart\" [ref=e2]\n- heading \"Collections\" [level=3, ref=e5]\n- link \"All\" [ref=e14, url=https://demo.vercel.store/search]\n- link \"Drinkware\" [ref=e15, url=https://demo.vercel.store/search/drinkware]\n- link \"Electronics\" [ref=e16, url=https://demo.vercel.store/search/electronics]\n- link \"Footware\" [ref=e17, url=https://demo.vercel.store/search/footware]\n- link \"Headwear\" [ref=e18, url=https://demo.vercel.store/search/headwear]\n- link \"Hoodies\" [ref=e19, url=https://demo.vercel.store/search/hoodies]\n- link \"Jackets\" [ref=e20, url=https://demo.vercel.store/search/jackets]\n- link \"Kids\" [ref=e21, url=https://demo.vercel.store/search/kids]\n- link \"Pets\" [ref=e22, url=https://demo.vercel.store/search/pets]\n- link \"Shirts\" [ref=e23, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e24, url=https://demo.vercel.store/search/stickers]\n- link \"Acme Drawstring Bag Acme Drawstring Bag $12.00USD\" [ref=e25, url=https://demo.vercel.store/product/acme-drawstring-bag]\n  - heading \"Acme Drawstring Bag\" [level=3, ref=e36]\n- heading \"Sort by\" [level=3, ref=e6]\n- link \"Trending\" [ref=e26, url=https://demo.vercel.store/search/bags?sort=trending-desc]\n- link \"Latest arrivals\" [ref=e27, url=https://demo.vercel.store/search/bags?sort=latest-desc]\n- link \"Price: Low to high\" [ref=e28, url=https://demo.vercel.store/search/bags?sort=price-asc]\n- link \"Price: High to low\" [ref=e29, url=https://demo.vercel.store/search/bags?sort=price-desc]\n- link \"Acme Store logo ACME STORE\" [ref=e7, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e30, url=https://demo.vercel.store/]\n- link \"About\" [ref=e31, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e32, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e33, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e34, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e35, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e8, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e12, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e13, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e3]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e11": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e12": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e14": {
+      "name": "All",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Drinkware",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Electronics",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Footware",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Headwear",
+      "role": "link"
+    },
+    "e19": {
+      "name": "Hoodies",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e20": {
+      "name": "Jackets",
+      "role": "link"
+    },
+    "e21": {
+      "name": "Kids",
+      "role": "link"
+    },
+    "e22": {
+      "name": "Pets",
+      "role": "link"
+    },
+    "e23": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Acme Drawstring Bag Acme Drawstring Bag $12.00USD",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Trending",
+      "role": "link"
+    },
+    "e27": {
+      "name": "Latest arrivals",
+      "role": "link"
+    },
+    "e28": {
+      "name": "Price: Low to high",
+      "role": "link"
+    },
+    "e29": {
+      "name": "Price: High to low",
+      "role": "link"
+    },
+    "e3": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e30": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e31": {
+      "name": "About",
+      "role": "link"
+    },
+    "e32": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e33": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e34": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e35": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e36": {
+      "name": "Acme Drawstring Bag",
+      "role": "heading"
+    },
+    "e4": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e5": {
+      "name": "Collections",
+      "role": "heading"
+    },
+    "e6": {
+      "name": "Sort by",
+      "role": "heading"
+    },
+    "e7": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e8": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    },
+    "e9": {
+      "name": "All",
+      "role": "link"
+    }
+  }
+}

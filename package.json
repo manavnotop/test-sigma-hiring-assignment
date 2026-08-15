@@ -1,0 +1,33 @@
+{
+  "name": "blast-radius-agent",
+  "version": "0.1.0",
+  "description": "TESTSIGMA take-home: agent that crawls a live app, ingests a product spec, builds a three-layer Neo4j knowledge graph (Requirements / UI / Code), and reasons about the blast radius of real PRs.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "crawl": "tsx src/cli.ts crawl",
+    "ingest": "tsx src/cli.ts ingest",
+    "code": "tsx src/cli.ts code",
+    "connect": "tsx src/cli.ts connect",
+    "reason": "tsx src/cli.ts reason",
+    "report": "tsx src/cli.ts report",
+    "all": "tsx src/cli.ts all",
+    "reset": "tsx src/cli.ts reset",
+    "eval": "tsx src/cli.ts eval",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "0.84.1",
+    "@earendil-works/pi-ai": "0.84.1",
+    "neo4j-driver": "6.2.0",
+    "tree-sitter-javascript": "0.25.0",
+    "tree-sitter-typescript": "0.23.2",
+    "web-tree-sitter": "0.26.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

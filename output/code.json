@@ -1,0 +1,2560 @@
+{
+  "fullName": "vercel/commerce",
+  "ref": "main",
+  "files": [
+    {
+      "path": "app/[page]/layout.tsx",
+      "language": "tsx",
+      "loc": 13,
+      "symbols": [
+        {
+          "name": "Layout",
+          "kind": "function",
+          "filePath": "app/[page]/layout.tsx",
+          "line": 3,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/layout/footer"
+      ]
+    },
+    {
+      "path": "app/[page]/opengraph-image.tsx",
+      "language": "tsx",
+      "loc": 10,
+      "symbols": [
+        {
+          "name": "Image",
+          "kind": "function",
+          "filePath": "app/[page]/opengraph-image.tsx",
+          "line": 4,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/opengraph-image",
+        "lib/shopify"
+      ]
+    },
+    {
+      "path": "app/[page]/page.tsx",
+      "language": "tsx",
+      "loc": 51,
+      "symbols": [
+        {
+          "name": "generateMetadata",
+          "kind": "function",
+          "filePath": "app/[page]/page.tsx",
+          "line": 7,
+          "exported": true
+        },
+        {
+          "name": "Page",
+          "kind": "function",
+          "filePath": "app/[page]/page.tsx",
+          "line": 26,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "next",
+        "components/prose",
+        "lib/shopify",
+        "next/navigation"
+      ]
+    },
+    {
+      "path": "app/api/revalidate/route.ts",
+      "language": "typescript",
+      "loc": 7,
+      "symbols": [
+        {
+          "name": "POST",
+          "kind": "function",
+          "filePath": "app/api/revalidate/route.ts",
+          "line": 4,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/shopify",
+        "next/server"
+      ]
+    },
+    {
+      "path": "app/error.tsx",
+      "language": "tsx",
+      "loc": 20,
+      "symbols": [
+        {
+          "name": "Error",
+          "kind": "function",
+          "filePath": "app/error.tsx",
+          "line": 3,
+          "exported": true
+        }
+      ],
+      "imports": []
+    },
+    {
+      "path": "app/layout.tsx",
+      "language": "tsx",
+      "loc": 48,
+      "symbols": [
+        {
+          "name": "RootLayout",
+          "kind": "function",
+          "filePath": "app/layout.tsx",
+          "line": 25,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/cart/cart-context",
+        "components/layout/navbar",
+        "components/welcome-toast",
+        "geist/font/sans",
+        "lib/shopify",
+        "react",
+        "sonner",
+        "./globals.css",
+        "lib/utils"
+      ]
+    },
+    {
+      "path": "app/opengraph-image.tsx",
+      "language": "tsx",
+      "loc": 6,
+      "symbols": [
+        {
+          "name": "Image",
+          "kind": "function",
+          "filePath": "app/opengraph-image.tsx",
+          "line": 3,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/opengraph-image"
+      ]
+    },
+    {
+      "path": "app/page.tsx",
+      "language": "tsx",
+      "loc": 22,
+      "symbols": [
+        {
+          "name": "HomePage",
+          "kind": "function",
+          "filePath": "app/page.tsx",
+          "line": 13,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/carousel",
+        "components/grid/three-items",
+        "components/layout/footer"
+      ]
+    },
+    {
+      "path": "app/product/[handle]/page.tsx",
+      "language": "tsx",
+      "loc": 150,
+      "symbols": [
+        {
+          "name": "generateMetadata",
+          "kind": "function",
+          "filePath": "app/product/[handle]/page.tsx",
+          "line": 13,
+          "exported": true
+        },
+        {
+          "name": "ProductPage",
+          "kind": "function",
+          "filePath": "app/product/[handle]/page.tsx",
+          "line": 50,
+          "exported": true
+        },
+        {
+          "name": "RelatedProducts",
+          "kind": "function",
+          "filePath": "app/product/[handle]/page.tsx",
+          "line": 113,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "components/grid/tile",
+        "components/layout/footer",
+        "components/product/gallery",
+        "components/product/product-description",
+        "lib/constants",
+        "lib/shopify",
+        "lib/shopify/types",
+        "next",
+        "next/link",
+        "next/navigation",
+        "react"
+      ]
+    },
+    {
+      "path": "app/robots.ts",
+      "language": "typescript",
+      "loc": 14,
+      "symbols": [
+        {
+          "name": "robots",
+          "kind": "function",
+          "filePath": "app/robots.ts",
+          "line": 3,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/utils"
+      ]
+    },
+    {
+      "path": "app/search/[collection]/opengraph-image.tsx",
+      "language": "tsx",
+      "loc": 14,
+      "symbols": [
+        {
+          "name": "Image",
+          "kind": "function",
+          "filePath": "app/search/[collection]/opengraph-image.tsx",
+          "line": 4,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/opengraph-image",
+        "lib/shopify"
+      ]
+    },
+    {
+      "path": "app/search/[collection]/page.tsx",
+      "language": "tsx",
+      "loc": 53,
+      "symbols": [
+        {
+          "name": "generateMetadata",
+          "kind": "function",
+          "filePath": "app/search/[collection]/page.tsx",
+          "line": 9,
+          "exported": true
+        },
+        {
+          "name": "CategoryPage",
+          "kind": "function",
+          "filePath": "app/search/[collection]/page.tsx",
+          "line": 26,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/shopify",
+        "next",
+        "next/navigation",
+        "components/grid",
+        "components/layout/product-grid-items",
+        "lib/constants"
+      ]
+    },
+    {
+      "path": "app/search/children-wrapper.tsx",
+      "language": "tsx",
+      "loc": 15,
+      "symbols": [
+        {
+          "name": "ChildrenWrapper",
+          "kind": "function",
+          "filePath": "app/search/children-wrapper.tsx",
+          "line": 7,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "next/navigation",
+        "react"
+      ]
+    },
+    {
+      "path": "app/search/layout.tsx",
+      "language": "tsx",
+      "loc": 32,
+      "symbols": [
+        {
+          "name": "SearchLayout",
+          "kind": "function",
+          "filePath": "app/search/layout.tsx",
+          "line": 8,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/layout/footer",
+        "components/layout/search/collections",
+        "components/layout/search/filter",
+        "lib/constants",
+        "./children-wrapper",
+        "react"
+      ]
+    },
+    {
+      "path": "app/search/loading.tsx",
+      "language": "tsx",
+      "loc": 22,
+      "symbols": [
+        {
+          "name": "Loading",
+          "kind": "function",
+          "filePath": "app/search/loading.tsx",
+          "line": 3,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/grid"
+      ]
+    },
+    {
+      "path": "app/search/page.tsx",
+      "language": "tsx",
+      "loc": 40,
+      "symbols": [
+        {
+          "name": "SearchPage",
+          "kind": "function",
+          "filePath": "app/search/page.tsx",
+          "line": 11,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/grid",
+        "components/layout/product-grid-items",
+        "lib/constants",
+        "lib/shopify"
+      ]
+    },
+    {
+      "path": "app/sitemap.ts",
+      "language": "typescript",
+      "loc": 53,
+      "symbols": [
+        {
+          "name": "sitemap",
+          "kind": "function",
+          "filePath": "app/sitemap.ts",
+          "line": 12,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/shopify",
+        "lib/utils",
+        "next"
+      ]
+    },
+    {
+      "path": "components/carousel.tsx",
+      "language": "tsx",
+      "loc": 46,
+      "symbols": [
+        {
+          "name": "Carousel",
+          "kind": "function",
+          "filePath": "components/carousel.tsx",
+          "line": 5,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/shopify",
+        "next/link",
+        "./grid/tile"
+      ]
+    },
+    {
+      "path": "components/cart/actions.ts",
+      "language": "typescript",
+      "loc": 107,
+      "symbols": [
+        {
+          "name": "addItem",
+          "kind": "function",
+          "filePath": "components/cart/actions.ts",
+          "line": 15,
+          "exported": true
+        },
+        {
+          "name": "removeItem",
+          "kind": "function",
+          "filePath": "components/cart/actions.ts",
+          "line": 31,
+          "exported": true
+        },
+        {
+          "name": "updateItemQuantity",
+          "kind": "function",
+          "filePath": "components/cart/actions.ts",
+          "line": 54,
+          "exported": true
+        },
+        {
+          "name": "redirectToCheckout",
+          "kind": "function",
+          "filePath": "components/cart/actions.ts",
+          "line": 98,
+          "exported": true
+        },
+        {
+          "name": "createCartAndSetCookie",
+          "kind": "function",
+          "filePath": "components/cart/actions.ts",
+          "line": 103,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/constants",
+        "lib/shopify",
+        "next/cache",
+        "next/headers",
+        "next/navigation"
+      ]
+    },
+    {
+      "path": "components/cart/add-to-cart.tsx",
+      "language": "tsx",
+      "loc": 95,
+      "symbols": [
+        {
+          "name": "SubmitButton",
+          "kind": "function",
+          "filePath": "components/cart/add-to-cart.tsx",
+          "line": 11,
+          "exported": false
+        },
+        {
+          "name": "AddToCart",
+          "kind": "function",
+          "filePath": "components/cart/add-to-cart.tsx",
+          "line": 60,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@heroicons/react/24/outline",
+        "clsx",
+        "components/cart/actions",
+        "lib/shopify/types",
+        "next/navigation",
+        "react",
+        "./cart-context"
+      ]
+    },
+    {
+      "path": "components/cart/cart-context.tsx",
+      "language": "tsx",
+      "loc": 239,
+      "symbols": [
+        {
+          "name": "calculateItemCost",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 35,
+          "exported": false
+        },
+        {
+          "name": "updateCartItem",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 39,
+          "exported": true
+        },
+        {
+          "name": "createOrUpdateCartItem",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 68,
+          "exported": false
+        },
+        {
+          "name": "updateCartTotals",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 99,
+          "exported": false
+        },
+        {
+          "name": "createEmptyCart",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 119,
+          "exported": false
+        },
+        {
+          "name": "cartReducer",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 133,
+          "exported": false
+        },
+        {
+          "name": "CartProvider",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 193,
+          "exported": true
+        },
+        {
+          "name": "useCart",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 207,
+          "exported": true
+        },
+        {
+          "name": "updateCartItem",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 219,
+          "exported": true
+        },
+        {
+          "name": "addCartItem",
+          "kind": "function",
+          "filePath": "components/cart/cart-context.tsx",
+          "line": 226,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/shopify/types",
+        "react"
+      ]
+    },
+    {
+      "path": "components/cart/delete-item-button.tsx",
+      "language": "tsx",
+      "loc": 39,
+      "symbols": [
+        {
+          "name": "DeleteItemButton",
+          "kind": "function",
+          "filePath": "components/cart/delete-item-button.tsx",
+          "line": 8,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@heroicons/react/24/outline",
+        "components/cart/actions",
+        "lib/shopify/types",
+        "react"
+      ]
+    },
+    {
+      "path": "components/cart/edit-item-quantity-button.tsx",
+      "language": "tsx",
+      "loc": 62,
+      "symbols": [
+        {
+          "name": "SubmitButton",
+          "kind": "function",
+          "filePath": "components/cart/edit-item-quantity-button.tsx",
+          "line": 9,
+          "exported": false
+        },
+        {
+          "name": "EditItemQuantityButton",
+          "kind": "function",
+          "filePath": "components/cart/edit-item-quantity-button.tsx",
+          "line": 32,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@heroicons/react/24/outline",
+        "clsx",
+        "components/cart/actions",
+        "lib/shopify/types",
+        "react"
+      ]
+    },
+    {
+      "path": "components/cart/modal.tsx",
+      "language": "tsx",
+      "loc": 257,
+      "symbols": [
+        {
+          "name": "CartModal",
+          "kind": "function",
+          "filePath": "components/cart/modal.tsx",
+          "line": 24,
+          "exported": true
+        },
+        {
+          "name": "openCart",
+          "kind": "function",
+          "filePath": "components/cart/modal.tsx",
+          "line": 28,
+          "exported": true
+        },
+        {
+          "name": "closeCart",
+          "kind": "function",
+          "filePath": "components/cart/modal.tsx",
+          "line": 29,
+          "exported": true
+        },
+        {
+          "name": "CloseCart",
+          "kind": "function",
+          "filePath": "components/cart/modal.tsx",
+          "line": 231,
+          "exported": false
+        },
+        {
+          "name": "CheckoutButton",
+          "kind": "function",
+          "filePath": "components/cart/modal.tsx",
+          "line": 244,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "clsx",
+        "@headlessui/react",
+        "@heroicons/react/24/outline",
+        "components/loading-dots",
+        "components/price",
+        "lib/constants",
+        "lib/utils",
+        "next/image",
+        "next/link",
+        "react",
+        "react-dom",
+        "./actions",
+        "./cart-context",
+        "./delete-item-button",
+        "./edit-item-quantity-button",
+        "./open-cart"
+      ]
+    },
+    {
+      "path": "components/cart/open-cart.tsx",
+      "language": "tsx",
+      "loc": 28,
+      "symbols": [
+        {
+          "name": "OpenCart",
+          "kind": "function",
+          "filePath": "components/cart/open-cart.tsx",
+          "line": 4,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@heroicons/react/24/outline",
+        "clsx"
+      ]
+    },
+    {
+      "path": "components/grid/index.tsx",
+      "language": "tsx",
+      "loc": 28,
+      "symbols": [
+        {
+          "name": "Grid",
+          "kind": "function",
+          "filePath": "components/grid/index.tsx",
+          "line": 3,
+          "exported": false
+        },
+        {
+          "name": "GridItem",
+          "kind": "function",
+          "filePath": "components/grid/index.tsx",
+          "line": 14,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "clsx"
+      ]
+    },
+    {
+      "path": "components/grid/three-items.tsx",
+      "language": "tsx",
+      "loc": 68,
+      "symbols": [
+        {
+          "name": "ThreeItemGridItem",
+          "kind": "function",
+          "filePath": "components/grid/three-items.tsx",
+          "line": 6,
+          "exported": false
+        },
+        {
+          "name": "ThreeItemGrid",
+          "kind": "function",
+          "filePath": "components/grid/three-items.tsx",
+          "line": 50,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/grid/tile",
+        "lib/shopify",
+        "lib/shopify/types",
+        "next/link"
+      ]
+    },
+    {
+      "path": "components/grid/tile.tsx",
+      "language": "tsx",
+      "loc": 51,
+      "symbols": [
+        {
+          "name": "GridTileImage",
+          "kind": "function",
+          "filePath": "components/grid/tile.tsx",
+          "line": 5,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx",
+        "next/image",
+        "../label"
+      ]
+    },
+    {
+      "path": "components/icons/logo.tsx",
+      "language": "tsx",
+      "loc": 17,
+      "symbols": [
+        {
+          "name": "LogoIcon",
+          "kind": "function",
+          "filePath": "components/icons/logo.tsx",
+          "line": 3,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx"
+      ]
+    },
+    {
+      "path": "components/label.tsx",
+      "language": "tsx",
+      "loc": 40,
+      "symbols": [
+        {
+          "name": "Label",
+          "kind": "function",
+          "filePath": "components/label.tsx",
+          "line": 4,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "clsx",
+        "./price"
+      ]
+    },
+    {
+      "path": "components/layout/footer-menu.tsx",
+      "language": "tsx",
+      "loc": 47,
+      "symbols": [
+        {
+          "name": "FooterMenuItem",
+          "kind": "function",
+          "filePath": "components/layout/footer-menu.tsx",
+          "line": 9,
+          "exported": true
+        },
+        {
+          "name": "FooterMenu",
+          "kind": "function",
+          "filePath": "components/layout/footer-menu.tsx",
+          "line": 34,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx",
+        "lib/shopify/types",
+        "next/link",
+        "next/navigation",
+        "react"
+      ]
+    },
+    {
+      "path": "components/layout/footer.tsx",
+      "language": "tsx",
+      "loc": 79,
+      "symbols": [
+        {
+          "name": "Footer",
+          "kind": "function",
+          "filePath": "components/layout/footer.tsx",
+          "line": 10,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "next/link",
+        "components/layout/footer-menu",
+        "components/logo-square",
+        "lib/shopify",
+        "react"
+      ]
+    },
+    {
+      "path": "components/layout/navbar/index.tsx",
+      "language": "tsx",
+      "loc": 62,
+      "symbols": [
+        {
+          "name": "Navbar",
+          "kind": "function",
+          "filePath": "components/layout/navbar/index.tsx",
+          "line": 12,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/cart/modal",
+        "components/logo-square",
+        "lib/shopify",
+        "lib/shopify/types",
+        "next/link",
+        "react",
+        "./mobile-menu",
+        "./search"
+      ]
+    },
+    {
+      "path": "components/layout/navbar/mobile-menu.tsx",
+      "language": "tsx",
+      "loc": 105,
+      "symbols": [
+        {
+          "name": "MobileMenu",
+          "kind": "function",
+          "filePath": "components/layout/navbar/mobile-menu.tsx",
+          "line": 12,
+          "exported": true
+        },
+        {
+          "name": "openMobileMenu",
+          "kind": "function",
+          "filePath": "components/layout/navbar/mobile-menu.tsx",
+          "line": 16,
+          "exported": true
+        },
+        {
+          "name": "closeMobileMenu",
+          "kind": "function",
+          "filePath": "components/layout/navbar/mobile-menu.tsx",
+          "line": 17,
+          "exported": true
+        },
+        {
+          "name": "handleResize",
+          "kind": "function",
+          "filePath": "components/layout/navbar/mobile-menu.tsx",
+          "line": 20,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@headlessui/react",
+        "next/link",
+        "next/navigation",
+        "react",
+        "@heroicons/react/24/outline",
+        "lib/shopify/types",
+        "./search"
+      ]
+    },
+    {
+      "path": "components/layout/navbar/search.tsx",
+      "language": "tsx",
+      "loc": 44,
+      "symbols": [
+        {
+          "name": "Search",
+          "kind": "function",
+          "filePath": "components/layout/navbar/search.tsx",
+          "line": 7,
+          "exported": true
+        },
+        {
+          "name": "SearchSkeleton",
+          "kind": "function",
+          "filePath": "components/layout/navbar/search.tsx",
+          "line": 31,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@heroicons/react/24/outline",
+        "next/form",
+        "next/navigation"
+      ]
+    },
+    {
+      "path": "components/layout/product-grid-items.tsx",
+      "language": "tsx",
+      "loc": 37,
+      "symbols": [
+        {
+          "name": "ProductGridItems",
+          "kind": "function",
+          "filePath": "components/layout/product-grid-items.tsx",
+          "line": 6,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/grid",
+        "components/grid/tile",
+        "lib/shopify/types",
+        "next/link"
+      ]
+    },
+    {
+      "path": "components/layout/search/collections.tsx",
+      "language": "tsx",
+      "loc": 38,
+      "symbols": [
+        {
+          "name": "CollectionList",
+          "kind": "function",
+          "filePath": "components/layout/search/collections.tsx",
+          "line": 7,
+          "exported": false
+        },
+        {
+          "name": "Collections",
+          "kind": "function",
+          "filePath": "components/layout/search/collections.tsx",
+          "line": 16,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx",
+        "react",
+        "lib/shopify",
+        "./filter"
+      ]
+    },
+    {
+      "path": "components/layout/search/filter/dropdown.tsx",
+      "language": "tsx",
+      "loc": 65,
+      "symbols": [
+        {
+          "name": "FilterItemDropdown",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/dropdown.tsx",
+          "line": 10,
+          "exported": true
+        },
+        {
+          "name": "handleClickOutside",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/dropdown.tsx",
+          "line": 18,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "next/navigation",
+        "react",
+        "@heroicons/react/24/outline",
+        ".",
+        "./item"
+      ]
+    },
+    {
+      "path": "components/layout/search/filter/index.tsx",
+      "language": "tsx",
+      "loc": 48,
+      "symbols": [
+        {
+          "name": "FilterItemList",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/index.tsx",
+          "line": 9,
+          "exported": false
+        },
+        {
+          "name": "FilterList",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/index.tsx",
+          "line": 19,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/constants",
+        "react",
+        "./dropdown",
+        "./item"
+      ]
+    },
+    {
+      "path": "components/layout/search/filter/item.tsx",
+      "language": "tsx",
+      "loc": 75,
+      "symbols": [
+        {
+          "name": "PathFilterItem",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/item.tsx",
+          "line": 10,
+          "exported": false
+        },
+        {
+          "name": "SortFilterItem",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/item.tsx",
+          "line": 36,
+          "exported": false
+        },
+        {
+          "name": "FilterItem",
+          "kind": "function",
+          "filePath": "components/layout/search/filter/item.tsx",
+          "line": 68,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx",
+        "lib/constants",
+        "lib/utils",
+        "next/link",
+        "next/navigation",
+        "."
+      ]
+    },
+    {
+      "path": "components/loading-dots.tsx",
+      "language": "tsx",
+      "loc": 16,
+      "symbols": [
+        {
+          "name": "LoadingDots",
+          "kind": "function",
+          "filePath": "components/loading-dots.tsx",
+          "line": 5,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "clsx"
+      ]
+    },
+    {
+      "path": "components/logo-square.tsx",
+      "language": "tsx",
+      "loc": 24,
+      "symbols": [
+        {
+          "name": "LogoSquare",
+          "kind": "function",
+          "filePath": "components/logo-square.tsx",
+          "line": 4,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx",
+        "./icons/logo"
+      ]
+    },
+    {
+      "path": "components/opengraph-image.tsx",
+      "language": "tsx",
+      "loc": 46,
+      "symbols": [
+        {
+          "name": "OpengraphImage",
+          "kind": "function",
+          "filePath": "components/opengraph-image.tsx",
+          "line": 10,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "next/og",
+        "./icons/logo",
+        "path",
+        "fs/promises"
+      ]
+    },
+    {
+      "path": "components/price.tsx",
+      "language": "tsx",
+      "loc": 27,
+      "symbols": [
+        {
+          "name": "Price",
+          "kind": "function",
+          "filePath": "components/price.tsx",
+          "line": 3,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "clsx"
+      ]
+    },
+    {
+      "path": "components/product/gallery.tsx",
+      "language": "tsx",
+      "loc": 97,
+      "symbols": [
+        {
+          "name": "Gallery",
+          "kind": "function",
+          "filePath": "components/product/gallery.tsx",
+          "line": 8,
+          "exported": true
+        },
+        {
+          "name": "updateImage",
+          "kind": "function",
+          "filePath": "components/product/gallery.tsx",
+          "line": 19,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "@heroicons/react/24/outline",
+        "components/grid/tile",
+        "next/image",
+        "next/navigation"
+      ]
+    },
+    {
+      "path": "components/product/product-description.tsx",
+      "language": "tsx",
+      "loc": 30,
+      "symbols": [
+        {
+          "name": "ProductDescription",
+          "kind": "function",
+          "filePath": "components/product/product-description.tsx",
+          "line": 7,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "components/cart/add-to-cart",
+        "components/price",
+        "components/prose",
+        "lib/shopify/types",
+        "./variant-selector"
+      ]
+    },
+    {
+      "path": "components/product/variant-selector.tsx",
+      "language": "tsx",
+      "loc": 107,
+      "symbols": [
+        {
+          "name": "VariantSelector",
+          "kind": "function",
+          "filePath": "components/product/variant-selector.tsx",
+          "line": 13,
+          "exported": true
+        },
+        {
+          "name": "updateOption",
+          "kind": "function",
+          "filePath": "components/product/variant-selector.tsx",
+          "line": 42,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "clsx",
+        "lib/shopify/types",
+        "next/navigation"
+      ]
+    },
+    {
+      "path": "components/prose.tsx",
+      "language": "tsx",
+      "loc": 16,
+      "symbols": [
+        {
+          "name": "Prose",
+          "kind": "function",
+          "filePath": "components/prose.tsx",
+          "line": 3,
+          "exported": false
+        }
+      ],
+      "imports": [
+        "clsx"
+      ]
+    },
+    {
+      "path": "components/welcome-toast.tsx",
+      "language": "tsx",
+      "loc": 37,
+      "symbols": [
+        {
+          "name": "WelcomeToast",
+          "kind": "function",
+          "filePath": "components/welcome-toast.tsx",
+          "line": 6,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "react",
+        "sonner"
+      ]
+    },
+    {
+      "path": "lib/constants.ts",
+      "language": "typescript",
+      "loc": 52,
+      "symbols": [],
+      "imports": []
+    },
+    {
+      "path": "lib/shopify/fragments/cart.ts",
+      "language": "typescript",
+      "loc": 54,
+      "symbols": [],
+      "imports": [
+        "./product"
+      ]
+    },
+    {
+      "path": "lib/shopify/fragments/image.ts",
+      "language": "typescript",
+      "loc": 11,
+      "symbols": [],
+      "imports": []
+    },
+    {
+      "path": "lib/shopify/fragments/product.ts",
+      "language": "typescript",
+      "loc": 65,
+      "symbols": [],
+      "imports": [
+        "./image",
+        "./seo"
+      ]
+    },
+    {
+      "path": "lib/shopify/fragments/seo.ts",
+      "language": "typescript",
+      "loc": 9,
+      "symbols": [],
+      "imports": []
+    },
+    {
+      "path": "lib/shopify/index.ts",
+      "language": "typescript",
+      "loc": 544,
+      "symbols": [
+        {
+          "name": "shopifyFetch",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 71,
+          "exported": true
+        },
+        {
+          "name": "removeEdgesAndNodes",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 125,
+          "exported": false
+        },
+        {
+          "name": "reshapeCart",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 129,
+          "exported": false
+        },
+        {
+          "name": "reshapeCollection",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 143,
+          "exported": false
+        },
+        {
+          "name": "reshapeCollections",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 156,
+          "exported": false
+        },
+        {
+          "name": "reshapeImages",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 172,
+          "exported": false
+        },
+        {
+          "name": "reshapeProduct",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 184,
+          "exported": false
+        },
+        {
+          "name": "reshapeProducts",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 204,
+          "exported": false
+        },
+        {
+          "name": "createCart",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 220,
+          "exported": true
+        },
+        {
+          "name": "addToCart",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 228,
+          "exported": true
+        },
+        {
+          "name": "removeFromCart",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 242,
+          "exported": true
+        },
+        {
+          "name": "updateCart",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 255,
+          "exported": true
+        },
+        {
+          "name": "getCart",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 270,
+          "exported": true
+        },
+        {
+          "name": "getCollection",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 294,
+          "exported": true
+        },
+        {
+          "name": "getCollectionProducts",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 311,
+          "exported": true
+        },
+        {
+          "name": "getCollections",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 350,
+          "exported": true
+        },
+        {
+          "name": "getMenu",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 398,
+          "exported": true
+        },
+        {
+          "name": "getPage",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 426,
+          "exported": true
+        },
+        {
+          "name": "getPages",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 435,
+          "exported": true
+        },
+        {
+          "name": "getProduct",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 443,
+          "exported": true
+        },
+        {
+          "name": "getProductRecommendations",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 463,
+          "exported": true
+        },
+        {
+          "name": "getProducts",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 480,
+          "exported": true
+        },
+        {
+          "name": "revalidate",
+          "kind": "function",
+          "filePath": "lib/shopify/index.ts",
+          "line": 506,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "lib/constants",
+        "lib/type-guards",
+        "lib/utils",
+        "next/cache",
+        "next/headers",
+        "next/server",
+        "./mutations/cart",
+        "./queries/cart",
+        "./queries/collection",
+        "./queries/menu",
+        "./queries/page",
+        "./queries/product",
+        "./types"
+      ]
+    },
+    {
+      "path": "lib/shopify/mutations/cart.ts",
+      "language": "typescript",
+      "loc": 46,
+      "symbols": [],
+      "imports": [
+        "../fragments/cart"
+      ]
+    },
+    {
+      "path": "lib/shopify/queries/cart.ts",
+      "language": "typescript",
+      "loc": 11,
+      "symbols": [],
+      "imports": [
+        "../fragments/cart"
+      ]
+    },
+    {
+      "path": "lib/shopify/queries/collection.ts",
+      "language": "typescript",
+      "loc": 57,
+      "symbols": [],
+      "imports": [
+        "../fragments/product",
+        "../fragments/seo"
+      ]
+    },
+    {
+      "path": "lib/shopify/queries/menu.ts",
+      "language": "typescript",
+      "loc": 11,
+      "symbols": [],
+      "imports": []
+    },
+    {
+      "path": "lib/shopify/queries/page.ts",
+      "language": "typescript",
+      "loc": 42,
+      "symbols": [],
+      "imports": [
+        "../fragments/seo"
+      ]
+    },
+    {
+      "path": "lib/shopify/queries/product.ts",
+      "language": "typescript",
+      "loc": 37,
+      "symbols": [],
+      "imports": [
+        "../fragments/product"
+      ]
+    },
+    {
+      "path": "lib/shopify/types.ts",
+      "language": "typescript",
+      "loc": 273,
+      "symbols": [],
+      "imports": []
+    },
+    {
+      "path": "lib/type-guards.ts",
+      "language": "typescript",
+      "loc": 32,
+      "symbols": [
+        {
+          "name": "isObject",
+          "kind": "function",
+          "filePath": "lib/type-guards.ts",
+          "line": 7,
+          "exported": true
+        },
+        {
+          "name": "isShopifyError",
+          "kind": "function",
+          "filePath": "lib/type-guards.ts",
+          "line": 15,
+          "exported": true
+        },
+        {
+          "name": "findError",
+          "kind": "function",
+          "filePath": "lib/type-guards.ts",
+          "line": 23,
+          "exported": false
+        }
+      ],
+      "imports": []
+    },
+    {
+      "path": "lib/utils.ts",
+      "language": "typescript",
+      "loc": 52,
+      "symbols": [
+        {
+          "name": "createUrl",
+          "kind": "function",
+          "filePath": "lib/utils.ts",
+          "line": 7,
+          "exported": true
+        },
+        {
+          "name": "ensureStartsWith",
+          "kind": "function",
+          "filePath": "lib/utils.ts",
+          "line": 17,
+          "exported": true
+        },
+        {
+          "name": "validateEnvironmentVariables",
+          "kind": "function",
+          "filePath": "lib/utils.ts",
+          "line": 22,
+          "exported": true
+        }
+      ],
+      "imports": [
+        "next/navigation"
+      ]
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "loc": 18,
+      "symbols": [],
+      "imports": []
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "loc": 7,
+      "symbols": [],
+      "imports": []
+    }
+  ],
+  "imports": [
+    {
+      "fromFile": "app/[page]/layout.tsx",
+      "toFile": "components/layout/footer.tsx",
+      "importedName": "Footer"
+    },
+    {
+      "fromFile": "app/[page]/opengraph-image.tsx",
+      "toFile": "components/opengraph-image.tsx",
+      "importedName": "OpengraphImage"
+    },
+    {
+      "fromFile": "app/[page]/opengraph-image.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/[page]/page.tsx",
+      "toFile": "components/prose.tsx",
+      "importedName": "Prose"
+    },
+    {
+      "fromFile": "app/[page]/page.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/api/revalidate/route.ts",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/layout.tsx",
+      "toFile": "components/cart/cart-context.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/layout.tsx",
+      "toFile": "components/layout/navbar/index.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/layout.tsx",
+      "toFile": "components/welcome-toast.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/layout.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/layout.tsx",
+      "toFile": "lib/utils.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/opengraph-image.tsx",
+      "toFile": "components/opengraph-image.tsx",
+      "importedName": "OpengraphImage"
+    },
+    {
+      "fromFile": "app/page.tsx",
+      "toFile": "components/carousel.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/page.tsx",
+      "toFile": "components/grid/three-items.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/page.tsx",
+      "toFile": "components/layout/footer.tsx",
+      "importedName": "Footer"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "components/grid/tile.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "components/layout/footer.tsx",
+      "importedName": "Footer"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "components/product/gallery.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "components/product/product-description.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/robots.ts",
+      "toFile": "lib/utils.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/search/[collection]/opengraph-image.tsx",
+      "toFile": "components/opengraph-image.tsx",
+      "importedName": "OpengraphImage"
+    },
+    {
+      "fromFile": "app/search/[collection]/opengraph-image.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/search/[collection]/page.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/search/[collection]/page.tsx",
+      "toFile": "components/grid/index.tsx",
+      "importedName": "Grid"
+    },
+    {
+      "fromFile": "app/search/[collection]/page.tsx",
+      "toFile": "components/layout/product-grid-items.tsx",
+      "importedName": "ProductGridItems"
+    },
+    {
+      "fromFile": "app/search/[collection]/page.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "components/layout/footer.tsx",
+      "importedName": "Footer"
+    },
+    {
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "components/layout/search/collections.tsx",
+      "importedName": "Collections"
+    },
+    {
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "components/layout/search/filter/index.tsx",
+      "importedName": "FilterList"
+    },
+    {
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "app/search/children-wrapper.tsx",
+      "importedName": "ChildrenWrapper"
+    },
+    {
+      "fromFile": "app/search/loading.tsx",
+      "toFile": "components/grid/index.tsx",
+      "importedName": "Grid"
+    },
+    {
+      "fromFile": "app/search/page.tsx",
+      "toFile": "components/grid/index.tsx",
+      "importedName": "Grid"
+    },
+    {
+      "fromFile": "app/search/page.tsx",
+      "toFile": "components/layout/product-grid-items.tsx",
+      "importedName": "ProductGridItems"
+    },
+    {
+      "fromFile": "app/search/page.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/search/page.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/sitemap.ts",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "app/sitemap.ts",
+      "toFile": "lib/utils.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/carousel.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/carousel.tsx",
+      "toFile": "components/grid/tile.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/actions.ts",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/actions.ts",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/add-to-cart.tsx",
+      "toFile": "components/cart/actions.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/add-to-cart.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/add-to-cart.tsx",
+      "toFile": "components/cart/cart-context.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/cart-context.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/delete-item-button.tsx",
+      "toFile": "components/cart/actions.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/delete-item-button.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/edit-item-quantity-button.tsx",
+      "toFile": "components/cart/actions.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/edit-item-quantity-button.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/loading-dots.tsx",
+      "importedName": "LoadingDots"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/price.tsx",
+      "importedName": "Price"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "lib/utils.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/actions.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/cart-context.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/delete-item-button.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/edit-item-quantity-button.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/open-cart.tsx",
+      "importedName": "OpenCart"
+    },
+    {
+      "fromFile": "components/grid/three-items.tsx",
+      "toFile": "components/grid/tile.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/grid/three-items.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/grid/three-items.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/grid/tile.tsx",
+      "toFile": "components/label.tsx",
+      "importedName": "Label"
+    },
+    {
+      "fromFile": "components/label.tsx",
+      "toFile": "components/price.tsx",
+      "importedName": "Price"
+    },
+    {
+      "fromFile": "components/layout/footer-menu.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/footer.tsx",
+      "toFile": "components/layout/footer-menu.tsx",
+      "importedName": "FooterMenu"
+    },
+    {
+      "fromFile": "components/layout/footer.tsx",
+      "toFile": "components/logo-square.tsx",
+      "importedName": "LogoSquare"
+    },
+    {
+      "fromFile": "components/layout/footer.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/cart/modal.tsx",
+      "importedName": "CartModal"
+    },
+    {
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/logo-square.tsx",
+      "importedName": "LogoSquare"
+    },
+    {
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/layout/navbar/mobile-menu.tsx",
+      "importedName": "MobileMenu"
+    },
+    {
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/layout/navbar/search.tsx",
+      "importedName": "Search"
+    },
+    {
+      "fromFile": "components/layout/navbar/mobile-menu.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/navbar/mobile-menu.tsx",
+      "toFile": "components/layout/navbar/search.tsx",
+      "importedName": "Search"
+    },
+    {
+      "fromFile": "components/layout/product-grid-items.tsx",
+      "toFile": "components/grid/index.tsx",
+      "importedName": "Grid"
+    },
+    {
+      "fromFile": "components/layout/product-grid-items.tsx",
+      "toFile": "components/grid/tile.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/product-grid-items.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/search/collections.tsx",
+      "toFile": "lib/shopify/index.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/search/collections.tsx",
+      "toFile": "components/layout/search/filter/index.tsx",
+      "importedName": "FilterList"
+    },
+    {
+      "fromFile": "components/layout/search/filter/dropdown.tsx",
+      "toFile": "components/layout/search/filter/item.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/search/filter/index.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/search/filter/index.tsx",
+      "toFile": "components/layout/search/filter/dropdown.tsx",
+      "importedName": "FilterItemDropdown"
+    },
+    {
+      "fromFile": "components/layout/search/filter/index.tsx",
+      "toFile": "components/layout/search/filter/item.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/search/filter/item.tsx",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/layout/search/filter/item.tsx",
+      "toFile": "lib/utils.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/logo-square.tsx",
+      "toFile": "components/icons/logo.tsx",
+      "importedName": "LogoIcon"
+    },
+    {
+      "fromFile": "components/opengraph-image.tsx",
+      "toFile": "components/icons/logo.tsx",
+      "importedName": "LogoIcon"
+    },
+    {
+      "fromFile": "components/product/gallery.tsx",
+      "toFile": "components/grid/tile.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "components/cart/add-to-cart.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "components/price.tsx",
+      "importedName": "Price"
+    },
+    {
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "components/prose.tsx",
+      "importedName": "Prose"
+    },
+    {
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "components/product/variant-selector.tsx",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "components/product/variant-selector.tsx",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/fragments/cart.ts",
+      "toFile": "lib/shopify/fragments/product.ts",
+      "importedName": "productFragment"
+    },
+    {
+      "fromFile": "lib/shopify/fragments/product.ts",
+      "toFile": "lib/shopify/fragments/image.ts",
+      "importedName": "imageFragment"
+    },
+    {
+      "fromFile": "lib/shopify/fragments/product.ts",
+      "toFile": "lib/shopify/fragments/seo.ts",
+      "importedName": "seoFragment"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/constants.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/type-guards.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/utils.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/mutations/cart.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/queries/cart.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/queries/collection.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/queries/menu.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/queries/page.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/queries/product.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/types.ts",
+      "importedName": "*"
+    },
+    {
+      "fromFile": "lib/shopify/mutations/cart.ts",
+      "toFile": "lib/shopify/fragments/cart.ts",
+      "importedName": "cartFragment"
+    },
+    {
+      "fromFile": "lib/shopify/queries/cart.ts",
+      "toFile": "lib/shopify/fragments/cart.ts",
+      "importedName": "cartFragment"
+    },
+    {
+      "fromFile": "lib/shopify/queries/collection.ts",
+      "toFile": "lib/shopify/fragments/product.ts",
+      "importedName": "productFragment"
+    },
+    {
+      "fromFile": "lib/shopify/queries/collection.ts",
+      "toFile": "lib/shopify/fragments/seo.ts",
+      "importedName": "seoFragment"
+    },
+    {
+      "fromFile": "lib/shopify/queries/page.ts",
+      "toFile": "lib/shopify/fragments/seo.ts",
+      "importedName": "seoFragment"
+    },
+    {
+      "fromFile": "lib/shopify/queries/product.ts",
+      "toFile": "lib/shopify/fragments/product.ts",
+      "importedName": "productFragment"
+    }
+  ],
+  "renders": [
+    {
+      "fromComponent": "Footer",
+      "toComponent": "Footer",
+      "fromFile": "app/[page]/layout.tsx",
+      "toFile": "components/layout/footer.tsx"
+    },
+    {
+      "fromComponent": "Prose",
+      "toComponent": "Prose",
+      "fromFile": "app/[page]/page.tsx",
+      "toFile": "components/prose.tsx"
+    },
+    {
+      "fromComponent": "Footer",
+      "toComponent": "Footer",
+      "fromFile": "app/page.tsx",
+      "toFile": "components/layout/footer.tsx"
+    },
+    {
+      "fromComponent": "RelatedProducts",
+      "toComponent": "RelatedProducts",
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "app/product/[handle]/page.tsx"
+    },
+    {
+      "fromComponent": "Footer",
+      "toComponent": "Footer",
+      "fromFile": "app/product/[handle]/page.tsx",
+      "toFile": "components/layout/footer.tsx"
+    },
+    {
+      "fromComponent": "Grid",
+      "toComponent": "Grid",
+      "fromFile": "app/search/[collection]/page.tsx",
+      "toFile": "components/grid/index.tsx"
+    },
+    {
+      "fromComponent": "ProductGridItems",
+      "toComponent": "ProductGridItems",
+      "fromFile": "app/search/[collection]/page.tsx",
+      "toFile": "components/layout/product-grid-items.tsx"
+    },
+    {
+      "fromComponent": "Collections",
+      "toComponent": "Collections",
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "components/layout/search/collections.tsx"
+    },
+    {
+      "fromComponent": "ChildrenWrapper",
+      "toComponent": "ChildrenWrapper",
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "app/search/children-wrapper.tsx"
+    },
+    {
+      "fromComponent": "FilterList",
+      "toComponent": "FilterList",
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "components/layout/search/filter/index.tsx"
+    },
+    {
+      "fromComponent": "Footer",
+      "toComponent": "Footer",
+      "fromFile": "app/search/layout.tsx",
+      "toFile": "components/layout/footer.tsx"
+    },
+    {
+      "fromComponent": "Grid",
+      "toComponent": "Grid",
+      "fromFile": "app/search/loading.tsx",
+      "toFile": "components/grid/index.tsx"
+    },
+    {
+      "fromComponent": "Grid",
+      "toComponent": "Grid",
+      "fromFile": "app/search/page.tsx",
+      "toFile": "components/grid/index.tsx"
+    },
+    {
+      "fromComponent": "ProductGridItems",
+      "toComponent": "ProductGridItems",
+      "fromFile": "app/search/page.tsx",
+      "toFile": "components/layout/product-grid-items.tsx"
+    },
+    {
+      "fromComponent": "SubmitButton",
+      "toComponent": "SubmitButton",
+      "fromFile": "components/cart/add-to-cart.tsx",
+      "toFile": "components/cart/add-to-cart.tsx"
+    },
+    {
+      "fromComponent": "SubmitButton",
+      "toComponent": "SubmitButton",
+      "fromFile": "components/cart/edit-item-quantity-button.tsx",
+      "toFile": "components/cart/edit-item-quantity-button.tsx"
+    },
+    {
+      "fromComponent": "OpenCart",
+      "toComponent": "OpenCart",
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/open-cart.tsx"
+    },
+    {
+      "fromComponent": "CloseCart",
+      "toComponent": "CloseCart",
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/modal.tsx"
+    },
+    {
+      "fromComponent": "Price",
+      "toComponent": "Price",
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/price.tsx"
+    },
+    {
+      "fromComponent": "CheckoutButton",
+      "toComponent": "CheckoutButton",
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/cart/modal.tsx"
+    },
+    {
+      "fromComponent": "LoadingDots",
+      "toComponent": "LoadingDots",
+      "fromFile": "components/cart/modal.tsx",
+      "toFile": "components/loading-dots.tsx"
+    },
+    {
+      "fromComponent": "ThreeItemGridItem",
+      "toComponent": "ThreeItemGridItem",
+      "fromFile": "components/grid/three-items.tsx",
+      "toFile": "components/grid/three-items.tsx"
+    },
+    {
+      "fromComponent": "Label",
+      "toComponent": "Label",
+      "fromFile": "components/grid/tile.tsx",
+      "toFile": "components/label.tsx"
+    },
+    {
+      "fromComponent": "Price",
+      "toComponent": "Price",
+      "fromFile": "components/label.tsx",
+      "toFile": "components/price.tsx"
+    },
+    {
+      "fromComponent": "FooterMenuItem",
+      "toComponent": "FooterMenuItem",
+      "fromFile": "components/layout/footer-menu.tsx",
+      "toFile": "components/layout/footer-menu.tsx"
+    },
+    {
+      "fromComponent": "LogoSquare",
+      "toComponent": "LogoSquare",
+      "fromFile": "components/layout/footer.tsx",
+      "toFile": "components/logo-square.tsx"
+    },
+    {
+      "fromComponent": "FooterMenu",
+      "toComponent": "FooterMenu",
+      "fromFile": "components/layout/footer.tsx",
+      "toFile": "components/layout/footer-menu.tsx"
+    },
+    {
+      "fromComponent": "MobileMenu",
+      "toComponent": "MobileMenu",
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/layout/navbar/mobile-menu.tsx"
+    },
+    {
+      "fromComponent": "LogoSquare",
+      "toComponent": "LogoSquare",
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/logo-square.tsx"
+    },
+    {
+      "fromComponent": "Search",
+      "toComponent": "Search",
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/layout/navbar/search.tsx"
+    },
+    {
+      "fromComponent": "CartModal",
+      "toComponent": "CartModal",
+      "fromFile": "components/layout/navbar/index.tsx",
+      "toFile": "components/cart/modal.tsx"
+    },
+    {
+      "fromComponent": "Search",
+      "toComponent": "Search",
+      "fromFile": "components/layout/navbar/mobile-menu.tsx",
+      "toFile": "components/layout/navbar/search.tsx"
+    },
+    {
+      "fromComponent": "Grid",
+      "toComponent": "Grid",
+      "fromFile": "components/layout/product-grid-items.tsx",
+      "toFile": "components/grid/index.tsx"
+    },
+    {
+      "fromComponent": "FilterList",
+      "toComponent": "FilterList",
+      "fromFile": "components/layout/search/collections.tsx",
+      "toFile": "components/layout/search/filter/index.tsx"
+    },
+    {
+      "fromComponent": "CollectionList",
+      "toComponent": "CollectionList",
+      "fromFile": "components/layout/search/collections.tsx",
+      "toFile": "components/layout/search/collections.tsx"
+    },
+    {
+      "fromComponent": "FilterItemList",
+      "toComponent": "FilterItemList",
+      "fromFile": "components/layout/search/filter/index.tsx",
+      "toFile": "components/layout/search/filter/index.tsx"
+    },
+    {
+      "fromComponent": "FilterItemDropdown",
+      "toComponent": "FilterItemDropdown",
+      "fromFile": "components/layout/search/filter/index.tsx",
+      "toFile": "components/layout/search/filter/dropdown.tsx"
+    },
+    {
+      "fromComponent": "PathFilterItem",
+      "toComponent": "PathFilterItem",
+      "fromFile": "components/layout/search/filter/item.tsx",
+      "toFile": "components/layout/search/filter/item.tsx"
+    },
+    {
+      "fromComponent": "SortFilterItem",
+      "toComponent": "SortFilterItem",
+      "fromFile": "components/layout/search/filter/item.tsx",
+      "toFile": "components/layout/search/filter/item.tsx"
+    },
+    {
+      "fromComponent": "LogoIcon",
+      "toComponent": "LogoIcon",
+      "fromFile": "components/logo-square.tsx",
+      "toFile": "components/icons/logo.tsx"
+    },
+    {
+      "fromComponent": "LogoIcon",
+      "toComponent": "LogoIcon",
+      "fromFile": "components/opengraph-image.tsx",
+      "toFile": "components/icons/logo.tsx"
+    },
+    {
+      "fromComponent": "Price",
+      "toComponent": "Price",
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "components/price.tsx"
+    },
+    {
+      "fromComponent": "Prose",
+      "toComponent": "Prose",
+      "fromFile": "components/product/product-description.tsx",
+      "toFile": "components/prose.tsx"
+    }
+  ],
+  "calls": [
+    {
+      "fromSymbol": "OpengraphImage",
+      "toSymbol": "OpengraphImage",
+      "fromFile": "app/[page]/opengraph-image.tsx",
+      "toFile": "components/opengraph-image.tsx"
+    },
+    {
+      "fromSymbol": "OpengraphImage",
+      "toSymbol": "OpengraphImage",
+      "fromFile": "app/opengraph-image.tsx",
+      "toFile": "components/opengraph-image.tsx"
+    },
+    {
+      "fromSymbol": "OpengraphImage",
+      "toSymbol": "OpengraphImage",
+      "fromFile": "app/search/[collection]/opengraph-image.tsx",
+      "toFile": "components/opengraph-image.tsx"
+    },
+    {
+      "fromSymbol": "calculateItemCost",
+      "toSymbol": "calculateItemCost",
+      "fromFile": "components/cart/cart-context.tsx",
+      "toFile": "components/cart/cart-context.tsx"
+    },
+    {
+      "fromSymbol": "createEmptyCart",
+      "toSymbol": "createEmptyCart",
+      "fromFile": "components/cart/cart-context.tsx",
+      "toFile": "components/cart/cart-context.tsx"
+    },
+    {
+      "fromSymbol": "updateCartItem",
+      "toSymbol": "updateCartItem",
+      "fromFile": "components/cart/cart-context.tsx",
+      "toFile": "components/cart/cart-context.tsx"
+    },
+    {
+      "fromSymbol": "updateCartTotals",
+      "toSymbol": "updateCartTotals",
+      "fromFile": "components/cart/cart-context.tsx",
+      "toFile": "components/cart/cart-context.tsx"
+    },
+    {
+      "fromSymbol": "createOrUpdateCartItem",
+      "toSymbol": "createOrUpdateCartItem",
+      "fromFile": "components/cart/cart-context.tsx",
+      "toFile": "components/cart/cart-context.tsx"
+    },
+    {
+      "fromSymbol": "updateImage",
+      "toSymbol": "updateImage",
+      "fromFile": "components/product/gallery.tsx",
+      "toFile": "components/product/gallery.tsx"
+    },
+    {
+      "fromSymbol": "updateOption",
+      "toSymbol": "updateOption",
+      "fromFile": "components/product/variant-selector.tsx",
+      "toFile": "components/product/variant-selector.tsx"
+    },
+    {
+      "fromSymbol": "removeEdgesAndNodes",
+      "toSymbol": "removeEdgesAndNodes",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "reshapeCollection",
+      "toSymbol": "reshapeCollection",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "reshapeImages",
+      "toSymbol": "reshapeImages",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "reshapeProduct",
+      "toSymbol": "reshapeProduct",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "reshapeCart",
+      "toSymbol": "reshapeCart",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "reshapeProducts",
+      "toSymbol": "reshapeProducts",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "reshapeCollections",
+      "toSymbol": "reshapeCollections",
+      "fromFile": "lib/shopify/index.ts",
+      "toFile": "lib/shopify/index.ts"
+    },
+    {
+      "fromSymbol": "isObject",
+      "toSymbol": "isObject",
+      "fromFile": "lib/type-guards.ts",
+      "toFile": "lib/type-guards.ts"
+    },
+    {
+      "fromSymbol": "findError",
+      "toSymbol": "findError",
+      "fromFile": "lib/type-guards.ts",
+      "toFile": "lib/type-guards.ts"
+    }
+  ]
+}

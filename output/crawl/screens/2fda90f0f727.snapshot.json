@@ -1,0 +1,159 @@
+{
+  "url": "https://demo.vercel.store/product/acme-rainbow-sticker",
+  "title": "Acme Rainbow Sticker | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e10, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e11, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e12, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e6]\n- button \"Open cart\" [ref=e2]\n- heading \"Acme Rainbow Sticker\" [level=1, ref=e3]\n- button \"Add to cart\" [ref=e7]\n- heading \"Related Products\" [level=2, ref=e4]\n- link \"Acme Sticker Acme Sticker $4.00USD\" [ref=e13, url=https://demo.vercel.store/product/acme-sticker]\n  - heading \"Acme Sticker\" [level=3, ref=e30]\n- link \"Acme Cap Acme Cap $20.00USD\" [ref=e14, url=https://demo.vercel.store/product/acme-cap]\n  - heading \"Acme Cap\" [level=3, ref=e31]\n- link \"Acme Baby Cap Acme Baby Cap $10.00USD\" [ref=e15, url=https://demo.vercel.store/product/acme-baby-cap]\n  - heading \"Acme Baby Cap\" [level=3, ref=e32]\n- link \"Acme Hoodie Acme Hoodie $50.00USD\" [ref=e16, url=https://demo.vercel.store/product/acme-hoodie]\n  - heading \"Acme Hoodie\" [level=3, ref=e33]\n- link \"Acme Mug Acme Mug $15.00USD\" [ref=e17, url=https://demo.vercel.store/product/acme-mug]\n  - heading \"Acme Mug\" [level=3, ref=e34]\n- link \"Acme T-Shirt Acme T-Shirt $20.00USD\" [ref=e18, url=https://demo.vercel.store/product/acme-t-shirt]\n  - heading \"Acme T-Shirt\" [level=3, ref=e35]\n- link \"Acme Cup Acme Cup $15.00USD\" [ref=e19, url=https://demo.vercel.store/product/acme-cup]\n  - heading \"Acme Cup\" [level=3, ref=e36]\n- link \"Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD\" [ref=e20, url=https://demo.vercel.store/product/acme-rainbow-prism-t-shirt]\n  - heading \"Acme Prism T-Shirt\" [level=3, ref=e37]\n- link \"Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD\" [ref=e21, url=https://demo.vercel.store/product/acme-geometric-circles-t-shirt]\n  - heading \"Acme Circles T-Shirt\" [level=3, ref=e38]\n- link \"Acme Store logo ACME STORE\" [ref=e8, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e24, url=https://demo.vercel.store/]\n- link \"About\" [ref=e25, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e26, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e27, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e28, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e29, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e9, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e22, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e23, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e5]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "All",
+      "role": "link"
+    },
+    "e11": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e12": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Acme Sticker Acme Sticker $4.00USD",
+      "role": "link"
+    },
+    "e14": {
+      "name": "Acme Cap Acme Cap $20.00USD",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Acme Hoodie Acme Hoodie $50.00USD",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Acme Mug Acme Mug $15.00USD",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
+      "role": "link"
+    },
+    "e19": {
+      "name": "Acme Cup Acme Cup $15.00USD",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e20": {
+      "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+      "role": "link"
+    },
+    "e21": {
+      "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+      "role": "link"
+    },
+    "e22": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e23": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e25": {
+      "name": "About",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e27": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e28": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e29": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e3": {
+      "name": "Acme Rainbow Sticker",
+      "role": "heading"
+    },
+    "e30": {
+      "name": "Acme Sticker",
+      "role": "heading"
+    },
+    "e31": {
+      "name": "Acme Cap",
+      "role": "heading"
+    },
+    "e32": {
+      "name": "Acme Baby Cap",
+      "role": "heading"
+    },
+    "e33": {
+      "name": "Acme Hoodie",
+      "role": "heading"
+    },
+    "e34": {
+      "name": "Acme Mug",
+      "role": "heading"
+    },
+    "e35": {
+      "name": "Acme T-Shirt",
+      "role": "heading"
+    },
+    "e36": {
+      "name": "Acme Cup",
+      "role": "heading"
+    },
+    "e37": {
+      "name": "Acme Prism T-Shirt",
+      "role": "heading"
+    },
+    "e38": {
+      "name": "Acme Circles T-Shirt",
+      "role": "heading"
+    },
+    "e4": {
+      "name": "Related Products",
+      "role": "heading"
+    },
+    "e5": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e6": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e7": {
+      "name": "Add to cart",
+      "role": "button"
+    },
+    "e8": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e9": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    }
+  }
+}

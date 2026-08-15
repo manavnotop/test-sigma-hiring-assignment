@@ -1,0 +1,243 @@
+{
+  "url": "https://demo.vercel.store/product/acme-t-shirt",
+  "title": "Acme T-Shirt | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e10, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e11, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e12, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e6]\n- button \"Open cart\" [ref=e2]\n- button \"Previous product image\" [ref=e25]\n- button \"Next product image\" [ref=e26]\n- button \"Select product image\" [ref=e27]\n- button \"Select product image\" [ref=e28]\n- button \"Select product image\" [ref=e29]\n- button \"Select product image\" [ref=e30]\n- button \"Select product image\" [ref=e31]\n- heading \"Acme T-Shirt\" [level=1, ref=e3]\n- button \"Black\" [ref=e32]\n- button \"Blue\" [ref=e33]\n- button \"Gray\" [ref=e34]\n- button \"Pink\" [disabled, ref=e35]\n- button \"White\" [ref=e36]\n- button \"XS\" [disabled, ref=e37]\n- button \"S\" [ref=e38]\n- button \"M\" [ref=e39]\n- button \"L\" [ref=e40]\n- button \"XL\" [ref=e41]\n- button \"XXL\" [ref=e42]\n- button \"XXXL\" [disabled, ref=e43]\n- button \"Please select an option\" [disabled, ref=e7]\n- heading \"Related Products\" [level=2, ref=e4]\n- link \"Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD\" [ref=e13, url=https://demo.vercel.store/product/acme-geometric-circles-t-shirt]\n  - heading \"Acme Circles T-Shirt\" [level=3, ref=e50]\n- link \"Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD\" [ref=e14, url=https://demo.vercel.store/product/acme-rainbow-prism-t-shirt]\n  - heading \"Acme Prism T-Shirt\" [level=3, ref=e51]\n- link \"Acme Baby Cap Acme Baby Cap $10.00USD\" [ref=e15, url=https://demo.vercel.store/product/acme-baby-cap]\n  - heading \"Acme Baby Cap\" [level=3, ref=e52]\n- link \"Acme Cap Acme Cap $20.00USD\" [ref=e16, url=https://demo.vercel.store/product/acme-cap]\n  - heading \"Acme Cap\" [level=3, ref=e53]\n- link \"Acme Baby Onesie Acme Baby Onesie $10.00USD\" [ref=e17, url=https://demo.vercel.store/product/acme-baby-onesie]\n  - heading \"Acme Baby Onesie\" [level=3, ref=e54]\n- link \"Acme Hoodie Acme Hoodie $50.00USD\" [ref=e18, url=https://demo.vercel.store/product/acme-hoodie]\n  - heading \"Acme Hoodie\" [level=3, ref=e55]\n- link \"Acme Mug Acme Mug $15.00USD\" [ref=e19, url=https://demo.vercel.store/product/acme-mug]\n  - heading \"Acme Mug\" [level=3, ref=e56]\n- link \"Acme Cup Acme Cup $15.00USD\" [ref=e20, url=https://demo.vercel.store/product/acme-cup]\n  - heading \"Acme Cup\" [level=3, ref=e57]\n- link \"Acme Bomber Jacket Acme Bomber Jacket $50.00USD\" [ref=e21, url=https://demo.vercel.store/product/acme-bomber-jacket]\n  - heading \"Acme Bomber Jacket\" [level=3, ref=e58]\n- link \"Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD\" [ref=e22, url=https://demo.vercel.store/product/acme-rainbow-sticker]\n  - heading \"Acme Rainbow Sticker\" [level=3, ref=e59]\n- link \"Acme Store logo ACME STORE\" [ref=e8, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e44, url=https://demo.vercel.store/]\n- link \"About\" [ref=e45, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e46, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e47, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e48, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e49, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e9, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e23, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e24, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e5]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "All",
+      "role": "link"
+    },
+    "e11": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e12": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+      "role": "link"
+    },
+    "e14": {
+      "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Acme Cap Acme Cap $20.00USD",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Acme Hoodie Acme Hoodie $50.00USD",
+      "role": "link"
+    },
+    "e19": {
+      "name": "Acme Mug Acme Mug $15.00USD",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e20": {
+      "name": "Acme Cup Acme Cup $15.00USD",
+      "role": "link"
+    },
+    "e21": {
+      "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
+      "role": "link"
+    },
+    "e22": {
+      "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
+      "role": "link"
+    },
+    "e23": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Previous product image",
+      "role": "button"
+    },
+    "e26": {
+      "name": "Next product image",
+      "role": "button"
+    },
+    "e27": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e28": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e29": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e3": {
+      "name": "Acme T-Shirt",
+      "role": "heading"
+    },
+    "e30": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e31": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e32": {
+      "name": "Black",
+      "role": "button"
+    },
+    "e33": {
+      "name": "Blue",
+      "role": "button"
+    },
+    "e34": {
+      "name": "Gray",
+      "role": "button"
+    },
+    "e35": {
+      "name": "Pink",
+      "role": "button"
+    },
+    "e36": {
+      "name": "White",
+      "role": "button"
+    },
+    "e37": {
+      "name": "XS",
+      "role": "button"
+    },
+    "e38": {
+      "name": "S",
+      "role": "button"
+    },
+    "e39": {
+      "name": "M",
+      "role": "button"
+    },
+    "e4": {
+      "name": "Related Products",
+      "role": "heading"
+    },
+    "e40": {
+      "name": "L",
+      "role": "button"
+    },
+    "e41": {
+      "name": "XL",
+      "role": "button"
+    },
+    "e42": {
+      "name": "XXL",
+      "role": "button"
+    },
+    "e43": {
+      "name": "XXXL",
+      "role": "button"
+    },
+    "e44": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e45": {
+      "name": "About",
+      "role": "link"
+    },
+    "e46": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e47": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e48": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e49": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e5": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e50": {
+      "name": "Acme Circles T-Shirt",
+      "role": "heading"
+    },
+    "e51": {
+      "name": "Acme Prism T-Shirt",
+      "role": "heading"
+    },
+    "e52": {
+      "name": "Acme Baby Cap",
+      "role": "heading"
+    },
+    "e53": {
+      "name": "Acme Cap",
+      "role": "heading"
+    },
+    "e54": {
+      "name": "Acme Baby Onesie",
+      "role": "heading"
+    },
+    "e55": {
+      "name": "Acme Hoodie",
+      "role": "heading"
+    },
+    "e56": {
+      "name": "Acme Mug",
+      "role": "heading"
+    },
+    "e57": {
+      "name": "Acme Cup",
+      "role": "heading"
+    },
+    "e58": {
+      "name": "Acme Bomber Jacket",
+      "role": "heading"
+    },
+    "e59": {
+      "name": "Acme Rainbow Sticker",
+      "role": "heading"
+    },
+    "e6": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e7": {
+      "name": "Please select an option",
+      "role": "button"
+    },
+    "e8": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e9": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    }
+  }
+}

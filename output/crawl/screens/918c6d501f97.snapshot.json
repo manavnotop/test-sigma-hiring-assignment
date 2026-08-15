@@ -1,0 +1,291 @@
+{
+  "url": "https://demo.vercel.store/product/acme-slip-on-shoes",
+  "title": "Acme Slip-On Shoes | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e10, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e11, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e12, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e6]\n- button \"Open cart\" [ref=e2]\n- button \"Previous product image\" [ref=e25]\n- button \"Next product image\" [ref=e26]\n- button \"Select product image\" [ref=e27]\n- button \"Select product image\" [ref=e28]\n- button \"Select product image\" [ref=e29]\n- button \"Select product image\" [ref=e30]\n- heading \"Acme Slip-On Shoes\" [level=1, ref=e3]\n- button \"1\" [ref=e31]\n- button \"1.5\" [ref=e32]\n- button \"2\" [ref=e33]\n- button \"2.5\" [disabled, ref=e34]\n- button \"3\" [ref=e35]\n- button \"3.5\" [ref=e36]\n- button \"4\" [ref=e37]\n- button \"4.5\" [ref=e38]\n- button \"5\" [ref=e39]\n- button \"5.5\" [disabled, ref=e40]\n- button \"6\" [disabled, ref=e41]\n- button \"6.5\" [ref=e42]\n- button \"7\" [ref=e43]\n- button \"7.5\" [ref=e44]\n- button \"8\" [ref=e45]\n- button \"8.5\" [ref=e46]\n- button \"9\" [ref=e47]\n- button \"9.5\" [ref=e48]\n- button \"10\" [ref=e49]\n- button \"10.5\" [disabled, ref=e50]\n- button \"11\" [ref=e51]\n- button \"11.5\" [ref=e52]\n- button \"12\" [ref=e53]\n- button \"12.5\" [ref=e54]\n- button \"13\" [ref=e55]\n- button \"Please select an option\" [disabled, ref=e7]\n- heading \"Related Products\" [level=2, ref=e4]\n- link \"Acme Bomber Jacket Acme Bomber Jacket $50.00USD\" [ref=e13, url=https://demo.vercel.store/product/acme-bomber-jacket]\n  - heading \"Acme Bomber Jacket\" [level=3, ref=e62]\n- link \"Acme Cap Acme Cap $20.00USD\" [ref=e14, url=https://demo.vercel.store/product/acme-cap]\n  - heading \"Acme Cap\" [level=3, ref=e63]\n- link \"Acme Drawstring Bag Acme Drawstring Bag $12.00USD\" [ref=e15, url=https://demo.vercel.store/product/acme-drawstring-bag]\n  - heading \"Acme Drawstring Bag\" [level=3, ref=e64]\n- link \"Acme Pacifier Acme Pacifier $10.00USD\" [ref=e16, url=https://demo.vercel.store/product/acme-pacifier]\n  - heading \"Acme Pacifier\" [level=3, ref=e65]\n- link \"Acme Hoodie Acme Hoodie $50.00USD\" [ref=e17, url=https://demo.vercel.store/product/acme-hoodie]\n  - heading \"Acme Hoodie\" [level=3, ref=e66]\n- link \"Acme Baby Onesie Acme Baby Onesie $10.00USD\" [ref=e18, url=https://demo.vercel.store/product/acme-baby-onesie]\n  - heading \"Acme Baby Onesie\" [level=3, ref=e67]\n- link \"Acme T-Shirt Acme T-Shirt $20.00USD\" [ref=e19, url=https://demo.vercel.store/product/acme-t-shirt]\n  - heading \"Acme T-Shirt\" [level=3, ref=e68]\n- link \"Acme Baby Cap Acme Baby Cap $10.00USD\" [ref=e20, url=https://demo.vercel.store/product/acme-baby-cap]\n  - heading \"Acme Baby Cap\" [level=3, ref=e69]\n- link \"Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD\" [ref=e21, url=https://demo.vercel.store/product/acme-rainbow-prism-t-shirt]\n  - heading \"Acme Prism T-Shirt\" [level=3, ref=e70]\n- link \"Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD\" [ref=e22, url=https://demo.vercel.store/product/acme-geometric-circles-t-shirt]\n  - heading \"Acme Circles T-Shirt\" [level=3, ref=e71]\n- link \"Acme Store logo ACME STORE\" [ref=e8, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e56, url=https://demo.vercel.store/]\n- link \"About\" [ref=e57, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e58, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e59, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e60, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e61, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e9, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e23, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e24, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e5]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "All",
+      "role": "link"
+    },
+    "e11": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e12": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
+      "role": "link"
+    },
+    "e14": {
+      "name": "Acme Cap Acme Cap $20.00USD",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Acme Drawstring Bag Acme Drawstring Bag $12.00USD",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Acme Pacifier Acme Pacifier $10.00USD",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Acme Hoodie Acme Hoodie $50.00USD",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
+      "role": "link"
+    },
+    "e19": {
+      "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e20": {
+      "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+      "role": "link"
+    },
+    "e21": {
+      "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+      "role": "link"
+    },
+    "e22": {
+      "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+      "role": "link"
+    },
+    "e23": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Previous product image",
+      "role": "button"
+    },
+    "e26": {
+      "name": "Next product image",
+      "role": "button"
+    },
+    "e27": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e28": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e29": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e3": {
+      "name": "Acme Slip-On Shoes",
+      "role": "heading"
+    },
+    "e30": {
+      "name": "Select product image",
+      "role": "button"
+    },
+    "e31": {
+      "name": "1",
+      "role": "button"
+    },
+    "e32": {
+      "name": "1.5",
+      "role": "button"
+    },
+    "e33": {
+      "name": "2",
+      "role": "button"
+    },
+    "e34": {
+      "name": "2.5",
+      "role": "button"
+    },
+    "e35": {
+      "name": "3",
+      "role": "button"
+    },
+    "e36": {
+      "name": "3.5",
+      "role": "button"
+    },
+    "e37": {
+      "name": "4",
+      "role": "button"
+    },
+    "e38": {
+      "name": "4.5",
+      "role": "button"
+    },
+    "e39": {
+      "name": "5",
+      "role": "button"
+    },
+    "e4": {
+      "name": "Related Products",
+      "role": "heading"
+    },
+    "e40": {
+      "name": "5.5",
+      "role": "button"
+    },
+    "e41": {
+      "name": "6",
+      "role": "button"
+    },
+    "e42": {
+      "name": "6.5",
+      "role": "button"
+    },
+    "e43": {
+      "name": "7",
+      "role": "button"
+    },
+    "e44": {
+      "name": "7.5",
+      "role": "button"
+    },
+    "e45": {
+      "name": "8",
+      "role": "button"
+    },
+    "e46": {
+      "name": "8.5",
+      "role": "button"
+    },
+    "e47": {
+      "name": "9",
+      "role": "button"
+    },
+    "e48": {
+      "name": "9.5",
+      "role": "button"
+    },
+    "e49": {
+      "name": "10",
+      "role": "button"
+    },
+    "e5": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e50": {
+      "name": "10.5",
+      "role": "button"
+    },
+    "e51": {
+      "name": "11",
+      "role": "button"
+    },
+    "e52": {
+      "name": "11.5",
+      "role": "button"
+    },
+    "e53": {
+      "name": "12",
+      "role": "button"
+    },
+    "e54": {
+      "name": "12.5",
+      "role": "button"
+    },
+    "e55": {
+      "name": "13",
+      "role": "button"
+    },
+    "e56": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e57": {
+      "name": "About",
+      "role": "link"
+    },
+    "e58": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e59": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e6": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e60": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e61": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e62": {
+      "name": "Acme Bomber Jacket",
+      "role": "heading"
+    },
+    "e63": {
+      "name": "Acme Cap",
+      "role": "heading"
+    },
+    "e64": {
+      "name": "Acme Drawstring Bag",
+      "role": "heading"
+    },
+    "e65": {
+      "name": "Acme Pacifier",
+      "role": "heading"
+    },
+    "e66": {
+      "name": "Acme Hoodie",
+      "role": "heading"
+    },
+    "e67": {
+      "name": "Acme Baby Onesie",
+      "role": "heading"
+    },
+    "e68": {
+      "name": "Acme T-Shirt",
+      "role": "heading"
+    },
+    "e69": {
+      "name": "Acme Baby Cap",
+      "role": "heading"
+    },
+    "e7": {
+      "name": "Please select an option",
+      "role": "button"
+    },
+    "e70": {
+      "name": "Acme Prism T-Shirt",
+      "role": "heading"
+    },
+    "e71": {
+      "name": "Acme Circles T-Shirt",
+      "role": "heading"
+    },
+    "e8": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e9": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    }
+  }
+}

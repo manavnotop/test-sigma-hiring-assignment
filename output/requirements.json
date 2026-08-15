@@ -1,0 +1,87 @@
+{
+  "source": "vercel/commerce",
+  "requirements": [
+    {
+      "reqId": "R1",
+      "title": "Provider-specific template implementation",
+      "description": "The user can choose a commerce provider from a list of supported providers (e.g., Shopify, BigCommerce, Ecwid, etc.). Each provider has its own repository and demo link, allowing the user to fork the main repository and replace the `lib/shopify` file with their own implementation while keeping the rest of the template mostly unchanged.",
+      "userAction": "The user selects a commerce provider from the provided list.",
+      "expectedOutcome": "The user is directed to the corresponding provider's repository and demo, and can fork the main repository to swap out the provider-specific implementation.",
+      "sourceAnchor": "Providers",
+      "priority": "high"
+    },
+    {
+      "reqId": "R2",
+      "title": "Provider demo availability",
+      "description": "Each listed provider has a demo link that the user can visit to see a live example of the commerce template running with that provider. This helps the user evaluate the provider's integration before implementing it.",
+      "userAction": "The user clicks on a provider's demo link.",
+      "expectedOutcome": "The user is taken to a live demo site that showcases the commerce template with that provider's backend.",
+      "sourceAnchor": "Providers",
+      "priority": "medium"
+    },
+    {
+      "reqId": "R3",
+      "title": "Asset download for providers",
+      "description": "Providers can download a set of assets (e.g., images, icons) from a shared Google Drive link to use in their own demo implementations. This ensures consistency across provider demos.",
+      "userAction": "The user (provider) clicks on the asset download link.",
+      "expectedOutcome": "The user is taken to a Google Drive folder where they can download the assets for their demo.",
+      "sourceAnchor": "Providers",
+      "priority": "low"
+    },
+    {
+      "reqId": "R4",
+      "title": "Install Orama Search Integration",
+      "description": "Users can integrate Orama into Next.js Commerce to upgrade search functionality. This adds typeahead with dynamic re-rendering, vector-based similarity search, and JavaScript-based configuration. For smaller catalogs, search runs entirely in the browser; for larger ones, it runs on a CDN.",
+      "userAction": "Install and configure the Orama search integration in Next.js Commerce.",
+      "expectedOutcome": "The product's search is upgraded with typeahead, dynamic re-rendering, and vector-based similarity search, with search operations running in the browser or on a CDN based on catalog size.",
+      "sourceAnchor": "Integrations",
+      "priority": "medium"
+    },
+    {
+      "reqId": "R5",
+      "title": "Install React Bricks Visual CMS Integration",
+      "description": "Users can integrate React Bricks into Next.js Commerce to visually edit pages, product details, and footer content. This provides a visual headless CMS that allows editing content directly on the site.",
+      "userAction": "Install and configure the React Bricks visual headless CMS integration in Next.js Commerce.",
+      "expectedOutcome": "The product allows visual editing of pages, product details, and footer content through a CMS interface.",
+      "sourceAnchor": "Integrations",
+      "priority": "medium"
+    },
+    {
+      "reqId": "R6",
+      "title": "Set up environment variables",
+      "description": "The user must configure environment variables to run the application. They can either use Vercel Environment Variables or create a local .env file with the values from .env.example.",
+      "userAction": "The user sets up environment variables using Vercel or a .env file.",
+      "expectedOutcome": "The application has the necessary configuration to connect to Shopify and other services.",
+      "sourceAnchor": "Running locally",
+      "priority": "high"
+    },
+    {
+      "reqId": "R7",
+      "title": "Install Vercel CLI and link local instance",
+      "description": "The user installs the Vercel CLI globally and links their local project to their Vercel and GitHub accounts. This creates a .vercel directory and allows downloading environment variables.",
+      "userAction": "The user runs 'npm i -g vercel' and then 'vercel link' in the project directory.",
+      "expectedOutcome": "The local project is linked to Vercel and GitHub, and a .vercel directory is created.",
+      "sourceAnchor": "Running locally",
+      "priority": "high"
+    },
+    {
+      "reqId": "R8",
+      "title": "Download environment variables",
+      "description": "After linking, the user downloads the environment variables from Vercel to their local machine using the Vercel CLI.",
+      "userAction": "The user runs 'vercel env pull' in the project directory.",
+      "expectedOutcome": "Environment variables are downloaded and available for the application.",
+      "sourceAnchor": "Running locally",
+      "priority": "high"
+    },
+    {
+      "reqId": "R9",
+      "title": "Install dependencies and start development server",
+      "description": "The user installs project dependencies with pnpm and starts the development server. The application should then be accessible at localhost:3000.",
+      "userAction": "The user runs 'pnpm install' followed by 'pnpm dev'.",
+      "expectedOutcome": "The application runs locally and is accessible at http://localhost:3000/.",
+      "sourceAnchor": "Running locally",
+      "priority": "high"
+    }
+  ],
+  "overview": ""
+}

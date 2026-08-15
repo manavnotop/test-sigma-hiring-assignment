@@ -1,0 +1,79 @@
+{
+  "url": "https://demo.vercel.store/frequently-asked-questions",
+  "title": "Frequently Asked Questions | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e8, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e9, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e10, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e5]\n- button \"Open cart\" [ref=e2]\n- heading \"Frequently Asked Questions\" [level=1, ref=e3]\n- link \"Acme Store logo ACME STORE\" [ref=e6, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e13, url=https://demo.vercel.store/]\n- link \"About\" [ref=e14, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e15, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e16, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e17, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e18, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e7, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e11, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e12, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e4]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e11": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e12": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e14": {
+      "name": "About",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e18": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e3": {
+      "name": "Frequently Asked Questions",
+      "role": "heading"
+    },
+    "e4": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e5": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e6": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e7": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    },
+    "e8": {
+      "name": "All",
+      "role": "link"
+    },
+    "e9": {
+      "name": "Shirts",
+      "role": "link"
+    }
+  }
+}
