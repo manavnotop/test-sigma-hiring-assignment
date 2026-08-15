@@ -92,21 +92,25 @@ export async function blastRadiusQueries(changedFiles: string[]): Promise<Affect
       });
     }
 
-    // 4. requirements at risk (implemented by affected file OR covered by affected screen)
+    // 4. requirements at risk (implemented by an affected file OR covered by an
+    //    affected screen). Aggregated: one row per requirement, not per edge —
+    //    a requirement with N links must not appear N times in the report.
     const r4 = await s.run(
       `MATCH (r:Requirement)
        OPTIONAL MATCH (r)-[:IMPLEMENTED_BY]->(f:File)
        OPTIONAL MATCH (r)-[:COVERED_BY]->(sc:Screen)
-       WITH r, f, sc
-       WHERE (f IS NOT NULL AND f.path IN $files) OR (sc IS NOT NULL AND sc.key IN $screens)
-       RETURN DISTINCT r.key AS key, r.req_id AS reqId, r.title AS title,
-              f.path AS viaFile, sc.url AS viaScreen`,
+       WITH r, collect(DISTINCT f.path) AS viaFiles, collect(DISTINCT sc.url) AS viaScreens
+       WHERE any(p IN viaFiles WHERE p IN $files) OR any(k IN viaScreens WHERE k IN $screens)
+       RETURN r.key AS key, r.req_id AS reqId, r.title AS title, viaFiles, viaScreens`,
       { files: affected.files, screens: affected.screens.map((x) => x.key) }
     );
     for (const row of r4.records) {
-      const via = row.get("viaFile")
-        ? `file ${row.get("viaFile")}`
-        : `screen ${row.get("viaScreen") ?? "?"}`;
+      const viaFiles = (row.get("viaFiles") ?? []) as string[];
+      const viaScreens = (row.get("viaScreens") ?? []) as string[];
+      const affectedFile = viaFiles.find((p) => affected.files.includes(p));
+      const via = affectedFile
+        ? `file ${affectedFile}`
+        : `screen ${viaScreens[0] ?? "?"}`;
       affected.reqs.push({
         key: row.get("key"),
         reqId: row.get("reqId"),

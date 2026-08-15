@@ -5,21 +5,20 @@
       "screenId": "36daf302fa02",
       "url": "https://demo.vercel.store/",
       "title": "Acme Store",
-      "label": "Homepage Product Grid",
-      "purpose": "User browses featured products and navigates the store",
+      "label": "Acme Store Homepage",
+      "purpose": "User browses and selects from a grid of featured products",
       "primaryActions": [
-        "Browse product listings",
         "Search for products",
-        "Open cart",
-        "Navigate to product details",
-        "Filter by category"
+        "Browse product categories",
+        "View product details",
+        "Open shopping cart"
       ],
       "keyComponents": [
         "Site logo and navigation links",
         "Search textbox",
+        "Product cards with image, name, and price",
         "Cart button",
-        "Product cards with images, names, and prices",
-        "Footer links"
+        "Footer with legal and about links"
       ],
       "elements": [
         {
@@ -198,286 +197,23 @@
       "visited": true
     },
     {
-      "screenId": "0fdbb6992d10",
-      "url": "https://demo.vercel.store/about",
-      "title": "About | Acme Store",
-      "label": "About Page Overview",
-      "purpose": "User reads about the Acme Store and its technology partners",
-      "primaryActions": [
-        "Navigate to other pages via header or footer links",
-        "Search for products",
-        "Open cart"
-      ],
-      "keyComponents": [
-        "Header with logo and navigation links",
-        "Search textbox",
-        "Cart button",
-        "About heading",
-        "Footer with links to policies, tech partners, and source code"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Hidden products",
-          "href": "https://demo.vercel.store/product/acme-webcam-cover"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Shopify Checkout",
-          "href": "https://www.shopify.com/checkout"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e20",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e3",
-          "role": "heading",
-          "name": "About"
-        },
-        {
-          "ref": "e4",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e5",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e6",
-          "role": "link",
-          "name": "Next.js Commerce",
-          "href": "https://nextjs.org/commerce"
-        },
-        {
-          "ref": "e8",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        },
-        {
-          "ref": "e9",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        }
-      ],
-      "screenshotPath": "screens/0fdbb6992d10.png",
-      "snapshotPath": "screens/0fdbb6992d10.snapshot.json",
-      "visited": true
-    },
-    {
-      "screenId": "00ad5a7a31c0",
-      "url": "https://demo.vercel.store/frequently-asked-questions",
-      "title": "Frequently Asked Questions | Acme Store",
-      "label": "FAQ Page",
-      "purpose": "User reads answers to common questions about Acme Store policies and support.",
-      "primaryActions": [
-        "Navigate to other pages via header links",
-        "Search for products",
-        "Open cart",
-        "Read FAQ content",
-        "Access footer links (Home, About, Policies, FAQ)",
-        "Deploy on Vercel or view source"
-      ],
-      "keyComponents": [
-        "Header with logo, navigation links (All, Shirts, Stickers), search box, and cart button",
-        "Main heading 'Frequently Asked Questions'",
-        "Footer with logo, Home, About, Terms & Conditions, Shipping & Return Policy, Privacy Policy, FAQ links",
-        "External links: Deploy on Vercel, View the source, Created by ▲ Vercel",
-        "Notifications region"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e3",
-          "role": "heading",
-          "name": "Frequently Asked Questions"
-        },
-        {
-          "ref": "e4",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e5",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e7",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        },
-        {
-          "ref": "e8",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e9",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        }
-      ],
-      "screenshotPath": "screens/00ad5a7a31c0.png",
-      "snapshotPath": "screens/00ad5a7a31c0.snapshot.json",
-      "visited": true
-    },
-    {
       "screenId": "d24ce582a6a9",
       "url": "https://demo.vercel.store/privacy-policy",
       "title": "Privacy Policy | Acme Store",
       "label": "Privacy Policy Page",
-      "purpose": "User reads the privacy policy of Acme Store.",
+      "purpose": "User reads the store's privacy policy.",
       "primaryActions": [
-        "Navigate to other pages via header or footer links",
+        "Navigate to other pages via header links",
         "Search for products",
-        "Open cart"
+        "Open the shopping cart",
+        "Access footer links (Home, About, Terms, etc.)"
       ],
       "keyComponents": [
-        "Header with logo, category links, search bar, and cart button",
-        "Title heading 'Privacy Policy'",
-        "Footer with Home, About, Terms, Shipping, Privacy, FAQ links",
-        "External links to Vercel resources"
+        "Header with logo and navigation",
+        "Search textbox",
+        "Cart button",
+        "Main content heading 'Privacy Policy'",
+        "Footer with links and credits"
       ],
       "elements": [
         {
@@ -584,23 +320,26 @@
       "visited": true
     },
     {
-      "screenId": "d0122f7bc5e7",
-      "url": "https://demo.vercel.store/product/acme-bomber-jacket",
-      "title": "Acme Bomber Jacket | Acme Store",
-      "label": "Product Detail Page",
-      "purpose": "User views and selects options for a specific product before adding to cart",
+      "screenId": "5034aa416000",
+      "url": "https://demo.vercel.store/product/acme-baby-cap",
+      "title": "Acme Baby Cap | Acme Store",
+      "label": "Acme Baby Cap Product Page",
+      "purpose": "User views and selects options for the Acme Baby Cap product before adding to cart",
       "primaryActions": [
-        "Select size",
-        "Select color",
-        "Add to cart",
+        "Select product image",
+        "Choose color (Black, Gray, White)",
+        "Add to cart (disabled until option selected)",
         "Navigate to related products"
       ],
       "keyComponents": [
-        "Product image carousel",
-        "Size selector",
-        "Color selector",
-        "Add to cart button",
-        "Related products grid"
+        "Product image gallery with navigation",
+        "Color selection buttons",
+        "Add to cart button (disabled)",
+        "Related products grid",
+        "Search bar",
+        "Cart button",
+        "Navigation links (All, Shirts, Stickers)",
+        "Footer links"
       ],
       "elements": [
         {
@@ -630,44 +369,44 @@
         {
           "ref": "e13",
           "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
+          "name": "Acme Cap Acme Cap $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-cap"
         },
         {
           "ref": "e14",
+          "role": "link",
+          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-onesie"
+        },
+        {
+          "ref": "e15",
           "role": "link",
           "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
           "href": "https://demo.vercel.store/product/acme-t-shirt"
         },
         {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Dog Sweater Acme Dog Sweater $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-dog-sweater"
-        },
-        {
           "ref": "e16",
           "role": "link",
-          "name": "Acme Slip-On Shoes Acme Slip-On Shoes $45.00USD",
-          "href": "https://demo.vercel.store/product/acme-slip-on-shoes"
+          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
         },
         {
           "ref": "e17",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e18",
           "role": "link",
           "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
           "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
         },
         {
+          "ref": "e18",
+          "role": "link",
+          "name": "Acme Hoodie Acme Hoodie $50.00USD",
+          "href": "https://demo.vercel.store/product/acme-hoodie"
+        },
+        {
           "ref": "e19",
           "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
+          "name": "Acme Cup Acme Cup $15.00USD",
+          "href": "https://demo.vercel.store/product/acme-cup"
         },
         {
           "ref": "e2",
@@ -677,20 +416,20 @@
         {
           "ref": "e20",
           "role": "link",
-          "name": "Acme Pacifier Acme Pacifier $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-pacifier"
+          "name": "Acme Mug Acme Mug $15.00USD",
+          "href": "https://demo.vercel.store/product/acme-mug"
         },
         {
           "ref": "e21",
           "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
+          "name": "Acme Pacifier Acme Pacifier $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-pacifier"
         },
         {
           "ref": "e22",
           "role": "link",
-          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-onesie"
+          "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-sticker"
         },
         {
           "ref": "e23",
@@ -720,66 +459,65 @@
           "name": "Select product image"
         },
         {
-          "ref": "e29",
-          "role": "button",
-          "name": "XS"
-        },
-        {
           "ref": "e3",
           "role": "heading",
-          "name": "Acme Bomber Jacket"
+          "name": "Acme Baby Cap"
         },
         {
           "ref": "e30",
           "role": "button",
-          "name": "S"
+          "name": "Black"
         },
         {
           "ref": "e31",
           "role": "button",
-          "name": "M"
+          "name": "Gray"
         },
         {
           "ref": "e32",
           "role": "button",
-          "name": "L"
+          "name": "White"
         },
         {
           "ref": "e33",
-          "role": "button",
-          "name": "XL"
-        },
-        {
-          "ref": "e34",
-          "role": "button",
-          "name": "XXL"
-        },
-        {
-          "ref": "e35",
-          "role": "button",
-          "name": "XXXL"
-        },
-        {
-          "ref": "e36",
-          "role": "button",
-          "name": "Army"
-        },
-        {
-          "ref": "e37",
-          "role": "button",
-          "name": "Black"
-        },
-        {
-          "ref": "e38",
           "role": "link",
           "name": "Home",
           "href": "https://demo.vercel.store/"
         },
         {
-          "ref": "e39",
+          "ref": "e34",
           "role": "link",
           "name": "About",
           "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e37",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e38",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e39",
+          "role": "heading",
+          "name": "Acme Cap"
         },
         {
           "ref": "e4",
@@ -788,27 +526,23 @@
         },
         {
           "ref": "e40",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
+          "role": "heading",
+          "name": "Acme Baby Onesie"
         },
         {
           "ref": "e41",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
+          "role": "heading",
+          "name": "Acme T-Shirt"
         },
         {
           "ref": "e42",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
+          "role": "heading",
+          "name": "Acme Prism T-Shirt"
         },
         {
           "ref": "e43",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
+          "role": "heading",
+          "name": "Acme Circles T-Shirt"
         },
         {
           "ref": "e44",
@@ -818,52 +552,27 @@
         {
           "ref": "e45",
           "role": "heading",
-          "name": "Acme T-Shirt"
+          "name": "Acme Cup"
         },
         {
           "ref": "e46",
           "role": "heading",
-          "name": "Acme Dog Sweater"
+          "name": "Acme Mug"
         },
         {
           "ref": "e47",
           "role": "heading",
-          "name": "Acme Slip-On Shoes"
+          "name": "Acme Pacifier"
         },
         {
           "ref": "e48",
           "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e49",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
+          "name": "Acme Rainbow Sticker"
         },
         {
           "ref": "e5",
           "role": "region",
           "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e50",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e51",
-          "role": "heading",
-          "name": "Acme Pacifier"
-        },
-        {
-          "ref": "e52",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e53",
-          "role": "heading",
-          "name": "Acme Baby Onesie"
         },
         {
           "ref": "e6",
@@ -882,8 +591,8 @@
           "href": "https://vercel.com/templates/next.js/nextjs-commerce"
         }
       ],
-      "screenshotPath": "screens/d0122f7bc5e7.png",
-      "snapshotPath": "screens/d0122f7bc5e7.snapshot.json",
+      "screenshotPath": "screens/5034aa416000.png",
+      "snapshotPath": "screens/5034aa416000.snapshot.json",
       "visited": true
     },
     {
@@ -891,21 +600,21 @@
       "url": "https://demo.vercel.store/product/acme-cup",
       "title": "Acme Cup | Acme Store",
       "label": "Acme Cup Product Detail",
-      "purpose": "User views and selects options for the Acme Cup product before adding to cart",
+      "purpose": "User views and selects options for the Acme Cup product",
       "primaryActions": [
-        "Select product color (Black/White)",
-        "View product images",
+        "Select color (Black/White)",
         "Add to cart",
-        "Search products",
+        "View product images",
         "Navigate to related products"
       ],
       "keyComponents": [
         "Product image gallery",
         "Color selection buttons",
-        "Add to cart button (disabled until option selected)",
+        "Add to cart button (disabled)",
+        "Product title",
         "Related products grid",
-        "Navigation links (All, Shirts, Stickers)",
-        "Search textbox",
+        "Navigation links",
+        "Search bar",
         "Cart button"
       ],
       "elements": [
@@ -1147,26 +856,25 @@
       "visited": true
     },
     {
-      "screenId": "179d78a77fea",
-      "url": "https://demo.vercel.store/product/acme-drawstring-bag",
-      "title": "Acme Drawstring Bag | Acme Store",
+      "screenId": "4d4ce276086b",
+      "url": "https://demo.vercel.store/product/acme-dog-sweater",
+      "title": "Acme Dog Sweater | Acme Store",
       "label": "Product Detail Page",
-      "purpose": "User views and customizes a specific product before adding it to the cart",
+      "purpose": "User views the Acme Dog Sweater product, selects a size option, and adds it to the cart.",
       "primaryActions": [
-        "Select color",
-        "Select size",
+        "Select size option",
         "Add to cart",
-        "Navigate to related products"
+        "Browse related products",
+        "Search products",
+        "Open cart"
       ],
       "keyComponents": [
-        "Product image gallery",
-        "Product title",
-        "Color options",
-        "Size options",
-        "Add to cart button",
+        "Product image carousel",
+        "Size selector buttons",
+        "Add to cart button (disabled)",
         "Related products grid",
-        "Search bar",
-        "Cart button"
+        "Header navigation",
+        "Footer links"
       ],
       "elements": [
         {
@@ -1196,20 +904,20 @@
         {
           "ref": "e13",
           "role": "link",
-          "name": "Acme Mug Acme Mug $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-mug"
+          "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
+          "href": "https://demo.vercel.store/product/acme-bomber-jacket"
         },
         {
           "ref": "e14",
           "role": "link",
-          "name": "Acme Cup Acme Cup $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-cup"
+          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-t-shirt"
         },
         {
           "ref": "e15",
           "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
+          "name": "Acme Pacifier Acme Pacifier $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-pacifier"
         },
         {
           "ref": "e16",
@@ -1220,20 +928,20 @@
         {
           "ref": "e17",
           "role": "link",
-          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-onesie"
+          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
         },
         {
           "ref": "e18",
           "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
+          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-onesie"
         },
         {
           "ref": "e19",
           "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
+          "name": "Acme Hoodie Acme Hoodie $50.00USD",
+          "href": "https://demo.vercel.store/product/acme-hoodie"
         },
         {
           "ref": "e2",
@@ -1243,20 +951,20 @@
         {
           "ref": "e20",
           "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
+          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
         },
         {
           "ref": "e21",
           "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
+          "name": "Acme Slip-On Shoes Acme Slip-On Shoes $45.00USD",
+          "href": "https://demo.vercel.store/product/acme-slip-on-shoes"
         },
         {
           "ref": "e22",
           "role": "link",
-          "name": "Acme Slip-On Shoes Acme Slip-On Shoes $45.00USD",
-          "href": "https://demo.vercel.store/product/acme-slip-on-shoes"
+          "name": "Acme Drawstring Bag Acme Drawstring Bag $12.00USD",
+          "href": "https://demo.vercel.store/product/acme-drawstring-bag"
         },
         {
           "ref": "e23",
@@ -1288,65 +996,68 @@
         {
           "ref": "e29",
           "role": "button",
-          "name": "Black"
+          "name": "0 - 5 lbs"
         },
         {
           "ref": "e3",
           "role": "heading",
-          "name": "Acme Drawstring Bag"
+          "name": "Acme Dog Sweater"
         },
         {
           "ref": "e30",
           "role": "button",
-          "name": "White"
+          "name": "5 - 20 lbs"
         },
         {
           "ref": "e31",
           "role": "button",
-          "name": "6 x 8 inch"
+          "name": "20 - 50 lbs"
         },
         {
           "ref": "e32",
           "role": "button",
-          "name": "7 x 9 inch"
+          "name": "50 - 75 lbs"
         },
         {
           "ref": "e33",
           "role": "button",
-          "name": "8 x 11 inch"
+          "name": "75+ lbs"
         },
         {
           "ref": "e34",
-          "role": "button",
-          "name": "9 x 12 inch"
-        },
-        {
-          "ref": "e35",
-          "role": "button",
-          "name": "10 x 15 inch"
-        },
-        {
-          "ref": "e36",
-          "role": "button",
-          "name": "12 x 16 inch"
-        },
-        {
-          "ref": "e37",
           "role": "link",
           "name": "Home",
           "href": "https://demo.vercel.store/"
         },
         {
-          "ref": "e38",
+          "ref": "e35",
           "role": "link",
           "name": "About",
           "href": "https://demo.vercel.store/about"
         },
         {
-          "ref": "e39",
+          "ref": "e36",
           "role": "link",
           "name": "Terms & Conditions",
           "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e37",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e38",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e39",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
         },
         {
           "ref": "e4",
@@ -1355,76 +1066,58 @@
         },
         {
           "ref": "e40",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
+          "role": "heading",
+          "name": "Acme Bomber Jacket"
         },
         {
           "ref": "e41",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e42",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e43",
-          "role": "heading",
-          "name": "Acme Mug"
-        },
-        {
-          "ref": "e44",
-          "role": "heading",
-          "name": "Acme Cup"
-        },
-        {
-          "ref": "e45",
           "role": "heading",
           "name": "Acme T-Shirt"
         },
         {
-          "ref": "e46",
+          "ref": "e42",
+          "role": "heading",
+          "name": "Acme Pacifier"
+        },
+        {
+          "ref": "e43",
           "role": "heading",
           "name": "Acme Cap"
         },
         {
-          "ref": "e47",
+          "ref": "e44",
+          "role": "heading",
+          "name": "Acme Prism T-Shirt"
+        },
+        {
+          "ref": "e45",
           "role": "heading",
           "name": "Acme Baby Onesie"
         },
         {
-          "ref": "e48",
+          "ref": "e46",
           "role": "heading",
           "name": "Acme Hoodie"
         },
         {
-          "ref": "e49",
+          "ref": "e47",
           "role": "heading",
           "name": "Acme Circles T-Shirt"
+        },
+        {
+          "ref": "e48",
+          "role": "heading",
+          "name": "Acme Slip-On Shoes"
+        },
+        {
+          "ref": "e49",
+          "role": "heading",
+          "name": "Acme Drawstring Bag"
         },
         {
           "ref": "e5",
           "role": "region",
           "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e50",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e51",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e52",
-          "role": "heading",
-          "name": "Acme Slip-On Shoes"
         },
         {
           "ref": "e6",
@@ -1443,30 +1136,28 @@
           "href": "https://vercel.com/templates/next.js/nextjs-commerce"
         }
       ],
-      "screenshotPath": "screens/179d78a77fea.png",
-      "snapshotPath": "screens/179d78a77fea.snapshot.json",
+      "screenshotPath": "screens/4d4ce276086b.png",
+      "snapshotPath": "screens/4d4ce276086b.snapshot.json",
       "visited": true
     },
     {
       "screenId": "4bc1cb7430ea",
       "url": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt",
       "title": "Acme Circles T-Shirt | Acme Store",
-      "label": "Product Detail Page",
-      "purpose": "User selects color, size, and adds the Acme Circles T-Shirt to cart",
+      "label": "Acme Circles T-Shirt Product Details",
+      "purpose": "User selects options (color and size) for the Acme Circles T-Shirt and adds it to cart.",
       "primaryActions": [
         "Select color (Black/White)",
         "Select size (XS-XXXL)",
-        "Add to cart (disabled until options chosen)",
-        "Navigate product images",
-        "Search products",
-        "Open cart"
+        "Add to cart",
+        "Navigate product images"
       ],
       "keyComponents": [
         "Product image gallery",
-        "Color and size selectors",
+        "Color buttons",
+        "Size buttons",
         "Add to cart button",
-        "Related products grid",
-        "Site navigation and footer links"
+        "Related products section"
       ],
       "elements": [
         {
@@ -1758,318 +1449,25 @@
       "visited": true
     },
     {
-      "screenId": "6f067a34e8cc",
-      "url": "https://demo.vercel.store/product/acme-hoodie",
-      "title": "Acme Hoodie | Acme Store",
-      "label": "Acme Hoodie Product Detail",
-      "purpose": "User views details of the Acme Hoodie, selects a size, and adds it to cart or browses related products",
+      "screenId": "fde0d73ebf4e",
+      "url": "https://demo.vercel.store/product/acme-insulated-bottle",
+      "title": "404: This page could not be found.",
+      "label": "404 Page Not Found",
+      "purpose": "The user sees a 404 error indicating the requested product page does not exist.",
       "primaryActions": [
-        "Select size",
-        "Add to cart",
-        "Browse product images",
-        "View related products"
-      ],
-      "keyComponents": [
-        "Product image gallery",
-        "Size selector buttons",
-        "'Please select an option' button",
-        "Related products grid",
-        "Navigation menu",
-        "Search bar",
-        "Cart button"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-bomber-jacket"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-onesie"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e20",
-          "role": "link",
-          "name": "Acme Cup Acme Cup $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-cup"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-sticker"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "Acme Mug Acme Mug $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-mug"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e24",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e25",
-          "role": "button",
-          "name": "Previous product image"
-        },
-        {
-          "ref": "e26",
-          "role": "button",
-          "name": "Next product image"
-        },
-        {
-          "ref": "e27",
-          "role": "button",
-          "name": "Select product image"
-        },
-        {
-          "ref": "e29",
-          "role": "button",
-          "name": "XS"
-        },
-        {
-          "ref": "e3",
-          "role": "heading",
-          "name": "Acme Hoodie"
-        },
-        {
-          "ref": "e30",
-          "role": "button",
-          "name": "S"
-        },
-        {
-          "ref": "e31",
-          "role": "button",
-          "name": "M"
-        },
-        {
-          "ref": "e32",
-          "role": "button",
-          "name": "L"
-        },
-        {
-          "ref": "e33",
-          "role": "button",
-          "name": "XL"
-        },
-        {
-          "ref": "e34",
-          "role": "button",
-          "name": "XXL"
-        },
-        {
-          "ref": "e35",
-          "role": "button",
-          "name": "XXXL"
-        },
-        {
-          "ref": "e36",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e37",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e38",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e39",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e4",
-          "role": "heading",
-          "name": "Related Products"
-        },
-        {
-          "ref": "e40",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e41",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e42",
-          "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e43",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e44",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e45",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e46",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e47",
-          "role": "heading",
-          "name": "Acme Bomber Jacket"
-        },
-        {
-          "ref": "e48",
-          "role": "heading",
-          "name": "Acme Baby Onesie"
-        },
-        {
-          "ref": "e49",
-          "role": "heading",
-          "name": "Acme Cup"
-        },
-        {
-          "ref": "e5",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e50",
-          "role": "heading",
-          "name": "Acme Rainbow Sticker"
-        },
-        {
-          "ref": "e51",
-          "role": "heading",
-          "name": "Acme Mug"
-        },
-        {
-          "ref": "e6",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e7",
-          "role": "button",
-          "name": "Please select an option"
-        },
-        {
-          "ref": "e9",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        }
-      ],
-      "screenshotPath": "screens/6f067a34e8cc.png",
-      "snapshotPath": "screens/6f067a34e8cc.snapshot.json",
-      "visited": true
-    },
-    {
-      "screenId": "1287fc990de6",
-      "url": "https://demo.vercel.store/product/acme-mug",
-      "title": "Acme Mug | Acme Store",
-      "label": "Acme Mug Product Detail",
-      "purpose": "User views details of the Acme Mug and can add it to cart",
-      "primaryActions": [
-        "Add to cart",
-        "View product images",
+        "Navigate to homepage via logo link",
         "Search for products",
-        "Navigate to related products"
+        "Browse categories (All, Shirts, Stickers)",
+        "Open cart"
       ],
       "keyComponents": [
-        "Product image gallery",
-        "Product name heading",
-        "Add to cart button",
-        "Related products section",
-        "Navigation links"
+        "Acme Store logo link",
+        "Navigation links (All, Shirts, Stickers)",
+        "Search textbox",
+        "Open cart button",
+        "404 heading",
+        "'This page could not be found' heading",
+        "Notifications region"
       ],
       "elements": [
         {
@@ -2079,256 +1477,72 @@
           "href": "https://demo.vercel.store/"
         },
         {
-          "ref": "e10",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Cup Acme Cup $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-cup"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-sticker"
-        },
-        {
           "ref": "e2",
           "role": "button",
           "name": "Open cart"
         },
         {
-          "ref": "e20",
-          "role": "link",
-          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-onesie"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Acme Drawstring Bag Acme Drawstring Bag $12.00USD",
-          "href": "https://demo.vercel.store/product/acme-drawstring-bag"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e24",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e25",
-          "role": "button",
-          "name": "Previous product image"
-        },
-        {
-          "ref": "e26",
-          "role": "button",
-          "name": "Next product image"
-        },
-        {
-          "ref": "e27",
-          "role": "button",
-          "name": "Select product image"
-        },
-        {
-          "ref": "e29",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
           "ref": "e3",
-          "role": "heading",
-          "name": "Acme Mug"
-        },
-        {
-          "ref": "e30",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e31",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e32",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e33",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e34",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e35",
-          "role": "heading",
-          "name": "Acme Cup"
-        },
-        {
-          "ref": "e36",
-          "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e37",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e38",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e39",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e4",
-          "role": "heading",
-          "name": "Related Products"
-        },
-        {
-          "ref": "e40",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e41",
-          "role": "heading",
-          "name": "Acme Rainbow Sticker"
-        },
-        {
-          "ref": "e42",
-          "role": "heading",
-          "name": "Acme Baby Onesie"
-        },
-        {
-          "ref": "e43",
-          "role": "heading",
-          "name": "Acme Drawstring Bag"
-        },
-        {
-          "ref": "e44",
-          "role": "heading",
-          "name": "Acme Hoodie"
-        },
-        {
-          "ref": "e5",
           "role": "region",
           "name": "Notifications alt+T"
         },
         {
-          "ref": "e6",
+          "ref": "e4",
           "role": "textbox",
           "name": "Search for products..."
         },
         {
+          "ref": "e5",
+          "role": "heading",
+          "name": "404"
+        },
+        {
+          "ref": "e6",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search"
+        },
+        {
           "ref": "e7",
-          "role": "button",
-          "name": "Add to cart"
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
         },
         {
           "ref": "e9",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+          "role": "heading",
+          "name": "This page could not be found."
         }
       ],
-      "screenshotPath": "screens/1287fc990de6.png",
-      "snapshotPath": "screens/1287fc990de6.snapshot.json",
+      "screenshotPath": "screens/fde0d73ebf4e.png",
+      "snapshotPath": "screens/fde0d73ebf4e.snapshot.json",
       "visited": true
     },
     {
       "screenId": "625aa6acef96",
       "url": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt",
       "title": "Acme Prism T-Shirt | Acme Store",
-      "label": "Acme Prism T-Shirt Product",
-      "purpose": "User views and selects options for the Acme Prism T-Shirt to add to cart",
+      "label": "Acme Prism T-Shirt Product Page",
+      "purpose": "User views and selects size for the Acme Prism T-Shirt to add to cart",
       "primaryActions": [
         "Select size",
         "Add to cart",
-        "Navigate product images",
+        "View product images",
         "Search products",
-        "Open cart"
+        "Navigate to cart"
       ],
       "keyComponents": [
         "Product image gallery",
         "Size selector buttons",
         "Add to cart button",
         "Related products grid",
-        "Search textbox"
+        "Navigation links"
       ],
       "elements": [
         {
@@ -2605,639 +1819,24 @@
       "visited": true
     },
     {
-      "screenId": "2fda90f0f727",
-      "url": "https://demo.vercel.store/product/acme-rainbow-sticker",
-      "title": "Acme Rainbow Sticker | Acme Store",
-      "label": "Acme Rainbow Sticker Details",
-      "purpose": "User views product details for the Acme Rainbow Sticker and can add it to cart.",
-      "primaryActions": [
-        "Add to cart",
-        "Search for products",
-        "Open cart",
-        "Navigate to other pages"
-      ],
-      "keyComponents": [
-        "Product heading: Acme Rainbow Sticker",
-        "Add to cart button",
-        "Search textbox",
-        "Related Products section with grid of 9 items",
-        "Site header with logo, nav links (All, Shirts, Stickers), and cart button",
-        "Footer with legal links and Vercel credits"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Sticker Acme Sticker $4.00USD",
-          "href": "https://demo.vercel.store/product/acme-sticker"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Acme Mug Acme Mug $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-mug"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Acme Cup Acme Cup $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-cup"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e20",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e24",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e25",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e26",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e27",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e28",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e29",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e3",
-          "role": "heading",
-          "name": "Acme Rainbow Sticker"
-        },
-        {
-          "ref": "e30",
-          "role": "heading",
-          "name": "Acme Sticker"
-        },
-        {
-          "ref": "e31",
-          "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e32",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e33",
-          "role": "heading",
-          "name": "Acme Hoodie"
-        },
-        {
-          "ref": "e34",
-          "role": "heading",
-          "name": "Acme Mug"
-        },
-        {
-          "ref": "e35",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e36",
-          "role": "heading",
-          "name": "Acme Cup"
-        },
-        {
-          "ref": "e37",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e38",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e4",
-          "role": "heading",
-          "name": "Related Products"
-        },
-        {
-          "ref": "e5",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e6",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e7",
-          "role": "button",
-          "name": "Add to cart"
-        },
-        {
-          "ref": "e9",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        }
-      ],
-      "screenshotPath": "screens/2fda90f0f727.png",
-      "snapshotPath": "screens/2fda90f0f727.snapshot.json",
-      "visited": true
-    },
-    {
-      "screenId": "918c6d501f97",
-      "url": "https://demo.vercel.store/product/acme-slip-on-shoes",
-      "title": "Acme Slip-On Shoes | Acme Store",
-      "label": "Acme Slip-On Shoes Product Page",
-      "purpose": "User views and selects size for the Acme Slip-On Shoes product.",
-      "primaryActions": [
-        "Select shoe size",
-        "View product images",
-        "Add to cart",
-        "Navigate to related products"
-      ],
-      "keyComponents": [
-        "Product image gallery",
-        "Size selector buttons",
-        "Add to cart button",
-        "Related products section",
-        "Navigation links"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-bomber-jacket"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Drawstring Bag Acme Drawstring Bag $12.00USD",
-          "href": "https://demo.vercel.store/product/acme-drawstring-bag"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Acme Pacifier Acme Pacifier $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-pacifier"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-onesie"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e20",
-          "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e24",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e25",
-          "role": "button",
-          "name": "Previous product image"
-        },
-        {
-          "ref": "e26",
-          "role": "button",
-          "name": "Next product image"
-        },
-        {
-          "ref": "e27",
-          "role": "button",
-          "name": "Select product image"
-        },
-        {
-          "ref": "e3",
-          "role": "heading",
-          "name": "Acme Slip-On Shoes"
-        },
-        {
-          "ref": "e31",
-          "role": "button",
-          "name": "1"
-        },
-        {
-          "ref": "e32",
-          "role": "button",
-          "name": "1.5"
-        },
-        {
-          "ref": "e33",
-          "role": "button",
-          "name": "2"
-        },
-        {
-          "ref": "e34",
-          "role": "button",
-          "name": "2.5"
-        },
-        {
-          "ref": "e35",
-          "role": "button",
-          "name": "3"
-        },
-        {
-          "ref": "e36",
-          "role": "button",
-          "name": "3.5"
-        },
-        {
-          "ref": "e37",
-          "role": "button",
-          "name": "4"
-        },
-        {
-          "ref": "e38",
-          "role": "button",
-          "name": "4.5"
-        },
-        {
-          "ref": "e39",
-          "role": "button",
-          "name": "5"
-        },
-        {
-          "ref": "e4",
-          "role": "heading",
-          "name": "Related Products"
-        },
-        {
-          "ref": "e40",
-          "role": "button",
-          "name": "5.5"
-        },
-        {
-          "ref": "e41",
-          "role": "button",
-          "name": "6"
-        },
-        {
-          "ref": "e42",
-          "role": "button",
-          "name": "6.5"
-        },
-        {
-          "ref": "e43",
-          "role": "button",
-          "name": "7"
-        },
-        {
-          "ref": "e44",
-          "role": "button",
-          "name": "7.5"
-        },
-        {
-          "ref": "e45",
-          "role": "button",
-          "name": "8"
-        },
-        {
-          "ref": "e46",
-          "role": "button",
-          "name": "8.5"
-        },
-        {
-          "ref": "e47",
-          "role": "button",
-          "name": "9"
-        },
-        {
-          "ref": "e48",
-          "role": "button",
-          "name": "9.5"
-        },
-        {
-          "ref": "e49",
-          "role": "button",
-          "name": "10"
-        },
-        {
-          "ref": "e5",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e50",
-          "role": "button",
-          "name": "10.5"
-        },
-        {
-          "ref": "e51",
-          "role": "button",
-          "name": "11"
-        },
-        {
-          "ref": "e52",
-          "role": "button",
-          "name": "11.5"
-        },
-        {
-          "ref": "e53",
-          "role": "button",
-          "name": "12"
-        },
-        {
-          "ref": "e54",
-          "role": "button",
-          "name": "12.5"
-        },
-        {
-          "ref": "e55",
-          "role": "button",
-          "name": "13"
-        },
-        {
-          "ref": "e56",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e57",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e58",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e59",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e6",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e60",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e61",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e62",
-          "role": "heading",
-          "name": "Acme Bomber Jacket"
-        },
-        {
-          "ref": "e63",
-          "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e64",
-          "role": "heading",
-          "name": "Acme Drawstring Bag"
-        },
-        {
-          "ref": "e65",
-          "role": "heading",
-          "name": "Acme Pacifier"
-        },
-        {
-          "ref": "e66",
-          "role": "heading",
-          "name": "Acme Hoodie"
-        },
-        {
-          "ref": "e67",
-          "role": "heading",
-          "name": "Acme Baby Onesie"
-        },
-        {
-          "ref": "e68",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e69",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e7",
-          "role": "button",
-          "name": "Please select an option"
-        },
-        {
-          "ref": "e70",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e71",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e9",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        }
-      ],
-      "screenshotPath": "screens/918c6d501f97.png",
-      "snapshotPath": "screens/918c6d501f97.snapshot.json",
-      "visited": true
-    },
-    {
       "screenId": "54235064a19c",
       "url": "https://demo.vercel.store/product/acme-sticker",
       "title": "Acme Sticker | Acme Store",
       "label": "Acme Sticker Product Detail",
-      "purpose": "User views details of the Acme Sticker product and can add it to their cart.",
+      "purpose": "User views details of the Acme Sticker and can add it to their cart",
       "primaryActions": [
         "Add to cart",
         "Search for products",
         "Open cart",
-        "Navigate to other product pages"
+        "Navigate to related products"
       ],
       "keyComponents": [
         "Product heading 'Acme Sticker'",
         "Add to cart button",
+        "Related Products section with 8 product links",
         "Search textbox",
-        "Related Products section",
-        "Site navigation links"
+        "Navigation links (All, Shirts, Stickers)",
+        "Footer links (Home, About, Terms, etc.)"
       ],
       "elements": [
         {
@@ -3453,345 +2052,25 @@
       "visited": true
     },
     {
-      "screenId": "7c76ab2fd49b",
-      "url": "https://demo.vercel.store/product/acme-t-shirt",
-      "title": "Acme T-Shirt | Acme Store",
-      "label": "Product Detail Page",
-      "purpose": "The user views the Acme T-Shirt product details, selects color and size options, and adds the item to their cart.",
+      "screenId": "82297a587f44",
+      "url": "https://demo.vercel.store/product/acme-travel-mug",
+      "title": "404: This page could not be found.",
+      "label": "404 Product Not Found",
+      "purpose": "User sees a 404 error page indicating the requested product does not exist.",
       "primaryActions": [
-        "Select color",
-        "Select size",
-        "Add to cart",
-        "View related products",
-        "Search products"
-      ],
-      "keyComponents": [
-        "Product image gallery",
-        "Color selection buttons",
-        "Size selection buttons",
-        "Add to cart button",
-        "Related products grid",
-        "Navigation links",
-        "Footer links"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-onesie"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Acme Mug Acme Mug $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-mug"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e20",
-          "role": "link",
-          "name": "Acme Cup Acme Cup $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-cup"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-bomber-jacket"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-sticker"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e24",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e25",
-          "role": "button",
-          "name": "Previous product image"
-        },
-        {
-          "ref": "e26",
-          "role": "button",
-          "name": "Next product image"
-        },
-        {
-          "ref": "e27",
-          "role": "button",
-          "name": "Select product image"
-        },
-        {
-          "ref": "e3",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e32",
-          "role": "button",
-          "name": "Black"
-        },
-        {
-          "ref": "e33",
-          "role": "button",
-          "name": "Blue"
-        },
-        {
-          "ref": "e34",
-          "role": "button",
-          "name": "Gray"
-        },
-        {
-          "ref": "e35",
-          "role": "button",
-          "name": "Pink"
-        },
-        {
-          "ref": "e36",
-          "role": "button",
-          "name": "White"
-        },
-        {
-          "ref": "e37",
-          "role": "button",
-          "name": "XS"
-        },
-        {
-          "ref": "e38",
-          "role": "button",
-          "name": "S"
-        },
-        {
-          "ref": "e39",
-          "role": "button",
-          "name": "M"
-        },
-        {
-          "ref": "e4",
-          "role": "heading",
-          "name": "Related Products"
-        },
-        {
-          "ref": "e40",
-          "role": "button",
-          "name": "L"
-        },
-        {
-          "ref": "e41",
-          "role": "button",
-          "name": "XL"
-        },
-        {
-          "ref": "e42",
-          "role": "button",
-          "name": "XXL"
-        },
-        {
-          "ref": "e43",
-          "role": "button",
-          "name": "XXXL"
-        },
-        {
-          "ref": "e44",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e45",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e46",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e47",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e48",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e49",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e5",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e50",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e51",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e52",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e53",
-          "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e54",
-          "role": "heading",
-          "name": "Acme Baby Onesie"
-        },
-        {
-          "ref": "e55",
-          "role": "heading",
-          "name": "Acme Hoodie"
-        },
-        {
-          "ref": "e56",
-          "role": "heading",
-          "name": "Acme Mug"
-        },
-        {
-          "ref": "e57",
-          "role": "heading",
-          "name": "Acme Cup"
-        },
-        {
-          "ref": "e58",
-          "role": "heading",
-          "name": "Acme Bomber Jacket"
-        },
-        {
-          "ref": "e59",
-          "role": "heading",
-          "name": "Acme Rainbow Sticker"
-        },
-        {
-          "ref": "e6",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e7",
-          "role": "button",
-          "name": "Please select an option"
-        },
-        {
-          "ref": "e9",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        }
-      ],
-      "screenshotPath": "screens/7c76ab2fd49b.png",
-      "snapshotPath": "screens/7c76ab2fd49b.snapshot.json",
-      "visited": true
-    },
-    {
-      "screenId": "809972d222c4",
-      "url": "https://demo.vercel.store/product/acme-webcam-cover",
-      "title": "Acme Webcam Cover | Acme Store",
-      "label": "Acme Webcam Cover Product Page",
-      "purpose": "User views details of the Acme Webcam Cover and can add it to their cart",
-      "primaryActions": [
-        "Add to cart",
+        "Navigate to homepage via logo link",
         "Search for products",
-        "Open cart",
-        "Navigate to other product pages"
+        "Browse categories (All, Shirts, Stickers)",
+        "Open cart"
       ],
       "keyComponents": [
-        "Product heading 'Acme Webcam Cover'",
-        "Add to cart button",
-        "Search textbox",
-        "Related Products section",
+        "Acme Store logo link",
         "Navigation links (All, Shirts, Stickers)",
-        "Footer links (Home, About, Terms, etc.)"
+        "Search textbox",
+        "Open cart button",
+        "404 heading",
+        "'This page could not be found' heading",
+        "Notifications region"
       ],
       "elements": [
         {
@@ -3801,239 +2080,72 @@
           "href": "https://demo.vercel.store/"
         },
         {
-          "ref": "e10",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Cap Acme Cap $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-cap"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Acme Hoodie Acme Hoodie $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-hoodie"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Acme Mug Acme Mug $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-mug"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Acme Cup Acme Cup $15.00USD",
-          "href": "https://demo.vercel.store/product/acme-cup"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-baby-cap"
-        },
-        {
           "ref": "e2",
           "role": "button",
           "name": "Open cart"
         },
         {
-          "ref": "e20",
-          "role": "link",
-          "name": "Acme Pacifier Acme Pacifier $10.00USD",
-          "href": "https://demo.vercel.store/product/acme-pacifier"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "Acme Drawstring Bag Acme Drawstring Bag $12.00USD",
-          "href": "https://demo.vercel.store/product/acme-drawstring-bag"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e24",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e25",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e26",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e27",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e28",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e29",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
           "ref": "e3",
-          "role": "heading",
-          "name": "Acme Webcam Cover"
-        },
-        {
-          "ref": "e30",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e31",
-          "role": "heading",
-          "name": "Acme Cap"
-        },
-        {
-          "ref": "e32",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e33",
-          "role": "heading",
-          "name": "Acme Hoodie"
-        },
-        {
-          "ref": "e34",
-          "role": "heading",
-          "name": "Acme Mug"
-        },
-        {
-          "ref": "e35",
-          "role": "heading",
-          "name": "Acme Cup"
-        },
-        {
-          "ref": "e36",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e37",
-          "role": "heading",
-          "name": "Acme Baby Cap"
-        },
-        {
-          "ref": "e38",
-          "role": "heading",
-          "name": "Acme Pacifier"
-        },
-        {
-          "ref": "e39",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e4",
-          "role": "heading",
-          "name": "Related Products"
-        },
-        {
-          "ref": "e40",
-          "role": "heading",
-          "name": "Acme Drawstring Bag"
-        },
-        {
-          "ref": "e5",
           "role": "region",
           "name": "Notifications alt+T"
         },
         {
-          "ref": "e6",
+          "ref": "e4",
           "role": "textbox",
           "name": "Search for products..."
         },
         {
+          "ref": "e5",
+          "role": "heading",
+          "name": "404"
+        },
+        {
+          "ref": "e6",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search"
+        },
+        {
           "ref": "e7",
-          "role": "button",
-          "name": "Add to cart"
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
         },
         {
           "ref": "e9",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+          "role": "heading",
+          "name": "This page could not be found."
         }
       ],
-      "screenshotPath": "screens/809972d222c4.png",
-      "snapshotPath": "screens/809972d222c4.snapshot.json",
+      "screenshotPath": "screens/82297a587f44.png",
+      "snapshotPath": "screens/82297a587f44.snapshot.json",
       "visited": true
     },
     {
       "screenId": "2e84f67fd0c5",
       "url": "https://demo.vercel.store/search",
       "title": "Search | Acme Store",
-      "label": "Search Product Listings",
-      "purpose": "The user browses and searches for products by category or keyword",
+      "label": "Search and Browse Products",
+      "purpose": "User searches for products or browses by category and collection to find items to purchase.",
       "primaryActions": [
-        "Search by keyword",
-        "Filter by category",
+        "Search for products",
+        "Browse by category",
+        "Browse by collection",
         "View product details",
         "Open cart"
       ],
       "keyComponents": [
         "Search textbox",
-        "Category navigation links",
-        "Product cards with image and price",
-        "Header with logo and cart button"
+        "Category links (All, Shirts, Stickers)",
+        "Collections sidebar",
+        "Product grid with links and prices",
+        "Cart button"
       ],
       "elements": [
         {
@@ -4057,26 +2169,26 @@
         {
           "ref": "e12",
           "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
           "name": "Acme Sticker Acme Sticker $4.00USD",
           "href": "https://demo.vercel.store/product/acme-sticker"
         },
         {
-          "ref": "e15",
+          "ref": "e13",
           "role": "link",
           "name": "Acme Mug Acme Mug $15.00USD",
           "href": "https://demo.vercel.store/product/acme-mug"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
         },
         {
           "ref": "e16",
@@ -4311,22 +2423,22 @@
         {
           "ref": "e53",
           "role": "heading",
-          "name": "Acme Circles T-Shirt"
+          "name": "Acme Sticker"
         },
         {
           "ref": "e54",
           "role": "heading",
-          "name": "Acme Prism T-Shirt"
+          "name": "Acme Mug"
         },
         {
           "ref": "e55",
           "role": "heading",
-          "name": "Acme Sticker"
+          "name": "Acme Circles T-Shirt"
         },
         {
           "ref": "e56",
           "role": "heading",
-          "name": "Acme Mug"
+          "name": "Acme Prism T-Shirt"
         },
         {
           "ref": "e57",
@@ -4425,12 +2537,13 @@
       "url": "https://demo.vercel.store/search?q=shirt",
       "title": "",
       "label": "Search Results for Shirts",
-      "purpose": "User views and filters shirt search results, can select a product to view details.",
+      "purpose": "User views and filters search results for 'shirt' and can select a product to view details.",
       "primaryActions": [
         "View product details",
         "Filter by collection",
         "Sort results",
-        "Search for other products"
+        "Search for other products",
+        "Open cart"
       ],
       "keyComponents": [
         "Search textbox with 'shirt' query",
@@ -4654,6 +2767,36 @@
           "role": "link",
           "name": "All",
           "href": "https://demo.vercel.store/search"
+        },
+        {
+          "ref": "e33",
+          "role": "button",
+          "name": "Close cart"
+        },
+        {
+          "ref": "e40",
+          "role": "button",
+          "name": "Proceed to Checkout"
+        },
+        {
+          "ref": "e44",
+          "role": "link",
+          "name": "Acme Sticker"
+        },
+        {
+          "ref": "e45",
+          "role": "button",
+          "name": "Reduce item quantity"
+        },
+        {
+          "ref": "e46",
+          "role": "button",
+          "name": "Increase item quantity"
+        },
+        {
+          "ref": "e47",
+          "role": "button",
+          "name": "Remove cart item"
         }
       ],
       "screenshotPath": "screens/18ab9824fba0.png",
@@ -4661,25 +2804,338 @@
       "visited": true
     },
     {
+      "screenId": "9e65aa6f97c6",
+      "url": "https://demo.vercel.store/search?q=shirt&sort=price-desc",
+      "title": "Search | Acme Store",
+      "label": "Search Results for Shirts",
+      "purpose": "User views and filters search results for shirts sorted by price descending",
+      "primaryActions": [
+        "View product details",
+        "Sort by price ascending",
+        "Filter by collection",
+        "Search for other products"
+      ],
+      "keyComponents": [
+        "Search textbox with 'shirt' query",
+        "Product cards with images, names, and prices",
+        "Sort options (Relevance, Trending, Latest, Price)",
+        "Collection sidebar (Bags, Drinkware, etc.)",
+        "Cart button",
+        "Footer links"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e10",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e11",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e12",
+          "role": "link",
+          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
+        },
+        {
+          "ref": "e13",
+          "role": "link",
+          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-t-shirt"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "View the source",
+          "href": "https://github.com/vercel/commerce"
+        },
+        {
+          "ref": "e16",
+          "role": "link",
+          "name": "Created by ▲ Vercel",
+          "href": "https://vercel.com/"
+        },
+        {
+          "ref": "e17",
+          "role": "link",
+          "name": "Bags",
+          "href": "https://demo.vercel.store/search/bags?sort=price-desc"
+        },
+        {
+          "ref": "e18",
+          "role": "link",
+          "name": "Drinkware",
+          "href": "https://demo.vercel.store/search/drinkware?sort=price-desc"
+        },
+        {
+          "ref": "e19",
+          "role": "link",
+          "name": "Electronics",
+          "href": "https://demo.vercel.store/search/electronics?sort=price-desc"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e20",
+          "role": "link",
+          "name": "Footware",
+          "href": "https://demo.vercel.store/search/footware?sort=price-desc"
+        },
+        {
+          "ref": "e21",
+          "role": "link",
+          "name": "Headwear",
+          "href": "https://demo.vercel.store/search/headwear?sort=price-desc"
+        },
+        {
+          "ref": "e22",
+          "role": "link",
+          "name": "Hoodies",
+          "href": "https://demo.vercel.store/search/hoodies?sort=price-desc"
+        },
+        {
+          "ref": "e23",
+          "role": "link",
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=price-desc"
+        },
+        {
+          "ref": "e24",
+          "role": "link",
+          "name": "Kids",
+          "href": "https://demo.vercel.store/search/kids?sort=price-desc"
+        },
+        {
+          "ref": "e25",
+          "role": "link",
+          "name": "Pets",
+          "href": "https://demo.vercel.store/search/pets?sort=price-desc"
+        },
+        {
+          "ref": "e28",
+          "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search?q=shirt"
+        },
+        {
+          "ref": "e29",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search?q=shirt&sort=trending-desc"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e30",
+          "role": "link",
+          "name": "Latest arrivals",
+          "href": "https://demo.vercel.store/search?q=shirt&sort=latest-desc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Price: Low to high",
+          "href": "https://demo.vercel.store/search?q=shirt&sort=price-asc"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
+          "name": "Home",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e33",
+          "role": "link",
+          "name": "About",
+          "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e34",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e37",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e38",
+          "role": "heading",
+          "name": "Acme Prism T-Shirt"
+        },
+        {
+          "ref": "e39",
+          "role": "heading",
+          "name": "Acme Circles T-Shirt"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e40",
+          "role": "heading",
+          "name": "Acme T-Shirt"
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "Collections"
+        },
+        {
+          "ref": "e6",
+          "role": "heading",
+          "name": "Sort by"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Deploy on Vercel",
+          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+        },
+        {
+          "ref": "e9",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search"
+        }
+      ],
+      "screenshotPath": "screens/9e65aa6f97c6.png",
+      "snapshotPath": "screens/9e65aa6f97c6.snapshot.json",
+      "visited": true
+    },
+    {
+      "screenId": "fceba3b9e40d",
+      "url": "https://demo.vercel.store/search/accessories",
+      "title": "404: This page could not be found.",
+      "label": "404 Not Found Page",
+      "purpose": "User sees an error indicating the requested page does not exist",
+      "primaryActions": [
+        "Navigate to homepage via logo",
+        "Search for products",
+        "Browse other categories (All, Shirts, Stickers)"
+      ],
+      "keyComponents": [
+        "ACME Store logo link",
+        "Search textbox",
+        "Navigation links (All, Shirts, Stickers)",
+        "404 heading",
+        "'This page could not be found' message"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "404"
+        },
+        {
+          "ref": "e6",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search"
+        },
+        {
+          "ref": "e7",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e9",
+          "role": "heading",
+          "name": "This page could not be found."
+        }
+      ],
+      "screenshotPath": "screens/fceba3b9e40d.png",
+      "snapshotPath": "screens/fceba3b9e40d.snapshot.json",
+      "visited": true
+    },
+    {
       "screenId": "991744a4d707",
       "url": "https://demo.vercel.store/search/bags",
       "title": "Bags | Acme Store",
-      "label": "Bags Collection Page",
-      "purpose": "User browses and filters bag products from the Bags category",
+      "label": "Bags Collection Listing",
+      "purpose": "User browses the bags collection, filters by category, and sorts products.",
       "primaryActions": [
-        "Browse bag products",
-        "Filter by collection",
-        "Sort by price or date",
+        "Select a product to view details",
+        "Sort products by trending, latest, or price",
         "Search for products",
-        "Open cart"
+        "Open cart",
+        "Navigate to other collections"
       ],
       "keyComponents": [
         "Product grid with Acme Drawstring Bag",
-        "Collections sidebar",
-        "Sort by dropdown",
-        "Search textbox",
-        "Cart button",
-        "Footer links"
+        "Collection sidebar with category links",
+        "Sort options (Trending, Latest, Price)",
+        "Search box",
+        "Header with logo and cart button",
+        "Footer with links"
       ],
       "elements": [
         {
@@ -4874,25 +3330,24 @@
       "visited": true
     },
     {
-      "screenId": "0e00a82b386d",
-      "url": "https://demo.vercel.store/search/footware",
-      "title": "Footware | Acme Store",
-      "label": "Footware Search Results",
-      "purpose": "User browses and filters footware products, can sort and select a product to view details.",
+      "screenId": "26f85dd565b1",
+      "url": "https://demo.vercel.store/search/headwear?sort=latest-desc",
+      "title": "Headwear | Acme Store",
+      "label": "Headwear search results sorted",
+      "purpose": "User browses or filters headwear products, currently sorted by latest-descending",
       "primaryActions": [
-        "Browse product listings",
-        "Sort by Trending, Latest, or Price",
-        "Filter by collection",
-        "Select a product",
-        "Search for products"
+        "Select a headwear product to view details",
+        "Sort by relevance, trending, or price",
+        "Browse collection links (All, Bags, etc.)",
+        "Search for products",
+        "Open cart to review checkout"
       ],
       "keyComponents": [
-        "Search textbox",
-        "Sort by heading and links",
-        "Collections sidebar",
-        "Product listings with images and prices",
-        "Cart button",
-        "Site navigation and footer links"
+        "Product list with Acme Cap, Acme Cowboy Hat, Acme Baby Cap",
+        "Sort options (Relevance, Trending, Price Low/High)",
+        "Left sidebar collections",
+        "Top navigation bar with search and cart",
+        "Footer with legal links and Vercel credits"
       ],
       "elements": [
         {
@@ -4929,37 +3384,37 @@
           "ref": "e14",
           "role": "link",
           "name": "All",
-          "href": "https://demo.vercel.store/search"
+          "href": "https://demo.vercel.store/search?sort=latest-desc"
         },
         {
           "ref": "e15",
           "role": "link",
           "name": "Bags",
-          "href": "https://demo.vercel.store/search/bags"
+          "href": "https://demo.vercel.store/search/bags?sort=latest-desc"
         },
         {
           "ref": "e16",
           "role": "link",
           "name": "Drinkware",
-          "href": "https://demo.vercel.store/search/drinkware"
+          "href": "https://demo.vercel.store/search/drinkware?sort=latest-desc"
         },
         {
           "ref": "e17",
           "role": "link",
           "name": "Electronics",
-          "href": "https://demo.vercel.store/search/electronics"
+          "href": "https://demo.vercel.store/search/electronics?sort=latest-desc"
         },
         {
           "ref": "e18",
           "role": "link",
-          "name": "Headwear",
-          "href": "https://demo.vercel.store/search/headwear"
+          "name": "Footware",
+          "href": "https://demo.vercel.store/search/footware?sort=latest-desc"
         },
         {
           "ref": "e19",
           "role": "link",
           "name": "Hoodies",
-          "href": "https://demo.vercel.store/search/hoodies"
+          "href": "https://demo.vercel.store/search/hoodies?sort=latest-desc"
         },
         {
           "ref": "e2",
@@ -4970,49 +3425,284 @@
           "ref": "e20",
           "role": "link",
           "name": "Jackets",
-          "href": "https://demo.vercel.store/search/jackets"
+          "href": "https://demo.vercel.store/search/jackets?sort=latest-desc"
         },
         {
           "ref": "e21",
           "role": "link",
           "name": "Kids",
-          "href": "https://demo.vercel.store/search/kids"
+          "href": "https://demo.vercel.store/search/kids?sort=latest-desc"
         },
         {
           "ref": "e22",
           "role": "link",
           "name": "Pets",
-          "href": "https://demo.vercel.store/search/pets"
+          "href": "https://demo.vercel.store/search/pets?sort=latest-desc"
         },
         {
           "ref": "e25",
           "role": "link",
-          "name": "Acme Slip-On Shoes Acme Slip-On Shoes $45.00USD",
-          "href": "https://demo.vercel.store/product/acme-slip-on-shoes"
+          "name": "Acme Cap Acme Cap $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-cap"
         },
         {
           "ref": "e26",
           "role": "link",
-          "name": "Trending",
-          "href": "https://demo.vercel.store/search/footware?sort=trending-desc"
+          "name": "Acme Cowboy Hat Acme Cowboy Hat $160.00USD",
+          "href": "https://demo.vercel.store/product/acme-cowboy-hat"
         },
         {
           "ref": "e27",
           "role": "link",
-          "name": "Latest arrivals",
-          "href": "https://demo.vercel.store/search/footware?sort=latest-desc"
+          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-cap"
         },
         {
           "ref": "e28",
           "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/headwear"
+        },
+        {
+          "ref": "e29",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/headwear?sort=trending-desc"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e30",
+          "role": "link",
           "name": "Price: Low to high",
+          "href": "https://demo.vercel.store/search/headwear?sort=price-asc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Price: High to low",
+          "href": "https://demo.vercel.store/search/headwear?sort=price-desc"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
+          "name": "Home",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e33",
+          "role": "link",
+          "name": "About",
+          "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e34",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e37",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e38",
+          "role": "heading",
+          "name": "Acme Cap"
+        },
+        {
+          "ref": "e39",
+          "role": "heading",
+          "name": "Acme Cowboy Hat"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e40",
+          "role": "heading",
+          "name": "Acme Baby Cap"
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "Collections"
+        },
+        {
+          "ref": "e6",
+          "role": "heading",
+          "name": "Sort by"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Deploy on Vercel",
+          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+        }
+      ],
+      "screenshotPath": "screens/26f85dd565b1.png",
+      "snapshotPath": "screens/26f85dd565b1.snapshot.json",
+      "visited": true
+    },
+    {
+      "screenId": "41c7aae37acc",
+      "url": "https://demo.vercel.store/search/hoodies?sort=price-asc",
+      "title": "Hoodies | Acme Store",
+      "label": "Hoodies sorted by price ascending",
+      "purpose": "User filters and browses hoodie products sorted by ascending price",
+      "primaryActions": [
+        "Sort by price ascending",
+        "Browse categories",
+        "View product details",
+        "Search for products",
+        "Open cart"
+      ],
+      "keyComponents": [
+        "Category navigation links",
+        "Sorting options",
+        "Product listing with name and price",
+        "Search textbox",
+        "Cart button",
+        "Footer links"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e10",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e11",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e12",
+          "role": "link",
+          "name": "View the source",
+          "href": "https://github.com/vercel/commerce"
+        },
+        {
+          "ref": "e13",
+          "role": "link",
+          "name": "Created by ▲ Vercel",
+          "href": "https://vercel.com/"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search?sort=price-asc"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "Bags",
+          "href": "https://demo.vercel.store/search/bags?sort=price-asc"
+        },
+        {
+          "ref": "e16",
+          "role": "link",
+          "name": "Drinkware",
+          "href": "https://demo.vercel.store/search/drinkware?sort=price-asc"
+        },
+        {
+          "ref": "e17",
+          "role": "link",
+          "name": "Electronics",
+          "href": "https://demo.vercel.store/search/electronics?sort=price-asc"
+        },
+        {
+          "ref": "e18",
+          "role": "link",
+          "name": "Footware",
           "href": "https://demo.vercel.store/search/footware?sort=price-asc"
+        },
+        {
+          "ref": "e19",
+          "role": "link",
+          "name": "Headwear",
+          "href": "https://demo.vercel.store/search/headwear?sort=price-asc"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e20",
+          "role": "link",
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=price-asc"
+        },
+        {
+          "ref": "e21",
+          "role": "link",
+          "name": "Kids",
+          "href": "https://demo.vercel.store/search/kids?sort=price-asc"
+        },
+        {
+          "ref": "e22",
+          "role": "link",
+          "name": "Pets",
+          "href": "https://demo.vercel.store/search/pets?sort=price-asc"
+        },
+        {
+          "ref": "e25",
+          "role": "link",
+          "name": "Acme Hoodie Acme Hoodie $50.00USD",
+          "href": "https://demo.vercel.store/product/acme-hoodie"
+        },
+        {
+          "ref": "e26",
+          "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/hoodies"
+        },
+        {
+          "ref": "e27",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/hoodies?sort=trending-desc"
+        },
+        {
+          "ref": "e28",
+          "role": "link",
+          "name": "Latest arrivals",
+          "href": "https://demo.vercel.store/search/hoodies?sort=latest-desc"
         },
         {
           "ref": "e29",
           "role": "link",
           "name": "Price: High to low",
-          "href": "https://demo.vercel.store/search/footware?sort=price-desc"
+          "href": "https://demo.vercel.store/search/hoodies?sort=price-desc"
         },
         {
           "ref": "e3",
@@ -5058,7 +3748,7 @@
         {
           "ref": "e36",
           "role": "heading",
-          "name": "Acme Slip-On Shoes"
+          "name": "Acme Hoodie"
         },
         {
           "ref": "e4",
@@ -5082,28 +3772,263 @@
           "href": "https://vercel.com/templates/next.js/nextjs-commerce"
         }
       ],
-      "screenshotPath": "screens/0e00a82b386d.png",
-      "snapshotPath": "screens/0e00a82b386d.snapshot.json",
+      "screenshotPath": "screens/41c7aae37acc.png",
+      "snapshotPath": "screens/41c7aae37acc.snapshot.json",
       "visited": true
     },
     {
-      "screenId": "7c65f7c3355a",
-      "url": "https://demo.vercel.store/search/jackets",
-      "title": "Jackets | Acme Store",
-      "label": "Jackets Search Results",
-      "purpose": "User browses and filters jackets available for purchase",
+      "screenId": "de93d8100352",
+      "url": "https://demo.vercel.store/search/kids?sort=latest-desc",
+      "title": "Kids | Acme Store",
+      "label": "Kids Product Listing",
+      "purpose": "Browse and filter kids products with sorting options",
       "primaryActions": [
-        "Browse jacket listings",
-        "Filter by collection",
-        "Sort by trending, latest, or price",
+        "Select product category",
+        "Sort products by relevance/trending/price",
+        "Click product to view details",
         "Search for products",
         "Open cart"
       ],
       "keyComponents": [
+        "Navigation bar with logo and links",
+        "Collection filter sidebar",
+        "Product grid with 3 items",
+        "Sort by dropdown",
+        "Footer with legal and info links"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e10",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e11",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e12",
+          "role": "link",
+          "name": "View the source",
+          "href": "https://github.com/vercel/commerce"
+        },
+        {
+          "ref": "e13",
+          "role": "link",
+          "name": "Created by ▲ Vercel",
+          "href": "https://vercel.com/"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search?sort=latest-desc"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "Bags",
+          "href": "https://demo.vercel.store/search/bags?sort=latest-desc"
+        },
+        {
+          "ref": "e16",
+          "role": "link",
+          "name": "Drinkware",
+          "href": "https://demo.vercel.store/search/drinkware?sort=latest-desc"
+        },
+        {
+          "ref": "e17",
+          "role": "link",
+          "name": "Electronics",
+          "href": "https://demo.vercel.store/search/electronics?sort=latest-desc"
+        },
+        {
+          "ref": "e18",
+          "role": "link",
+          "name": "Footware",
+          "href": "https://demo.vercel.store/search/footware?sort=latest-desc"
+        },
+        {
+          "ref": "e19",
+          "role": "link",
+          "name": "Headwear",
+          "href": "https://demo.vercel.store/search/headwear?sort=latest-desc"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e20",
+          "role": "link",
+          "name": "Hoodies",
+          "href": "https://demo.vercel.store/search/hoodies?sort=latest-desc"
+        },
+        {
+          "ref": "e21",
+          "role": "link",
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=latest-desc"
+        },
+        {
+          "ref": "e22",
+          "role": "link",
+          "name": "Pets",
+          "href": "https://demo.vercel.store/search/pets?sort=latest-desc"
+        },
+        {
+          "ref": "e25",
+          "role": "link",
+          "name": "Acme Pacifier Acme Pacifier $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-pacifier"
+        },
+        {
+          "ref": "e26",
+          "role": "link",
+          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-onesie"
+        },
+        {
+          "ref": "e27",
+          "role": "link",
+          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-cap"
+        },
+        {
+          "ref": "e28",
+          "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/kids"
+        },
+        {
+          "ref": "e29",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/kids?sort=trending-desc"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e30",
+          "role": "link",
+          "name": "Price: Low to high",
+          "href": "https://demo.vercel.store/search/kids?sort=price-asc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Price: High to low",
+          "href": "https://demo.vercel.store/search/kids?sort=price-desc"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
+          "name": "Home",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e33",
+          "role": "link",
+          "name": "About",
+          "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e34",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e37",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e38",
+          "role": "heading",
+          "name": "Acme Pacifier"
+        },
+        {
+          "ref": "e39",
+          "role": "heading",
+          "name": "Acme Baby Onesie"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e40",
+          "role": "heading",
+          "name": "Acme Baby Cap"
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "Collections"
+        },
+        {
+          "ref": "e6",
+          "role": "heading",
+          "name": "Sort by"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Deploy on Vercel",
+          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+        }
+      ],
+      "screenshotPath": "screens/de93d8100352.png",
+      "snapshotPath": "screens/de93d8100352.snapshot.json",
+      "visited": true
+    },
+    {
+      "screenId": "2154f6f25f5c",
+      "url": "https://demo.vercel.store/search/kids?sort=price-asc",
+      "title": "Kids | Acme Store",
+      "label": "Kids Products Sorted by Price",
+      "purpose": "User browses kids products sorted by price ascending and can filter by collection or sort option",
+      "primaryActions": [
+        "Browse product listings",
+        "Filter by collection",
+        "Change sort order",
+        "Search for products",
+        "Open cart"
+      ],
+      "keyComponents": [
+        "Navigation links (All, Shirts, Stickers)",
+        "Collection filter links (All, Bags, Drinkware, etc.)",
+        "Sort by links (Relevance, Trending, Latest, Price)",
+        "Product cards (Acme Baby Cap, Onesie, Pacifier)",
         "Search textbox",
-        "Collection links (All, Bags, etc.)",
-        "Sort options (Trending, Latest, Price)",
-        "Jacket product card (Acme Bomber Jacket)",
         "Cart button",
         "Footer links (Home, About, Policies)"
       ],
@@ -5142,37 +4067,37 @@
           "ref": "e14",
           "role": "link",
           "name": "All",
-          "href": "https://demo.vercel.store/search"
+          "href": "https://demo.vercel.store/search?sort=price-asc"
         },
         {
           "ref": "e15",
           "role": "link",
           "name": "Bags",
-          "href": "https://demo.vercel.store/search/bags"
+          "href": "https://demo.vercel.store/search/bags?sort=price-asc"
         },
         {
           "ref": "e16",
           "role": "link",
           "name": "Drinkware",
-          "href": "https://demo.vercel.store/search/drinkware"
+          "href": "https://demo.vercel.store/search/drinkware?sort=price-asc"
         },
         {
           "ref": "e17",
           "role": "link",
           "name": "Electronics",
-          "href": "https://demo.vercel.store/search/electronics"
+          "href": "https://demo.vercel.store/search/electronics?sort=price-asc"
         },
         {
           "ref": "e18",
           "role": "link",
           "name": "Footware",
-          "href": "https://demo.vercel.store/search/footware"
+          "href": "https://demo.vercel.store/search/footware?sort=price-asc"
         },
         {
           "ref": "e19",
           "role": "link",
           "name": "Headwear",
-          "href": "https://demo.vercel.store/search/headwear"
+          "href": "https://demo.vercel.store/search/headwear?sort=price-asc"
         },
         {
           "ref": "e2",
@@ -5183,49 +4108,49 @@
           "ref": "e20",
           "role": "link",
           "name": "Hoodies",
-          "href": "https://demo.vercel.store/search/hoodies"
+          "href": "https://demo.vercel.store/search/hoodies?sort=price-asc"
         },
         {
           "ref": "e21",
           "role": "link",
-          "name": "Kids",
-          "href": "https://demo.vercel.store/search/kids"
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=price-asc"
         },
         {
           "ref": "e22",
           "role": "link",
           "name": "Pets",
-          "href": "https://demo.vercel.store/search/pets"
+          "href": "https://demo.vercel.store/search/pets?sort=price-asc"
         },
         {
           "ref": "e25",
           "role": "link",
-          "name": "Acme Bomber Jacket Acme Bomber Jacket $50.00USD",
-          "href": "https://demo.vercel.store/product/acme-bomber-jacket"
+          "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-cap"
         },
         {
           "ref": "e26",
           "role": "link",
-          "name": "Trending",
-          "href": "https://demo.vercel.store/search/jackets?sort=trending-desc"
+          "name": "Acme Baby Onesie Acme Baby Onesie $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-baby-onesie"
         },
         {
           "ref": "e27",
           "role": "link",
-          "name": "Latest arrivals",
-          "href": "https://demo.vercel.store/search/jackets?sort=latest-desc"
+          "name": "Acme Pacifier Acme Pacifier $10.00USD",
+          "href": "https://demo.vercel.store/product/acme-pacifier"
         },
         {
           "ref": "e28",
           "role": "link",
-          "name": "Price: Low to high",
-          "href": "https://demo.vercel.store/search/jackets?sort=price-asc"
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/kids"
         },
         {
           "ref": "e29",
           "role": "link",
-          "name": "Price: High to low",
-          "href": "https://demo.vercel.store/search/jackets?sort=price-desc"
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/kids?sort=trending-desc"
         },
         {
           "ref": "e3",
@@ -5235,48 +4160,70 @@
         {
           "ref": "e30",
           "role": "link",
+          "name": "Latest arrivals",
+          "href": "https://demo.vercel.store/search/kids?sort=latest-desc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Price: High to low",
+          "href": "https://demo.vercel.store/search/kids?sort=price-desc"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
           "name": "Home",
           "href": "https://demo.vercel.store/"
         },
         {
-          "ref": "e31",
+          "ref": "e33",
           "role": "link",
           "name": "About",
           "href": "https://demo.vercel.store/about"
         },
         {
-          "ref": "e32",
+          "ref": "e34",
           "role": "link",
           "name": "Terms & Conditions",
           "href": "https://demo.vercel.store/terms-conditions"
         },
         {
-          "ref": "e33",
+          "ref": "e35",
           "role": "link",
           "name": "Shipping & Return Policy",
           "href": "https://demo.vercel.store/shipping-return-policy"
         },
         {
-          "ref": "e34",
+          "ref": "e36",
           "role": "link",
           "name": "Privacy Policy",
           "href": "https://demo.vercel.store/privacy-policy"
         },
         {
-          "ref": "e35",
+          "ref": "e37",
           "role": "link",
           "name": "FAQ",
           "href": "https://demo.vercel.store/frequently-asked-questions"
         },
         {
-          "ref": "e36",
+          "ref": "e38",
           "role": "heading",
-          "name": "Acme Bomber Jacket"
+          "name": "Acme Baby Cap"
+        },
+        {
+          "ref": "e39",
+          "role": "heading",
+          "name": "Acme Baby Onesie"
         },
         {
           "ref": "e4",
           "role": "textbox",
           "name": "Search for products..."
+        },
+        {
+          "ref": "e40",
+          "role": "heading",
+          "name": "Acme Pacifier"
         },
         {
           "ref": "e5",
@@ -5295,30 +4242,31 @@
           "href": "https://vercel.com/templates/next.js/nextjs-commerce"
         }
       ],
-      "screenshotPath": "screens/7c65f7c3355a.png",
-      "snapshotPath": "screens/7c65f7c3355a.snapshot.json",
+      "screenshotPath": "screens/2154f6f25f5c.png",
+      "snapshotPath": "screens/2154f6f25f5c.snapshot.json",
       "visited": true
     },
     {
       "screenId": "99ae5c874fd5",
       "url": "https://demo.vercel.store/search/pets",
       "title": "Pets | Acme Store",
-      "label": "Pets Category Search",
+      "label": "Pets Category Search Results",
       "purpose": "User browses pet-related products, filters by collection or sort order, and selects a product to view details.",
       "primaryActions": [
+        "Browse product listings",
+        "Filter by collection",
+        "Sort by trending, latest, or price",
         "Search for products",
-        "Filter by collection (e.g., All, Bags, Shirts)",
-        "Sort by Trending, Latest, or Price",
-        "Select a product to view details",
         "Open cart"
       ],
       "keyComponents": [
+        "Navigation links (All, Shirts, Stickers)",
         "Search textbox",
-        "Collection links sidebar",
-        "Sort by links",
-        "Product card with image, name, and price",
         "Cart button",
-        "Footer links"
+        "Collections sidebar",
+        "Product card (Acme Dog Sweater)",
+        "Sort options (Trending, Latest arrivals, Price)",
+        "Footer links (Home, About, Policies)"
       ],
       "elements": [
         {
@@ -5513,266 +4461,25 @@
       "visited": true
     },
     {
-      "screenId": "3f29def015ab",
-      "url": "https://demo.vercel.store/search/shirts",
-      "title": "Shirts | Acme Store",
-      "label": "Shirts Product Listing",
-      "purpose": "User browses and filters shirts available for purchase",
-      "primaryActions": [
-        "Select a shirt to view details",
-        "Filter by collection",
-        "Sort by trending, latest, or price",
-        "Search for products",
-        "Open cart"
-      ],
-      "keyComponents": [
-        "Navigation links (All, Shirts, Stickers)",
-        "Search textbox",
-        "Cart button",
-        "Collections sidebar",
-        "Product cards with images and prices",
-        "Sort options",
-        "Footer links"
-      ],
-      "elements": [
-        {
-          "ref": "e1",
-          "role": "link",
-          "name": "Acme Store logo ACME STORE",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e10",
-          "role": "link",
-          "name": "Shirts",
-          "href": "https://demo.vercel.store/search/shirts"
-        },
-        {
-          "ref": "e11",
-          "role": "link",
-          "name": "Stickers",
-          "href": "https://demo.vercel.store/search/stickers"
-        },
-        {
-          "ref": "e12",
-          "role": "link",
-          "name": "View the source",
-          "href": "https://github.com/vercel/commerce"
-        },
-        {
-          "ref": "e13",
-          "role": "link",
-          "name": "Created by ▲ Vercel",
-          "href": "https://vercel.com/"
-        },
-        {
-          "ref": "e14",
-          "role": "link",
-          "name": "All",
-          "href": "https://demo.vercel.store/search"
-        },
-        {
-          "ref": "e15",
-          "role": "link",
-          "name": "Bags",
-          "href": "https://demo.vercel.store/search/bags"
-        },
-        {
-          "ref": "e16",
-          "role": "link",
-          "name": "Drinkware",
-          "href": "https://demo.vercel.store/search/drinkware"
-        },
-        {
-          "ref": "e17",
-          "role": "link",
-          "name": "Electronics",
-          "href": "https://demo.vercel.store/search/electronics"
-        },
-        {
-          "ref": "e18",
-          "role": "link",
-          "name": "Footware",
-          "href": "https://demo.vercel.store/search/footware"
-        },
-        {
-          "ref": "e19",
-          "role": "link",
-          "name": "Headwear",
-          "href": "https://demo.vercel.store/search/headwear"
-        },
-        {
-          "ref": "e2",
-          "role": "button",
-          "name": "Open cart"
-        },
-        {
-          "ref": "e20",
-          "role": "link",
-          "name": "Hoodies",
-          "href": "https://demo.vercel.store/search/hoodies"
-        },
-        {
-          "ref": "e21",
-          "role": "link",
-          "name": "Jackets",
-          "href": "https://demo.vercel.store/search/jackets"
-        },
-        {
-          "ref": "e22",
-          "role": "link",
-          "name": "Kids",
-          "href": "https://demo.vercel.store/search/kids"
-        },
-        {
-          "ref": "e23",
-          "role": "link",
-          "name": "Pets",
-          "href": "https://demo.vercel.store/search/pets"
-        },
-        {
-          "ref": "e25",
-          "role": "link",
-          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-t-shirt"
-        },
-        {
-          "ref": "e26",
-          "role": "link",
-          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
-        },
-        {
-          "ref": "e27",
-          "role": "link",
-          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
-        },
-        {
-          "ref": "e28",
-          "role": "link",
-          "name": "Trending",
-          "href": "https://demo.vercel.store/search/shirts?sort=trending-desc"
-        },
-        {
-          "ref": "e29",
-          "role": "link",
-          "name": "Latest arrivals",
-          "href": "https://demo.vercel.store/search/shirts?sort=latest-desc"
-        },
-        {
-          "ref": "e3",
-          "role": "region",
-          "name": "Notifications alt+T"
-        },
-        {
-          "ref": "e30",
-          "role": "link",
-          "name": "Price: Low to high",
-          "href": "https://demo.vercel.store/search/shirts?sort=price-asc"
-        },
-        {
-          "ref": "e31",
-          "role": "link",
-          "name": "Price: High to low",
-          "href": "https://demo.vercel.store/search/shirts?sort=price-desc"
-        },
-        {
-          "ref": "e32",
-          "role": "link",
-          "name": "Home",
-          "href": "https://demo.vercel.store/"
-        },
-        {
-          "ref": "e33",
-          "role": "link",
-          "name": "About",
-          "href": "https://demo.vercel.store/about"
-        },
-        {
-          "ref": "e34",
-          "role": "link",
-          "name": "Terms & Conditions",
-          "href": "https://demo.vercel.store/terms-conditions"
-        },
-        {
-          "ref": "e35",
-          "role": "link",
-          "name": "Shipping & Return Policy",
-          "href": "https://demo.vercel.store/shipping-return-policy"
-        },
-        {
-          "ref": "e36",
-          "role": "link",
-          "name": "Privacy Policy",
-          "href": "https://demo.vercel.store/privacy-policy"
-        },
-        {
-          "ref": "e37",
-          "role": "link",
-          "name": "FAQ",
-          "href": "https://demo.vercel.store/frequently-asked-questions"
-        },
-        {
-          "ref": "e38",
-          "role": "heading",
-          "name": "Acme T-Shirt"
-        },
-        {
-          "ref": "e39",
-          "role": "heading",
-          "name": "Acme Prism T-Shirt"
-        },
-        {
-          "ref": "e4",
-          "role": "textbox",
-          "name": "Search for products..."
-        },
-        {
-          "ref": "e40",
-          "role": "heading",
-          "name": "Acme Circles T-Shirt"
-        },
-        {
-          "ref": "e5",
-          "role": "heading",
-          "name": "Collections"
-        },
-        {
-          "ref": "e6",
-          "role": "heading",
-          "name": "Sort by"
-        },
-        {
-          "ref": "e8",
-          "role": "link",
-          "name": "Deploy on Vercel",
-          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
-        }
-      ],
-      "screenshotPath": "screens/3f29def015ab.png",
-      "snapshotPath": "screens/3f29def015ab.snapshot.json",
-      "visited": true
-    },
-    {
       "screenId": "5133bc68c6af",
       "url": "https://demo.vercel.store/search/shirts?sort=price-asc",
       "title": "Shirts | Acme Store",
-      "label": "Shirts sorted by price",
-      "purpose": "User browses shirt products sorted by price ascending and can filter or sort further.",
+      "label": "Shirts Listing Sorted by Price Ascending",
+      "purpose": "The user is browsing all shirts, currently sorted by price from low to high.",
       "primaryActions": [
-        "View shirt products",
-        "Sort by price or other options",
-        "Select a product to view details",
+        "View product details for a shirt",
+        "Sort by different criteria (relevance, trending, latest, price high to low)",
+        "Filter by collection (All, Bags, Drinkware, etc.)",
         "Search for products",
-        "Open cart"
+        "Open cart",
+        "Navigate to other pages (Home, About, etc.)"
       ],
       "keyComponents": [
-        "Product grid with shirt items",
-        "Sort by options",
-        "Collection filter links",
-        "Search bar",
-        "Cart button"
+        "Header with logo, navigation links (All, Shirts, Stickers), search bar, and cart button",
+        "Sidebar with 'Collections' heading and list of collection links",
+        "Main content area with product cards (image, name, price) for each shirt",
+        "Sort by section with links for different sort orders",
+        "Footer with links to Home, About, Terms & Conditions, etc."
       ],
       "elements": [
         {
@@ -5995,24 +4702,268 @@
       "visited": true
     },
     {
-      "screenId": "4ac474166014",
-      "url": "https://demo.vercel.store/search/stickers",
-      "title": "Stickers | Acme Store",
-      "label": "Stickers Collection Page",
-      "purpose": "Browse and filter sticker products available in the store",
+      "screenId": "37aa6cc55e60",
+      "url": "https://demo.vercel.store/search/shirts?sort=price-desc",
+      "title": "Shirts | Acme Store",
+      "label": "Shirts Sorted by Price Descending",
+      "purpose": "User browses shirts listed from highest to lowest price, with options to filter by collection or sort order.",
       "primaryActions": [
-        "View sticker product details",
-        "Sort stickers by trending, latest, or price",
-        "Filter by collection category",
+        "View product details",
+        "Filter by collection",
+        "Change sort order",
         "Search for products",
         "Open cart"
       ],
       "keyComponents": [
-        "Sticker product cards with name and price",
-        "Sort options (Trending, Latest, Price)",
-        "Collection sidebar links",
+        "Navigation links (All, Shirts, Stickers)",
+        "Collection sidebar (All, Bags, Drinkware, etc.)",
+        "Sort by dropdown (Relevance, Trending, Latest arrivals, Price: Low to high)",
+        "Product cards (Acme Prism T-Shirt, Acme Circles T-Shirt, Acme T-Shirt)",
         "Search textbox",
-        "Cart button"
+        "Cart button",
+        "Footer links (Home, About, Terms, etc.)"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e10",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e11",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e12",
+          "role": "link",
+          "name": "View the source",
+          "href": "https://github.com/vercel/commerce"
+        },
+        {
+          "ref": "e13",
+          "role": "link",
+          "name": "Created by ▲ Vercel",
+          "href": "https://vercel.com/"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search?sort=price-desc"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "Bags",
+          "href": "https://demo.vercel.store/search/bags?sort=price-desc"
+        },
+        {
+          "ref": "e16",
+          "role": "link",
+          "name": "Drinkware",
+          "href": "https://demo.vercel.store/search/drinkware?sort=price-desc"
+        },
+        {
+          "ref": "e17",
+          "role": "link",
+          "name": "Electronics",
+          "href": "https://demo.vercel.store/search/electronics?sort=price-desc"
+        },
+        {
+          "ref": "e18",
+          "role": "link",
+          "name": "Footware",
+          "href": "https://demo.vercel.store/search/footware?sort=price-desc"
+        },
+        {
+          "ref": "e19",
+          "role": "link",
+          "name": "Headwear",
+          "href": "https://demo.vercel.store/search/headwear?sort=price-desc"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e20",
+          "role": "link",
+          "name": "Hoodies",
+          "href": "https://demo.vercel.store/search/hoodies?sort=price-desc"
+        },
+        {
+          "ref": "e21",
+          "role": "link",
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=price-desc"
+        },
+        {
+          "ref": "e22",
+          "role": "link",
+          "name": "Kids",
+          "href": "https://demo.vercel.store/search/kids?sort=price-desc"
+        },
+        {
+          "ref": "e23",
+          "role": "link",
+          "name": "Pets",
+          "href": "https://demo.vercel.store/search/pets?sort=price-desc"
+        },
+        {
+          "ref": "e25",
+          "role": "link",
+          "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt"
+        },
+        {
+          "ref": "e26",
+          "role": "link",
+          "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt"
+        },
+        {
+          "ref": "e27",
+          "role": "link",
+          "name": "Acme T-Shirt Acme T-Shirt $20.00USD",
+          "href": "https://demo.vercel.store/product/acme-t-shirt"
+        },
+        {
+          "ref": "e28",
+          "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e29",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/shirts?sort=trending-desc"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e30",
+          "role": "link",
+          "name": "Latest arrivals",
+          "href": "https://demo.vercel.store/search/shirts?sort=latest-desc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Price: Low to high",
+          "href": "https://demo.vercel.store/search/shirts?sort=price-asc"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
+          "name": "Home",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e33",
+          "role": "link",
+          "name": "About",
+          "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e34",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e37",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e38",
+          "role": "heading",
+          "name": "Acme Prism T-Shirt"
+        },
+        {
+          "ref": "e39",
+          "role": "heading",
+          "name": "Acme Circles T-Shirt"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e40",
+          "role": "heading",
+          "name": "Acme T-Shirt"
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "Collections"
+        },
+        {
+          "ref": "e6",
+          "role": "heading",
+          "name": "Sort by"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Deploy on Vercel",
+          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+        }
+      ],
+      "screenshotPath": "screens/37aa6cc55e60.png",
+      "snapshotPath": "screens/37aa6cc55e60.snapshot.json",
+      "visited": true
+    },
+    {
+      "screenId": "4ac474166014",
+      "url": "https://demo.vercel.store/search/stickers",
+      "title": "Stickers | Acme Store",
+      "label": "Stickers product listing",
+      "purpose": "The user browses sticker products, filters by collection, and sorts the product list.",
+      "primaryActions": [
+        "Select a sticker product",
+        "Filter by collection",
+        "Sort products",
+        "Search for products",
+        "Open cart"
+      ],
+      "keyComponents": [
+        "Navigation links (All, Shirts, Stickers)",
+        "Search textbox",
+        "Cart button",
+        "Collections sidebar",
+        "Product cards (Acme Sticker, Acme Rainbow Sticker)",
+        "Sort options (Trending, Latest, Price)",
+        "Footer links"
       ],
       "elements": [
         {
@@ -6222,6 +5173,467 @@
       "screenshotPath": "screens/4ac474166014.png",
       "snapshotPath": "screens/4ac474166014.snapshot.json",
       "visited": true
+    },
+    {
+      "screenId": "dfe4b69350f5",
+      "url": "https://demo.vercel.store/search/stickers?sort=latest-desc",
+      "title": "Stickers | Acme Store",
+      "label": "Stickers Search Results",
+      "purpose": "User browses sticker products filtered by the Stickers collection, sorted by latest first.",
+      "primaryActions": [
+        "View sticker product details",
+        "Sort by relevance, trending, or price",
+        "Filter by other collections",
+        "Search for products",
+        "Open cart"
+      ],
+      "keyComponents": [
+        "Search textbox",
+        "Collection sidebar links",
+        "Sort by links",
+        "Sticker product cards with images and prices",
+        "Cart button",
+        "Footer links"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e10",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e11",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e12",
+          "role": "link",
+          "name": "View the source",
+          "href": "https://github.com/vercel/commerce"
+        },
+        {
+          "ref": "e13",
+          "role": "link",
+          "name": "Created by ▲ Vercel",
+          "href": "https://vercel.com/"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search?sort=latest-desc"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "Bags",
+          "href": "https://demo.vercel.store/search/bags?sort=latest-desc"
+        },
+        {
+          "ref": "e16",
+          "role": "link",
+          "name": "Drinkware",
+          "href": "https://demo.vercel.store/search/drinkware?sort=latest-desc"
+        },
+        {
+          "ref": "e17",
+          "role": "link",
+          "name": "Electronics",
+          "href": "https://demo.vercel.store/search/electronics?sort=latest-desc"
+        },
+        {
+          "ref": "e18",
+          "role": "link",
+          "name": "Footware",
+          "href": "https://demo.vercel.store/search/footware?sort=latest-desc"
+        },
+        {
+          "ref": "e19",
+          "role": "link",
+          "name": "Headwear",
+          "href": "https://demo.vercel.store/search/headwear?sort=latest-desc"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e20",
+          "role": "link",
+          "name": "Hoodies",
+          "href": "https://demo.vercel.store/search/hoodies?sort=latest-desc"
+        },
+        {
+          "ref": "e21",
+          "role": "link",
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=latest-desc"
+        },
+        {
+          "ref": "e22",
+          "role": "link",
+          "name": "Kids",
+          "href": "https://demo.vercel.store/search/kids?sort=latest-desc"
+        },
+        {
+          "ref": "e23",
+          "role": "link",
+          "name": "Pets",
+          "href": "https://demo.vercel.store/search/pets?sort=latest-desc"
+        },
+        {
+          "ref": "e25",
+          "role": "link",
+          "name": "Acme Sticker Acme Sticker $4.00USD",
+          "href": "https://demo.vercel.store/product/acme-sticker"
+        },
+        {
+          "ref": "e26",
+          "role": "link",
+          "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-sticker"
+        },
+        {
+          "ref": "e27",
+          "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e28",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/stickers?sort=trending-desc"
+        },
+        {
+          "ref": "e29",
+          "role": "link",
+          "name": "Price: Low to high",
+          "href": "https://demo.vercel.store/search/stickers?sort=price-asc"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e30",
+          "role": "link",
+          "name": "Price: High to low",
+          "href": "https://demo.vercel.store/search/stickers?sort=price-desc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Home",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
+          "name": "About",
+          "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e33",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e34",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e37",
+          "role": "heading",
+          "name": "Acme Sticker"
+        },
+        {
+          "ref": "e38",
+          "role": "heading",
+          "name": "Acme Rainbow Sticker"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "Collections"
+        },
+        {
+          "ref": "e6",
+          "role": "heading",
+          "name": "Sort by"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Deploy on Vercel",
+          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+        }
+      ],
+      "screenshotPath": "screens/dfe4b69350f5.png",
+      "snapshotPath": "screens/dfe4b69350f5.snapshot.json",
+      "visited": true
+    },
+    {
+      "screenId": "2302ad7469c5",
+      "url": "https://demo.vercel.store/search/stickers?sort=price-asc",
+      "title": "Stickers | Acme Store",
+      "label": "Stickers sorted by price ascending",
+      "purpose": "User browses sticker products sorted from lowest to highest price",
+      "primaryActions": [
+        "View sticker product details",
+        "Change sort order",
+        "Filter by collection",
+        "Search for products",
+        "Open cart"
+      ],
+      "keyComponents": [
+        "Navigation bar with logo and links to All/Shirts/Stickers",
+        "Search textbox",
+        "Cart button",
+        "Collections sidebar with category links",
+        "Sort by section with Relevance/Trending/Latest arrivals/Price: High to low",
+        "Product cards for Acme Rainbow Sticker and Acme Sticker with prices",
+        "Footer with Home/About/Policy links"
+      ],
+      "elements": [
+        {
+          "ref": "e1",
+          "role": "link",
+          "name": "Acme Store logo ACME STORE",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e10",
+          "role": "link",
+          "name": "Shirts",
+          "href": "https://demo.vercel.store/search/shirts"
+        },
+        {
+          "ref": "e11",
+          "role": "link",
+          "name": "Stickers",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e12",
+          "role": "link",
+          "name": "View the source",
+          "href": "https://github.com/vercel/commerce"
+        },
+        {
+          "ref": "e13",
+          "role": "link",
+          "name": "Created by ▲ Vercel",
+          "href": "https://vercel.com/"
+        },
+        {
+          "ref": "e14",
+          "role": "link",
+          "name": "All",
+          "href": "https://demo.vercel.store/search?sort=price-asc"
+        },
+        {
+          "ref": "e15",
+          "role": "link",
+          "name": "Bags",
+          "href": "https://demo.vercel.store/search/bags?sort=price-asc"
+        },
+        {
+          "ref": "e16",
+          "role": "link",
+          "name": "Drinkware",
+          "href": "https://demo.vercel.store/search/drinkware?sort=price-asc"
+        },
+        {
+          "ref": "e17",
+          "role": "link",
+          "name": "Electronics",
+          "href": "https://demo.vercel.store/search/electronics?sort=price-asc"
+        },
+        {
+          "ref": "e18",
+          "role": "link",
+          "name": "Footware",
+          "href": "https://demo.vercel.store/search/footware?sort=price-asc"
+        },
+        {
+          "ref": "e19",
+          "role": "link",
+          "name": "Headwear",
+          "href": "https://demo.vercel.store/search/headwear?sort=price-asc"
+        },
+        {
+          "ref": "e2",
+          "role": "button",
+          "name": "Open cart"
+        },
+        {
+          "ref": "e20",
+          "role": "link",
+          "name": "Hoodies",
+          "href": "https://demo.vercel.store/search/hoodies?sort=price-asc"
+        },
+        {
+          "ref": "e21",
+          "role": "link",
+          "name": "Jackets",
+          "href": "https://demo.vercel.store/search/jackets?sort=price-asc"
+        },
+        {
+          "ref": "e22",
+          "role": "link",
+          "name": "Kids",
+          "href": "https://demo.vercel.store/search/kids?sort=price-asc"
+        },
+        {
+          "ref": "e23",
+          "role": "link",
+          "name": "Pets",
+          "href": "https://demo.vercel.store/search/pets?sort=price-asc"
+        },
+        {
+          "ref": "e25",
+          "role": "link",
+          "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
+          "href": "https://demo.vercel.store/product/acme-rainbow-sticker"
+        },
+        {
+          "ref": "e26",
+          "role": "link",
+          "name": "Acme Sticker Acme Sticker $4.00USD",
+          "href": "https://demo.vercel.store/product/acme-sticker"
+        },
+        {
+          "ref": "e27",
+          "role": "link",
+          "name": "Relevance",
+          "href": "https://demo.vercel.store/search/stickers"
+        },
+        {
+          "ref": "e28",
+          "role": "link",
+          "name": "Trending",
+          "href": "https://demo.vercel.store/search/stickers?sort=trending-desc"
+        },
+        {
+          "ref": "e29",
+          "role": "link",
+          "name": "Latest arrivals",
+          "href": "https://demo.vercel.store/search/stickers?sort=latest-desc"
+        },
+        {
+          "ref": "e3",
+          "role": "region",
+          "name": "Notifications alt+T"
+        },
+        {
+          "ref": "e30",
+          "role": "link",
+          "name": "Price: High to low",
+          "href": "https://demo.vercel.store/search/stickers?sort=price-desc"
+        },
+        {
+          "ref": "e31",
+          "role": "link",
+          "name": "Home",
+          "href": "https://demo.vercel.store/"
+        },
+        {
+          "ref": "e32",
+          "role": "link",
+          "name": "About",
+          "href": "https://demo.vercel.store/about"
+        },
+        {
+          "ref": "e33",
+          "role": "link",
+          "name": "Terms & Conditions",
+          "href": "https://demo.vercel.store/terms-conditions"
+        },
+        {
+          "ref": "e34",
+          "role": "link",
+          "name": "Shipping & Return Policy",
+          "href": "https://demo.vercel.store/shipping-return-policy"
+        },
+        {
+          "ref": "e35",
+          "role": "link",
+          "name": "Privacy Policy",
+          "href": "https://demo.vercel.store/privacy-policy"
+        },
+        {
+          "ref": "e36",
+          "role": "link",
+          "name": "FAQ",
+          "href": "https://demo.vercel.store/frequently-asked-questions"
+        },
+        {
+          "ref": "e37",
+          "role": "heading",
+          "name": "Acme Rainbow Sticker"
+        },
+        {
+          "ref": "e38",
+          "role": "heading",
+          "name": "Acme Sticker"
+        },
+        {
+          "ref": "e4",
+          "role": "textbox",
+          "name": "Search for products..."
+        },
+        {
+          "ref": "e5",
+          "role": "heading",
+          "name": "Collections"
+        },
+        {
+          "ref": "e6",
+          "role": "heading",
+          "name": "Sort by"
+        },
+        {
+          "ref": "e8",
+          "role": "link",
+          "name": "Deploy on Vercel",
+          "href": "https://vercel.com/templates/next.js/nextjs-commerce"
+        }
+      ],
+      "screenshotPath": "screens/2302ad7469c5.png",
+      "snapshotPath": "screens/2302ad7469c5.snapshot.json",
+      "visited": true
     }
   ],
   "transitions": [
@@ -6232,97 +5644,6 @@
     },
     {
       "fromUrl": "https://demo.vercel.store/search",
-      "toUrl": "https://demo.vercel.store/search/shirts",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search/shirts",
-      "toUrl": "https://demo.vercel.store/product/acme-sticker",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-sticker",
-      "toUrl": "https://demo.vercel.store/about",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/about",
-      "toUrl": "https://demo.vercel.store/privacy-policy",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/privacy-policy",
-      "toUrl": "https://demo.vercel.store/search/bags",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search/bags",
-      "toUrl": "https://demo.vercel.store/search?q=shirt",
-      "action": "search submit",
-      "elementText": "shirt"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search?q=shirt",
-      "toUrl": "https://demo.vercel.store/product/acme-mug",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-mug",
-      "toUrl": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt",
-      "toUrl": "https://demo.vercel.store/product/acme-webcam-cover",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-webcam-cover",
-      "toUrl": "https://demo.vercel.store/search/pets",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search/pets",
-      "toUrl": "https://demo.vercel.store/search/jackets",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search/jackets",
-      "toUrl": "https://demo.vercel.store/product/acme-t-shirt",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-t-shirt",
-      "toUrl": "https://demo.vercel.store/product/acme-slip-on-shoes",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-slip-on-shoes",
-      "toUrl": "https://demo.vercel.store/product/acme-bomber-jacket",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-bomber-jacket",
-      "toUrl": "https://demo.vercel.store/frequently-asked-questions",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/frequently-asked-questions",
-      "toUrl": "https://demo.vercel.store/search/footware",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search/footware",
-      "toUrl": "https://demo.vercel.store/search/shirts?sort=price-asc",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/search/shirts?sort=price-asc",
-      "toUrl": "https://demo.vercel.store/product/acme-rainbow-sticker",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-rainbow-sticker",
       "toUrl": "https://demo.vercel.store/search/stickers",
       "action": "navigate"
     },
@@ -6333,77 +5654,211 @@
     },
     {
       "fromUrl": "https://demo.vercel.store/product/acme-geometric-circles-t-shirt",
-      "toUrl": "https://demo.vercel.store/product/acme-drawstring-bag",
-      "action": "navigate"
-    },
-    {
-      "fromUrl": "https://demo.vercel.store/product/acme-drawstring-bag",
       "toUrl": "https://demo.vercel.store/product/acme-cup",
       "action": "navigate"
     },
     {
       "fromUrl": "https://demo.vercel.store/product/acme-cup",
-      "toUrl": "https://demo.vercel.store/product/acme-hoodie",
+      "toUrl": "https://demo.vercel.store/search/bags",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/bags",
+      "toUrl": "https://demo.vercel.store/search/pets",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/pets",
+      "toUrl": "https://demo.vercel.store/product/acme-dog-sweater",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-dog-sweater",
+      "toUrl": "https://demo.vercel.store/search/accessories",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/accessories",
+      "toUrl": "https://demo.vercel.store/product/acme-insulated-bottle",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-insulated-bottle",
+      "toUrl": "https://demo.vercel.store/product/acme-baby-cap",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-baby-cap",
+      "toUrl": "https://demo.vercel.store/product/acme-travel-mug",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-travel-mug",
+      "toUrl": "https://demo.vercel.store/product/acme-sticker",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-sticker",
+      "toUrl": "https://demo.vercel.store/privacy-policy",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/privacy-policy",
+      "toUrl": "https://demo.vercel.store/search?q=shirt",
+      "action": "search submit",
+      "elementText": "shirt"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search?q=shirt",
+      "toUrl": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt?size=XS",
+      "toUrl": "https://demo.vercel.store/search?q=shirt",
+      "action": "back"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/product/acme-rainbow-prism-t-shirt",
+      "toUrl": "https://demo.vercel.store/search?q=shirt&sort=price-desc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search?q=shirt&sort=price-desc",
+      "toUrl": "https://demo.vercel.store/search/shirts?sort=price-desc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/shirts?sort=price-desc",
+      "toUrl": "https://demo.vercel.store/search/shirts?sort=price-asc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/shirts?sort=price-asc",
+      "toUrl": "https://demo.vercel.store/search/hoodies?sort=price-asc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/hoodies?sort=price-asc",
+      "toUrl": "https://demo.vercel.store/search/kids?sort=price-asc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/kids?sort=price-asc",
+      "toUrl": "https://demo.vercel.store/search/stickers?sort=price-asc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/stickers?sort=price-asc",
+      "toUrl": "https://demo.vercel.store/search/stickers?sort=latest-desc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/stickers?sort=latest-desc",
+      "toUrl": "https://demo.vercel.store/search/headwear?sort=latest-desc",
+      "action": "navigate"
+    },
+    {
+      "fromUrl": "https://demo.vercel.store/search/headwear?sort=latest-desc",
+      "toUrl": "https://demo.vercel.store/search/kids?sort=latest-desc",
       "action": "navigate"
     }
   ],
-  "generatedAt": "2026-08-14T08:32:13.874Z",
+  "generatedAt": "2026-08-15T18:08:59.227Z",
   "log": [
     "captured https://demo.vercel.store/ — 30 elements, 15 new links queued (1/25 screens)",
     "captured https://demo.vercel.store/search — 67 elements, 24 new links queued (2/25 screens)",
-    "captured https://demo.vercel.store/search/shirts — 37 elements, 4 new links queued (3/25 screens)",
-    "captured https://demo.vercel.store/search/shirts — 37 elements, 0 new links queued (3/25 screens)",
-    "captured https://demo.vercel.store/product/acme-sticker — 37 elements, 0 new links queued (4/25 screens)",
-    "captured https://demo.vercel.store/product/acme-sticker — 37 elements, 0 new links queued (4/25 screens)",
-    "captured https://demo.vercel.store/product/acme-sticker — 37 elements, 0 new links queued (4/25 screens)",
-    "captured https://demo.vercel.store/product/acme-sticker — 37 elements, 0 new links queued (4/25 screens)",
-    "captured https://demo.vercel.store/about — 20 elements, 1 new links queued (5/25 screens)",
-    "captured https://demo.vercel.store/about — 20 elements, 0 new links queued (5/25 screens)",
-    "captured https://demo.vercel.store/about — 20 elements, 0 new links queued (5/25 screens)",
-    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (6/25 screens)",
-    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (6/25 screens)",
-    "captured https://demo.vercel.store/search/bags — 32 elements, 4 new links queued (7/25 screens)",
-    "captured https://demo.vercel.store/search/bags — 32 elements, 0 new links queued (7/25 screens)",
-    "captured https://demo.vercel.store/search/bags — 32 elements, 0 new links queued (7/25 screens)",
-    "captured https://demo.vercel.store/search?q=shirt — 37 elements, 4 new links queued (8/25 screens)",
-    "captured https://demo.vercel.store/product/acme-mug — 42 elements, 0 new links queued (9/25 screens)",
-    "captured https://demo.vercel.store/product/acme-mug — 42 elements, 0 new links queued (9/25 screens)",
-    "captured https://demo.vercel.store/product/acme-rainbow-prism-t-shirt — 49 elements, 0 new links queued (10/25 screens)",
-    "captured https://demo.vercel.store/product/acme-rainbow-prism-t-shirt — 49 elements, 0 new links queued (10/25 screens)",
-    "captured https://demo.vercel.store/product/acme-rainbow-prism-t-shirt — 49 elements, 0 new links queued (10/25 screens)",
-    "captured https://demo.vercel.store/product/acme-webcam-cover — 39 elements, 0 new links queued (11/25 screens)",
-    "captured https://demo.vercel.store/product/acme-webcam-cover — 39 elements, 0 new links queued (11/25 screens)",
-    "captured https://demo.vercel.store/search/pets — 32 elements, 4 new links queued (12/25 screens)",
-    "captured https://demo.vercel.store/search/pets — 32 elements, 0 new links queued (12/25 screens)",
-    "captured https://demo.vercel.store/search/pets — 32 elements, 0 new links queued (12/25 screens)",
-    "captured https://demo.vercel.store/search/jackets — 32 elements, 4 new links queued (13/25 screens)",
-    "captured https://demo.vercel.store/search/jackets — 32 elements, 0 new links queued (13/25 screens)",
-    "captured https://demo.vercel.store/search/jackets — 32 elements, 0 new links queued (13/25 screens)",
-    "captured https://demo.vercel.store/product/acme-t-shirt — 54 elements, 0 new links queued (14/25 screens)",
-    "captured https://demo.vercel.store/product/acme-t-shirt — 54 elements, 0 new links queued (14/25 screens)",
-    "captured https://demo.vercel.store/product/acme-t-shirt — 54 elements, 0 new links queued (14/25 screens)",
-    "captured https://demo.vercel.store/product/acme-slip-on-shoes — 67 elements, 0 new links queued (15/25 screens)",
-    "captured https://demo.vercel.store/product/acme-slip-on-shoes — 67 elements, 0 new links queued (15/25 screens)",
-    "captured https://demo.vercel.store/product/acme-slip-on-shoes — 67 elements, 0 new links queued (15/25 screens)",
-    "captured https://demo.vercel.store/product/acme-bomber-jacket — 51 elements, 0 new links queued (16/25 screens)",
-    "captured https://demo.vercel.store/product/acme-bomber-jacket — 51 elements, 0 new links queued (16/25 screens)",
-    "captured https://demo.vercel.store/product/acme-bomber-jacket — 51 elements, 0 new links queued (16/25 screens)",
-    "captured https://demo.vercel.store/frequently-asked-questions — 17 elements, 0 new links queued (17/25 screens)",
-    "captured https://demo.vercel.store/frequently-asked-questions — 17 elements, 0 new links queued (17/25 screens)",
-    "captured https://demo.vercel.store/frequently-asked-questions — 17 elements, 0 new links queued (17/25 screens)",
-    "captured https://demo.vercel.store/search/footware — 32 elements, 4 new links queued (18/25 screens)",
-    "captured https://demo.vercel.store/search/footware — 32 elements, 0 new links queued (18/25 screens)",
-    "captured https://demo.vercel.store/search/footware — 32 elements, 0 new links queued (18/25 screens)",
-    "captured https://demo.vercel.store/search/shirts?sort=price-asc — 37 elements, 6 new links queued (19/25 screens)",
-    "captured https://demo.vercel.store/product/acme-rainbow-sticker — 37 elements, 0 new links queued (20/25 screens)",
-    "captured https://demo.vercel.store/product/acme-rainbow-sticker — 37 elements, 0 new links queued (20/25 screens)",
-    "captured https://demo.vercel.store/product/acme-rainbow-sticker — 37 elements, 0 new links queued (20/25 screens)",
-    "agent ended with unvisited frontier; completing with a deterministic BFS pass",
-    "captured https://demo.vercel.store/search/stickers — 35 elements, 4 new links queued (21/25 screens)",
-    "captured https://demo.vercel.store/product/acme-geometric-circles-t-shirt — 52 elements, 0 new links queued (22/25 screens)",
-    "captured https://demo.vercel.store/product/acme-drawstring-bag — 50 elements, 0 new links queued (23/25 screens)",
-    "captured https://demo.vercel.store/product/acme-cup — 42 elements, 0 new links queued (24/25 screens)",
-    "captured https://demo.vercel.store/product/acme-hoodie — 49 elements, 0 new links queued (25/25 screens)",
-    "deterministic pass done"
+    "captured https://demo.vercel.store/search/stickers — 35 elements, 4 new links queued (3/25 screens)",
+    "captured https://demo.vercel.store/search/stickers — 35 elements, 0 new links queued (3/25 screens)",
+    "captured https://demo.vercel.store/product/acme-geometric-circles-t-shirt — 52 elements, 0 new links queued (4/25 screens)",
+    "captured https://demo.vercel.store/product/acme-geometric-circles-t-shirt — 52 elements, 0 new links queued (4/25 screens)",
+    "captured https://demo.vercel.store/product/acme-geometric-circles-t-shirt — 52 elements, 0 new links queued (4/25 screens)",
+    "captured https://demo.vercel.store/product/acme-cup — 42 elements, 0 new links queued (5/25 screens)",
+    "captured https://demo.vercel.store/product/acme-cup — 42 elements, 0 new links queued (5/25 screens)",
+    "captured https://demo.vercel.store/product/acme-cup — 42 elements, 0 new links queued (5/25 screens)",
+    "captured https://demo.vercel.store/product/acme-cup — 42 elements, 0 new links queued (5/25 screens)",
+    "captured https://demo.vercel.store/product/acme-cup — 42 elements, 0 new links queued (5/25 screens)",
+    "captured https://demo.vercel.store/search/bags — 32 elements, 4 new links queued (6/25 screens)",
+    "captured https://demo.vercel.store/search/bags — 32 elements, 0 new links queued (6/25 screens)",
+    "captured https://demo.vercel.store/search/bags — 32 elements, 0 new links queued (6/25 screens)",
+    "captured https://demo.vercel.store/search/bags — 32 elements, 0 new links queued (6/25 screens)",
+    "captured https://demo.vercel.store/search/bags — 32 elements, 0 new links queued (6/25 screens)",
+    "captured https://demo.vercel.store/search/pets — 32 elements, 4 new links queued (7/25 screens)",
+    "captured https://demo.vercel.store/search/pets — 32 elements, 0 new links queued (7/25 screens)",
+    "captured https://demo.vercel.store/search/pets — 32 elements, 0 new links queued (7/25 screens)",
+    "captured https://demo.vercel.store/search/pets — 32 elements, 0 new links queued (7/25 screens)",
+    "captured https://demo.vercel.store/search/pets — 32 elements, 0 new links queued (7/25 screens)",
+    "captured https://demo.vercel.store/product/acme-dog-sweater — 47 elements, 0 new links queued (8/25 screens)",
+    "captured https://demo.vercel.store/product/acme-dog-sweater — 47 elements, 0 new links queued (8/25 screens)",
+    "captured https://demo.vercel.store/product/acme-dog-sweater — 47 elements, 0 new links queued (8/25 screens)",
+    "captured https://demo.vercel.store/product/acme-dog-sweater — 47 elements, 0 new links queued (8/25 screens)",
+    "captured https://demo.vercel.store/search/accessories — 9 elements, 0 new links queued (9/25 screens)",
+    "captured https://demo.vercel.store/search/accessories — 9 elements, 0 new links queued (9/25 screens)",
+    "captured https://demo.vercel.store/search/accessories — 9 elements, 0 new links queued (9/25 screens)",
+    "captured https://demo.vercel.store/search/accessories — 9 elements, 0 new links queued (9/25 screens)",
+    "captured https://demo.vercel.store/search/accessories — 9 elements, 0 new links queued (9/25 screens)",
+    "captured https://demo.vercel.store/product/acme-insulated-bottle — 9 elements, 0 new links queued (10/25 screens)",
+    "captured https://demo.vercel.store/product/acme-insulated-bottle — 9 elements, 0 new links queued (10/25 screens)",
+    "captured https://demo.vercel.store/product/acme-insulated-bottle — 9 elements, 0 new links queued (10/25 screens)",
+    "captured https://demo.vercel.store/product/acme-insulated-bottle — 9 elements, 0 new links queued (10/25 screens)",
+    "captured https://demo.vercel.store/product/acme-baby-cap — 45 elements, 0 new links queued (11/25 screens)",
+    "captured https://demo.vercel.store/product/acme-baby-cap — 45 elements, 0 new links queued (11/25 screens)",
+    "captured https://demo.vercel.store/product/acme-baby-cap — 45 elements, 0 new links queued (11/25 screens)",
+    "captured https://demo.vercel.store/product/acme-baby-cap — 45 elements, 0 new links queued (11/25 screens)",
+    "captured https://demo.vercel.store/product/acme-baby-cap — 45 elements, 0 new links queued (11/25 screens)",
+    "captured https://demo.vercel.store/product/acme-travel-mug — 9 elements, 0 new links queued (12/25 screens)",
+    "captured https://demo.vercel.store/product/acme-travel-mug — 9 elements, 0 new links queued (12/25 screens)",
+    "captured https://demo.vercel.store/product/acme-travel-mug — 9 elements, 0 new links queued (12/25 screens)",
+    "captured https://demo.vercel.store/product/acme-travel-mug — 9 elements, 0 new links queued (12/25 screens)",
+    "captured https://demo.vercel.store/product/acme-travel-mug — 9 elements, 0 new links queued (12/25 screens)",
+    "captured https://demo.vercel.store/product/acme-sticker — 37 elements, 0 new links queued (13/25 screens)",
+    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (14/25 screens)",
+    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (14/25 screens)",
+    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (14/25 screens)",
+    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (14/25 screens)",
+    "captured https://demo.vercel.store/privacy-policy — 17 elements, 0 new links queued (14/25 screens)",
+    "captured https://demo.vercel.store/search?q=shirt — 37 elements, 4 new links queued (15/25 screens)",
+    "captured https://demo.vercel.store/product/acme-rainbow-prism-t-shirt — 49 elements, 0 new links queued (16/25 screens)",
+    "captured https://demo.vercel.store/search?q=shirt&sort=price-desc — 37 elements, 8 new links queued (17/25 screens)",
+    "captured https://demo.vercel.store/search?q=shirt&sort=price-desc — 37 elements, 0 new links queued (17/25 screens)",
+    "captured https://demo.vercel.store/search?q=shirt&sort=price-desc — 37 elements, 0 new links queued (17/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-desc — 37 elements, 3 new links queued (18/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-desc — 37 elements, 0 new links queued (18/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-desc — 37 elements, 0 new links queued (18/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-desc — 37 elements, 0 new links queued (18/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-asc — 37 elements, 7 new links queued (19/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-asc — 37 elements, 0 new links queued (19/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-asc — 37 elements, 0 new links queued (19/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-asc — 37 elements, 0 new links queued (19/25 screens)",
+    "captured https://demo.vercel.store/search/shirts?sort=price-asc — 37 elements, 0 new links queued (19/25 screens)",
+    "captured https://demo.vercel.store/search/hoodies?sort=price-asc — 32 elements, 2 new links queued (20/25 screens)",
+    "captured https://demo.vercel.store/search/hoodies?sort=price-asc — 32 elements, 0 new links queued (20/25 screens)",
+    "captured https://demo.vercel.store/search/hoodies?sort=price-asc — 32 elements, 0 new links queued (20/25 screens)",
+    "captured https://demo.vercel.store/search/hoodies?sort=price-asc — 32 elements, 0 new links queued (20/25 screens)",
+    "captured https://demo.vercel.store/search/hoodies?sort=price-asc — 32 elements, 0 new links queued (20/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=price-asc — 36 elements, 2 new links queued (21/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=price-asc — 36 elements, 0 new links queued (21/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=price-asc — 36 elements, 0 new links queued (21/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=price-asc — 36 elements, 0 new links queued (21/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=price-asc — 36 elements, 0 new links queued (21/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=price-asc — 35 elements, 0 new links queued (22/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=price-asc — 35 elements, 0 new links queued (22/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=price-asc — 35 elements, 0 new links queued (22/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=price-asc — 35 elements, 0 new links queued (22/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=latest-desc — 35 elements, 5 new links queued (23/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=latest-desc — 35 elements, 0 new links queued (23/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=latest-desc — 35 elements, 0 new links queued (23/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=latest-desc — 35 elements, 0 new links queued (23/25 screens)",
+    "captured https://demo.vercel.store/search/stickers?sort=latest-desc — 35 elements, 0 new links queued (23/25 screens)",
+    "captured https://demo.vercel.store/search/headwear?sort=latest-desc — 36 elements, 1 new links queued (24/25 screens)",
+    "captured https://demo.vercel.store/search/headwear?sort=latest-desc — 36 elements, 0 new links queued (24/25 screens)",
+    "captured https://demo.vercel.store/search/headwear?sort=latest-desc — 36 elements, 0 new links queued (24/25 screens)",
+    "captured https://demo.vercel.store/search/headwear?sort=latest-desc — 36 elements, 0 new links queued (24/25 screens)",
+    "captured https://demo.vercel.store/search/headwear?sort=latest-desc — 36 elements, 0 new links queued (24/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=latest-desc — 36 elements, 0 new links queued (25/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=latest-desc — 36 elements, 0 new links queued (25/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=latest-desc — 36 elements, 0 new links queued (25/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=latest-desc — 36 elements, 0 new links queued (25/25 screens)",
+    "captured https://demo.vercel.store/search/kids?sort=latest-desc — 36 elements, 0 new links queued (25/25 screens)"
   ]
 }

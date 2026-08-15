@@ -53,8 +53,8 @@ npm run all
 or stage by stage: `npm run crawl` · `npm run ingest` · `npm run code` · `npm run connect` · `npm run reason` · `npm run report`.
 
 ### 3. See the output
-- `output/blast-radius-PR-1527.md` — the blast-radius report (non-engineer readable), regenerable from the committed JSON artifacts with `npm run report` (no Docker/LLM needed). The committed copy is the offline run; the full-pipeline version (graph + LLM narrative) is in `docs/sample-output.md` and reproduced by `npm run all`.
-- `output/crawl/manifest.json` + `output/crawl/screens/*.png|*.json` — crawl artifacts (screenshots + a11y snapshots) from the committed full-budget run: **25 screens, 24 transitions**, including a search (`?q=shirt`) and a sorted-category interaction (`?sort=price-asc`).
+- `output/blast-radius-PR-1527.md` — the blast-radius report (non-engineer readable), committed from the full-pipeline run. The deterministic sections (screens/flows/files) are also regenerable offline from the committed JSON artifacts with `npm run report` (no Docker/LLM needed).
+- `output/crawl/manifest.json` + `output/crawl/screens/*.png|*.json` — crawl artifacts (screenshots + a11y snapshots) from the committed full-budget run: **25 screens, 25 transitions**, including a search (`?q=shirt`) and 9 sorted-category variants (`?sort=...`).
 - `output/code.json`, `output/requirements.json` — intermediate layers
 - `output/cost.json` — per-stage LLM spend + prompt-cache hit stats (cache reads on DeepSeek bill at 0.1× input price; the crawl agent pins OpenRouter sticky routing with a `session_id` and compacts old snapshots out of the transcript — see `docs/design.md` §5.5)
 - Neo4j browser: http://localhost:7474 (`neo4j` / `blastradius`)

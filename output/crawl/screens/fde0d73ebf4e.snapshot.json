@@ -1,0 +1,43 @@
+{
+  "url": "https://demo.vercel.store/product/acme-insulated-bottle",
+  "title": "404: This page could not be found.",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e6, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e7, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e8, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e4]\n- button \"Open cart\" [ref=e2]\n- heading \"404\" [level=1, ref=e5]\n- heading \"This page could not be found.\" [level=2, ref=e9]\n- region \"Notifications alt+T\" [ref=e3]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e3": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e4": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e5": {
+      "name": "404",
+      "role": "heading"
+    },
+    "e6": {
+      "name": "All",
+      "role": "link"
+    },
+    "e7": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e8": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e9": {
+      "name": "This page could not be found.",
+      "role": "heading"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "url": "https://demo.vercel.store/search/stickers?sort=latest-desc",
+  "title": "Stickers | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e9, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e10, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e11, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e4]\n- button \"Open cart\" [ref=e2]\n- heading \"Collections\" [level=3, ref=e5]\n- link \"All\" [ref=e14, url=https://demo.vercel.store/search?sort=latest-desc]\n- link \"Bags\" [ref=e15, url=https://demo.vercel.store/search/bags?sort=latest-desc]\n- link \"Drinkware\" [ref=e16, url=https://demo.vercel.store/search/drinkware?sort=latest-desc]\n- link \"Electronics\" [ref=e17, url=https://demo.vercel.store/search/electronics?sort=latest-desc]\n- link \"Footware\" [ref=e18, url=https://demo.vercel.store/search/footware?sort=latest-desc]\n- link \"Headwear\" [ref=e19, url=https://demo.vercel.store/search/headwear?sort=latest-desc]\n- link \"Hoodies\" [ref=e20, url=https://demo.vercel.store/search/hoodies?sort=latest-desc]\n- link \"Jackets\" [ref=e21, url=https://demo.vercel.store/search/jackets?sort=latest-desc]\n- link \"Kids\" [ref=e22, url=https://demo.vercel.store/search/kids?sort=latest-desc]\n- link \"Pets\" [ref=e23, url=https://demo.vercel.store/search/pets?sort=latest-desc]\n- link \"Shirts\" [ref=e24, url=https://demo.vercel.store/search/shirts?sort=latest-desc]\n- link \"Acme Sticker Acme Sticker $4.00USD\" [ref=e25, url=https://demo.vercel.store/product/acme-sticker]\n  - heading \"Acme Sticker\" [level=3, ref=e37]\n- link \"Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD\" [ref=e26, url=https://demo.vercel.store/product/acme-rainbow-sticker]\n  - heading \"Acme Rainbow Sticker\" [level=3, ref=e38]\n- heading \"Sort by\" [level=3, ref=e6]\n- link \"Relevance\" [ref=e27, url=https://demo.vercel.store/search/stickers]\n- link \"Trending\" [ref=e28, url=https://demo.vercel.store/search/stickers?sort=trending-desc]\n- link \"Price: Low to high\" [ref=e29, url=https://demo.vercel.store/search/stickers?sort=price-asc]\n- link \"Price: High to low\" [ref=e30, url=https://demo.vercel.store/search/stickers?sort=price-desc]\n- link \"Acme Store logo ACME STORE\" [ref=e7, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e31, url=https://demo.vercel.store/]\n- link \"About\" [ref=e32, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e33, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e34, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e35, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e36, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e8, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e12, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e13, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e3]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e11": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e12": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e14": {
+      "name": "All",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Bags",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Drinkware",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Electronics",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Footware",
+      "role": "link"
+    },
+    "e19": {
+      "name": "Headwear",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e20": {
+      "name": "Hoodies",
+      "role": "link"
+    },
+    "e21": {
+      "name": "Jackets",
+      "role": "link"
+    },
+    "e22": {
+      "name": "Kids",
+      "role": "link"
+    },
+    "e23": {
+      "name": "Pets",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Acme Sticker Acme Sticker $4.00USD",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD",
+      "role": "link"
+    },
+    "e27": {
+      "name": "Relevance",
+      "role": "link"
+    },
+    "e28": {
+      "name": "Trending",
+      "role": "link"
+    },
+    "e29": {
+      "name": "Price: Low to high",
+      "role": "link"
+    },
+    "e3": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e30": {
+      "name": "Price: High to low",
+      "role": "link"
+    },
+    "e31": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e32": {
+      "name": "About",
+      "role": "link"
+    },
+    "e33": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e34": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e35": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e36": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e37": {
+      "name": "Acme Sticker",
+      "role": "heading"
+    },
+    "e38": {
+      "name": "Acme Rainbow Sticker",
+      "role": "heading"
+    },
+    "e4": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e5": {
+      "name": "Collections",
+      "role": "heading"
+    },
+    "e6": {
+      "name": "Sort by",
+      "role": "heading"
+    },
+    "e7": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e8": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    },
+    "e9": {
+      "name": "All",
+      "role": "link"
+    }
+  }
+}

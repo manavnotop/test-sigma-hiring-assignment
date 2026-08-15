@@ -1,0 +1,50 @@
+{
+  "perTag": [
+    {
+      "tag": "reason.narrative",
+      "calls": 3,
+      "input": 2469,
+      "output": 1696,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "cost": 0.0005169402
+    }
+  ],
+  "totals": {
+    "calls": 3,
+    "input": 2469,
+    "output": 1696,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "cost": 0.0005169402
+  },
+  "calls": [
+    {
+      "tag": "reason.narrative",
+      "model": "deepseek/deepseek-v4-flash",
+      "input": 823,
+      "output": 664,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "cost": 0.00018971819999999998
+    },
+    {
+      "tag": "reason.narrative",
+      "model": "deepseek/deepseek-v4-flash",
+      "input": 823,
+      "output": 556,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "cost": 0.000170667
+    },
+    {
+      "tag": "reason.narrative",
+      "model": "deepseek/deepseek-v4-flash",
+      "input": 823,
+      "output": 476,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "cost": 0.00015655499999999998
+    }
+  ]
+}

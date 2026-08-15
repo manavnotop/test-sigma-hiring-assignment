@@ -1,0 +1,167 @@
+{
+  "url": "https://demo.vercel.store/search/headwear?sort=latest-desc",
+  "title": "Headwear | Acme Store",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e9, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e10, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e11, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e4]\n- button \"Open cart\" [ref=e2]\n- heading \"Collections\" [level=3, ref=e5]\n- link \"All\" [ref=e14, url=https://demo.vercel.store/search?sort=latest-desc]\n- link \"Bags\" [ref=e15, url=https://demo.vercel.store/search/bags?sort=latest-desc]\n- link \"Drinkware\" [ref=e16, url=https://demo.vercel.store/search/drinkware?sort=latest-desc]\n- link \"Electronics\" [ref=e17, url=https://demo.vercel.store/search/electronics?sort=latest-desc]\n- link \"Footware\" [ref=e18, url=https://demo.vercel.store/search/footware?sort=latest-desc]\n- link \"Hoodies\" [ref=e19, url=https://demo.vercel.store/search/hoodies?sort=latest-desc]\n- link \"Jackets\" [ref=e20, url=https://demo.vercel.store/search/jackets?sort=latest-desc]\n- link \"Kids\" [ref=e21, url=https://demo.vercel.store/search/kids?sort=latest-desc]\n- link \"Pets\" [ref=e22, url=https://demo.vercel.store/search/pets?sort=latest-desc]\n- link \"Shirts\" [ref=e23, url=https://demo.vercel.store/search/shirts?sort=latest-desc]\n- link \"Stickers\" [ref=e24, url=https://demo.vercel.store/search/stickers?sort=latest-desc]\n- link \"Acme Cap Acme Cap $20.00USD\" [ref=e25, url=https://demo.vercel.store/product/acme-cap]\n  - heading \"Acme Cap\" [level=3, ref=e38]\n- link \"Acme Cowboy Hat Acme Cowboy Hat $160.00USD\" [ref=e26, url=https://demo.vercel.store/product/acme-cowboy-hat]\n  - heading \"Acme Cowboy Hat\" [level=3, ref=e39]\n- link \"Acme Baby Cap Acme Baby Cap $10.00USD\" [ref=e27, url=https://demo.vercel.store/product/acme-baby-cap]\n  - heading \"Acme Baby Cap\" [level=3, ref=e40]\n- heading \"Sort by\" [level=3, ref=e6]\n- link \"Relevance\" [ref=e28, url=https://demo.vercel.store/search/headwear]\n- link \"Trending\" [ref=e29, url=https://demo.vercel.store/search/headwear?sort=trending-desc]\n- link \"Price: Low to high\" [ref=e30, url=https://demo.vercel.store/search/headwear?sort=price-asc]\n- link \"Price: High to low\" [ref=e31, url=https://demo.vercel.store/search/headwear?sort=price-desc]\n- link \"Acme Store logo ACME STORE\" [ref=e7, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e32, url=https://demo.vercel.store/]\n- link \"About\" [ref=e33, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e34, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e35, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e36, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e37, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e8, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e12, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e13, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e3]",
+  "refs": {
+    "e1": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e10": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e11": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e12": {
+      "name": "View the source",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Created by ▲ Vercel",
+      "role": "link"
+    },
+    "e14": {
+      "name": "All",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Bags",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Drinkware",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Electronics",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Footware",
+      "role": "link"
+    },
+    "e19": {
+      "name": "Hoodies",
+      "role": "link"
+    },
+    "e2": {
+      "name": "Open cart",
+      "role": "button"
+    },
+    "e20": {
+      "name": "Jackets",
+      "role": "link"
+    },
+    "e21": {
+      "name": "Kids",
+      "role": "link"
+    },
+    "e22": {
+      "name": "Pets",
+      "role": "link"
+    },
+    "e23": {
+      "name": "Shirts",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Stickers",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Acme Cap Acme Cap $20.00USD",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Acme Cowboy Hat Acme Cowboy Hat $160.00USD",
+      "role": "link"
+    },
+    "e27": {
+      "name": "Acme Baby Cap Acme Baby Cap $10.00USD",
+      "role": "link"
+    },
+    "e28": {
+      "name": "Relevance",
+      "role": "link"
+    },
+    "e29": {
+      "name": "Trending",
+      "role": "link"
+    },
+    "e3": {
+      "name": "Notifications alt+T",
+      "role": "region"
+    },
+    "e30": {
+      "name": "Price: Low to high",
+      "role": "link"
+    },
+    "e31": {
+      "name": "Price: High to low",
+      "role": "link"
+    },
+    "e32": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e33": {
+      "name": "About",
+      "role": "link"
+    },
+    "e34": {
+      "name": "Terms & Conditions",
+      "role": "link"
+    },
+    "e35": {
+      "name": "Shipping & Return Policy",
+      "role": "link"
+    },
+    "e36": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e37": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e38": {
+      "name": "Acme Cap",
+      "role": "heading"
+    },
+    "e39": {
+      "name": "Acme Cowboy Hat",
+      "role": "heading"
+    },
+    "e4": {
+      "name": "Search for products...",
+      "role": "textbox"
+    },
+    "e40": {
+      "name": "Acme Baby Cap",
+      "role": "heading"
+    },
+    "e5": {
+      "name": "Collections",
+      "role": "heading"
+    },
+    "e6": {
+      "name": "Sort by",
+      "role": "heading"
+    },
+    "e7": {
+      "name": "Acme Store logo ACME STORE",
+      "role": "link"
+    },
+    "e8": {
+      "name": "Deploy on Vercel",
+      "role": "link"
+    },
+    "e9": {
+      "name": "All",
+      "role": "link"
+    }
+  }
+}

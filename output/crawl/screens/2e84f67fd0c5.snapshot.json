@@ -1,7 +1,7 @@
 {
   "url": "https://demo.vercel.store/search",
   "title": "Search | Acme Store",
-  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e9, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e10, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e11, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e4]\n- button \"Open cart\" [ref=e2]\n- heading \"Collections\" [level=3, ref=e5]\n- link \"Bags\" [ref=e32, url=https://demo.vercel.store/search/bags]\n- link \"Drinkware\" [ref=e33, url=https://demo.vercel.store/search/drinkware]\n- link \"Electronics\" [ref=e34, url=https://demo.vercel.store/search/electronics]\n- link \"Footware\" [ref=e35, url=https://demo.vercel.store/search/footware]\n- link \"Headwear\" [ref=e36, url=https://demo.vercel.store/search/headwear]\n- link \"Hoodies\" [ref=e37, url=https://demo.vercel.store/search/hoodies]\n- link \"Jackets\" [ref=e38, url=https://demo.vercel.store/search/jackets]\n- link \"Kids\" [ref=e39, url=https://demo.vercel.store/search/kids]\n- link \"Pets\" [ref=e40, url=https://demo.vercel.store/search/pets]\n- link \"Shirts\" [ref=e41, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e42, url=https://demo.vercel.store/search/stickers]\n- link \"Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD\" [ref=e12, url=https://demo.vercel.store/product/acme-geometric-circles-t-shirt]\n  - heading \"Acme Circles T-Shirt\" [level=3, ref=e53]\n- link \"Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD\" [ref=e13, url=https://demo.vercel.store/product/acme-rainbow-prism-t-shirt]\n  - heading \"Acme Prism T-Shirt\" [level=3, ref=e54]\n- link \"Acme Sticker Acme Sticker $4.00USD\" [ref=e14, url=https://demo.vercel.store/product/acme-sticker]\n  - heading \"Acme Sticker\" [level=3, ref=e55]\n- link \"Acme Mug Acme Mug $15.00USD\" [ref=e15, url=https://demo.vercel.store/product/acme-mug]\n  - heading \"Acme Mug\" [level=3, ref=e56]\n- link \"Acme Cowboy Hat Acme Cowboy Hat $160.00USD\" [ref=e16, url=https://demo.vercel.store/product/acme-cowboy-hat]\n  - heading \"Acme Cowboy Hat\" [level=3, ref=e57]\n- link \"Acme Keyboard Acme Keyboard $150.00USD\" [ref=e17, url=https://demo.vercel.store/product/acme-mechanical-keyboard]\n  - heading \"Acme Keyboard\" [level=3, ref=e58]\n- link \"Acme T-Shirt Acme T-Shirt $20.00USD\" [ref=e18, url=https://demo.vercel.store/product/acme-t-shirt]\n  - heading \"Acme T-Shirt\" [level=3, ref=e59]\n- link \"Acme Hoodie Acme Hoodie $50.00USD\" [ref=e19, url=https://demo.vercel.store/product/acme-hoodie]\n  - heading \"Acme Hoodie\" [level=3, ref=e60]\n- link \"Acme Baby Onesie Acme Baby Onesie $10.00USD\" [ref=e20, url=https://demo.vercel.store/product/acme-baby-onesie]\n  - heading \"Acme Baby Onesie\" [level=3, ref=e61]\n- link \"Acme Drawstring Bag Acme Drawstring Bag $12.00USD\" [ref=e21, url=https://demo.vercel.store/product/acme-drawstring-bag]\n  - heading \"Acme Drawstring Bag\" [level=3, ref=e62]\n- link \"Acme Pacifier Acme Pacifier $10.00USD\" [ref=e22, url=https://demo.vercel.store/product/acme-pacifier]\n  - heading \"Acme Pacifier\" [level=3, ref=e63]\n- link \"Acme Slip-On Shoes Acme Slip-On Shoes $45.00USD\" [ref=e23, url=https://demo.vercel.store/product/acme-slip-on-shoes]\n  - heading \"Acme Slip-On Shoes\" [level=3, ref=e64]\n- link \"Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD\" [ref=e24, url=https://demo.vercel.store/product/acme-rainbow-sticker]\n  - heading \"Acme Rainbow Sticker\" [level=3, ref=e65]\n- link \"Acme Cap Acme Cap $20.00USD\" [ref=e25, url=https://demo.vercel.store/product/acme-cap]\n  - heading \"Acme Cap\" [level=3, ref=e66]\n- link \"Acme Dog Sweater Acme Dog Sweater $20.00USD\" [ref=e26, url=https://demo.vercel.store/product/acme-dog-sweater]\n  - heading \"Acme Dog Sweater\" [level=3, ref=e67]\n- link \"Acme Cup Acme Cup $15.00USD\" [ref=e27, url=https://demo.vercel.store/product/acme-cup]\n  - heading \"Acme Cup\" [level=3, ref=e68]\n- link \"Acme Bomber Jacket Acme Bomber Jacket $50.00USD\" [ref=e28, url=https://demo.vercel.store/product/acme-bomber-jacket]\n  - heading \"Acme Bomber Jacket\" [level=3, ref=e69]\n- link \"Acme Baby Cap Acme Baby Cap $10.00USD\" [ref=e29, url=https://demo.vercel.store/product/acme-baby-cap]\n  - heading \"Acme Baby Cap\" [level=3, ref=e70]\n- heading \"Sort by\" [level=3, ref=e6]\n- link \"Trending\" [ref=e43, url=https://demo.vercel.store/search?sort=trending-desc]\n- link \"Latest arrivals\" [ref=e44, url=https://demo.vercel.store/search?sort=latest-desc]\n- link \"Price: Low to high\" [ref=e45, url=https://demo.vercel.store/search?sort=price-asc]\n- link \"Price: High to low\" [ref=e46, url=https://demo.vercel.store/search?sort=price-desc]\n- link \"Acme Store logo ACME STORE\" [ref=e7, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e47, url=https://demo.vercel.store/]\n- link \"About\" [ref=e48, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e49, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e50, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e51, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e52, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e8, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e30, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e31, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e3]",
+  "text": "- link \"Acme Store logo ACME STORE\" [ref=e1, url=https://demo.vercel.store/]\n- link \"All\" [ref=e9, url=https://demo.vercel.store/search]\n- link \"Shirts\" [ref=e10, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e11, url=https://demo.vercel.store/search/stickers]\n- textbox \"Search for products...\" [ref=e4]\n- button \"Open cart\" [ref=e2]\n- heading \"Collections\" [level=3, ref=e5]\n- link \"Bags\" [ref=e32, url=https://demo.vercel.store/search/bags]\n- link \"Drinkware\" [ref=e33, url=https://demo.vercel.store/search/drinkware]\n- link \"Electronics\" [ref=e34, url=https://demo.vercel.store/search/electronics]\n- link \"Footware\" [ref=e35, url=https://demo.vercel.store/search/footware]\n- link \"Headwear\" [ref=e36, url=https://demo.vercel.store/search/headwear]\n- link \"Hoodies\" [ref=e37, url=https://demo.vercel.store/search/hoodies]\n- link \"Jackets\" [ref=e38, url=https://demo.vercel.store/search/jackets]\n- link \"Kids\" [ref=e39, url=https://demo.vercel.store/search/kids]\n- link \"Pets\" [ref=e40, url=https://demo.vercel.store/search/pets]\n- link \"Shirts\" [ref=e41, url=https://demo.vercel.store/search/shirts]\n- link \"Stickers\" [ref=e42, url=https://demo.vercel.store/search/stickers]\n- link \"Acme Sticker Acme Sticker $4.00USD\" [ref=e12, url=https://demo.vercel.store/product/acme-sticker]\n  - heading \"Acme Sticker\" [level=3, ref=e53]\n- link \"Acme Mug Acme Mug $15.00USD\" [ref=e13, url=https://demo.vercel.store/product/acme-mug]\n  - heading \"Acme Mug\" [level=3, ref=e54]\n- link \"Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD\" [ref=e14, url=https://demo.vercel.store/product/acme-geometric-circles-t-shirt]\n  - heading \"Acme Circles T-Shirt\" [level=3, ref=e55]\n- link \"Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD\" [ref=e15, url=https://demo.vercel.store/product/acme-rainbow-prism-t-shirt]\n  - heading \"Acme Prism T-Shirt\" [level=3, ref=e56]\n- link \"Acme Cowboy Hat Acme Cowboy Hat $160.00USD\" [ref=e16, url=https://demo.vercel.store/product/acme-cowboy-hat]\n  - heading \"Acme Cowboy Hat\" [level=3, ref=e57]\n- link \"Acme Keyboard Acme Keyboard $150.00USD\" [ref=e17, url=https://demo.vercel.store/product/acme-mechanical-keyboard]\n  - heading \"Acme Keyboard\" [level=3, ref=e58]\n- link \"Acme T-Shirt Acme T-Shirt $20.00USD\" [ref=e18, url=https://demo.vercel.store/product/acme-t-shirt]\n  - heading \"Acme T-Shirt\" [level=3, ref=e59]\n- link \"Acme Hoodie Acme Hoodie $50.00USD\" [ref=e19, url=https://demo.vercel.store/product/acme-hoodie]\n  - heading \"Acme Hoodie\" [level=3, ref=e60]\n- link \"Acme Baby Onesie Acme Baby Onesie $10.00USD\" [ref=e20, url=https://demo.vercel.store/product/acme-baby-onesie]\n  - heading \"Acme Baby Onesie\" [level=3, ref=e61]\n- link \"Acme Drawstring Bag Acme Drawstring Bag $12.00USD\" [ref=e21, url=https://demo.vercel.store/product/acme-drawstring-bag]\n  - heading \"Acme Drawstring Bag\" [level=3, ref=e62]\n- link \"Acme Pacifier Acme Pacifier $10.00USD\" [ref=e22, url=https://demo.vercel.store/product/acme-pacifier]\n  - heading \"Acme Pacifier\" [level=3, ref=e63]\n- link \"Acme Slip-On Shoes Acme Slip-On Shoes $45.00USD\" [ref=e23, url=https://demo.vercel.store/product/acme-slip-on-shoes]\n  - heading \"Acme Slip-On Shoes\" [level=3, ref=e64]\n- link \"Acme Rainbow Sticker Acme Rainbow Sticker $4.00USD\" [ref=e24, url=https://demo.vercel.store/product/acme-rainbow-sticker]\n  - heading \"Acme Rainbow Sticker\" [level=3, ref=e65]\n- link \"Acme Cap Acme Cap $20.00USD\" [ref=e25, url=https://demo.vercel.store/product/acme-cap]\n  - heading \"Acme Cap\" [level=3, ref=e66]\n- link \"Acme Dog Sweater Acme Dog Sweater $20.00USD\" [ref=e26, url=https://demo.vercel.store/product/acme-dog-sweater]\n  - heading \"Acme Dog Sweater\" [level=3, ref=e67]\n- link \"Acme Cup Acme Cup $15.00USD\" [ref=e27, url=https://demo.vercel.store/product/acme-cup]\n  - heading \"Acme Cup\" [level=3, ref=e68]\n- link \"Acme Bomber Jacket Acme Bomber Jacket $50.00USD\" [ref=e28, url=https://demo.vercel.store/product/acme-bomber-jacket]\n  - heading \"Acme Bomber Jacket\" [level=3, ref=e69]\n- link \"Acme Baby Cap Acme Baby Cap $10.00USD\" [ref=e29, url=https://demo.vercel.store/product/acme-baby-cap]\n  - heading \"Acme Baby Cap\" [level=3, ref=e70]\n- heading \"Sort by\" [level=3, ref=e6]\n- link \"Trending\" [ref=e43, url=https://demo.vercel.store/search?sort=trending-desc]\n- link \"Latest arrivals\" [ref=e44, url=https://demo.vercel.store/search?sort=latest-desc]\n- link \"Price: Low to high\" [ref=e45, url=https://demo.vercel.store/search?sort=price-asc]\n- link \"Price: High to low\" [ref=e46, url=https://demo.vercel.store/search?sort=price-desc]\n- link \"Acme Store logo ACME STORE\" [ref=e7, url=https://demo.vercel.store/]\n- link \"Home\" [ref=e47, url=https://demo.vercel.store/]\n- link \"About\" [ref=e48, url=https://demo.vercel.store/about]\n- link \"Terms & Conditions\" [ref=e49, url=https://demo.vercel.store/terms-conditions]\n- link \"Shipping & Return Policy\" [ref=e50, url=https://demo.vercel.store/shipping-return-policy]\n- link \"Privacy Policy\" [ref=e51, url=https://demo.vercel.store/privacy-policy]\n- link \"FAQ\" [ref=e52, url=https://demo.vercel.store/frequently-asked-questions]\n- link \"Deploy on Vercel\" [ref=e8, url=https://vercel.com/templates/next.js/nextjs-commerce]\n- link \"View the source\" [ref=e30, url=https://github.com/vercel/commerce]\n- link \"Created by ▲ Vercel\" [ref=e31, url=https://vercel.com/]\n- region \"Notifications alt+T\" [ref=e3]",
   "refs": {
     "e1": {
       "name": "Acme Store logo ACME STORE",
@@ -16,19 +16,19 @@
       "role": "link"
     },
     "e12": {
-      "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
-      "role": "link"
-    },
-    "e13": {
-      "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
-      "role": "link"
-    },
-    "e14": {
       "name": "Acme Sticker Acme Sticker $4.00USD",
       "role": "link"
     },
-    "e15": {
+    "e13": {
       "name": "Acme Mug Acme Mug $15.00USD",
+      "role": "link"
+    },
+    "e14": {
+      "name": "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Acme Prism T-Shirt Acme Prism T-Shirt $25.00USD",
       "role": "link"
     },
     "e16": {
@@ -196,19 +196,19 @@
       "role": "link"
     },
     "e53": {
-      "name": "Acme Circles T-Shirt",
-      "role": "heading"
-    },
-    "e54": {
-      "name": "Acme Prism T-Shirt",
-      "role": "heading"
-    },
-    "e55": {
       "name": "Acme Sticker",
       "role": "heading"
     },
-    "e56": {
+    "e54": {
       "name": "Acme Mug",
+      "role": "heading"
+    },
+    "e55": {
+      "name": "Acme Circles T-Shirt",
+      "role": "heading"
+    },
+    "e56": {
+      "name": "Acme Prism T-Shirt",
       "role": "heading"
     },
     "e57": {

@@ -1,6 +1,8 @@
 import { createModels } from "@earendil-works/pi-ai";
 import { openrouterProvider } from "@earendil-works/pi-ai/providers/openrouter";
 import type { Context } from "@earendil-works/pi-ai";
+import { mkdirSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
 import { getConfig } from "./config.js";
 
 export type ModelsCollection = ReturnType<typeof createModels>;
@@ -80,8 +82,6 @@ export function usageSummary(): {
 export function saveUsageReport(outputDir: string): void {
   if (usageLog.length === 0) return;
   const { perTag, totals } = usageSummary();
-  const { writeFileSync, mkdirSync } = require("node:fs") as typeof import("node:fs");
-  const { join } = require("node:path") as typeof import("node:path");
   mkdirSync(outputDir, { recursive: true });
   writeFileSync(
     join(outputDir, "cost.json"),

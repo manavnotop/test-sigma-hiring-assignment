@@ -52,7 +52,7 @@ The crawler is a **PI harness `Agent`** with six tools, all of which wrap `agent
 - `list_frontier` (the discovered-but-unvisited URLs)
 - `finish_crawl` (terminates the loop)
 
-The agent's *system prompt* describes the product and its goals ("explore breadth-first, exercise state-changing interactions: product clicks, cart, search, filters"). The committed full-budget run (default 25-screen budget) captured **25 screens in 24 transitions**: 12 product pages, 6 category pages, the search results (`?q=shirt`, via a real `fill_input + submit`), a sorted category variant (`?sort=price-asc` — a real interaction the README never mentions), plus about/FAQ/privacy pages.
+The agent's *system prompt* describes the product and its goals ("explore breadth-first, exercise state-changing interactions: product clicks, cart, search, filters"). The committed full-budget run (default 25-screen budget) captured **25 screens in 25 transitions**: 8 product pages, 15 category/search pages (9 of them `?sort=` interaction variants the README never mentions), the search results (`?q=shirt`, via a real `fill_input + submit`), plus the home page and privacy policy.
 
 > **Committed artifacts.** `output/` contains this full-budget run end-to-end (crawl manifest, code/requirements layers, graph-era report, eval). Regenerate everything with `npm run all`; the deterministic sections of the report are also regenerable offline from the committed JSON artifacts with `npm run report` (no Docker/LLM) — a reviewer can verify the deterministic sections without the pipeline.
 
@@ -157,7 +157,7 @@ MATCH (r:Requirement)-[:MISSING_UI_COVERAGE]->(:CoverageGap)
 RETURN r.req_id, r.title
 ```
 
-For the full-pipeline run it returns R1, R3, R4, R5, R6, R7, R8, R9 — requirements describing developer-facing processes (environment setup, Vercel CLI workflows, the integration guide) with no UI to exercise them. That is the honest answer, not noise: **the requirements the spec documents but the product has no surface for.**
+For the full-pipeline run it returns R2 — "Provider integration via fork and swap", a developer-facing process with no UI to exercise it. That is the honest answer, not noise: **the requirements the spec documents but the product has no surface for.**
 
 ---
 
@@ -187,7 +187,7 @@ For the full-pipeline run it returns R1, R3, R4, R5, R6, R7, R8, R9 — requirem
 
 - `count(covered) + count(gaps) == count(requirements)` — absence is complete, no requirement falls through.
 - Zero dangling cross-layer edges (COVERED_BY/IMPLEMENTED_BY/RENDERED_BY all point at existing nodes).
-- Verdict: `PASS` on the full-run graph (1 covered + 8 gaps == 9; see `output/eval.md`).
+- Verdict: `PASS` on the full-run graph (3 covered + 1 gap == 4; see `output/eval.md`).
 
 These catch the failures that actually break the product: broken graph writes, hallucinated ids, double-counted coverage. They are 100% deterministic and cheap enough to run in CI.
 
@@ -195,13 +195,13 @@ These catch the failures that actually break the product: broken graph writes, h
 
 ### 8.2 Tier 2 — LLM-output stability (the "100 runs" answer)
 
-The **blast-radius sets are deterministic** (tree-sitter + route matching + Cypher) — re-run the system 100 times and `affected.screens/flows/reqs` are bit-identical. The drift is in the prose. The harness measures exactly that: N runs of the narrative writer on identical evidence, reported as **pairwise token-level Jaccard** per field. Representative numbers from the committed run (N=3): summary 40%, whatToTest 41%, riskAreas 35% — the exact figures drift run to run, which is itself the point being measured.
+The **blast-radius sets are deterministic** (tree-sitter + route matching + Cypher) — re-run the system 100 times and `affected.screens/flows/reqs` are bit-identical. The drift is in the prose. The harness measures exactly that: N runs of the narrative writer on identical evidence, reported as **pairwise token-level Jaccard** per field. Representative numbers from the committed run (N=3): summary 45%, whatToTest 65%, riskAreas 46% — the exact figures drift run to run, which is itself the point being measured.
 
 What do those numbers mean, honestly? The summaries agree on substance (the same sentences, paraphrased) but ~40% says the *wording* is unstable. The guidance to a consumer: **high-agreement claims are trustworthy; low-agreement claims are exactly the ones to down-rank or route to a human** — which is the calibration argument for §7.2.
 
 ### 8.3 Hallucination guard
 
-Every narrative run is scanned for capitalized tokens that don't appear in the evidence (screens, requirements, symbols, files, common vocabulary). The committed `output/eval.md` run: "T-Shirt," and "(pre-existing" are punctuation artifacts, "Slip-On" is a hyphen-split of a real screen label ("Acme Slip-On Shoes Product Page"), and "Graph"/"Metadata"/"Actual" are mid-sentence false positives from the hardcoded vocab list. No real out-of-evidence entities this run — the guard is noisy in the safe direction, and the vocab list is the obvious next thing to widen.
+Every narrative run is scanned for capitalized tokens that don't appear in the evidence (screens, requirements, symbols, files, common vocabulary). The committed `output/eval.md` run: "(`app/product/[handle]/page.tsx`)," is a punctuation artifact from a file path quoted mid-sentence, "T-Shirt" is a hyphen-split of real screen labels, and "Graph"/"Pre-existing" are mid-sentence false positives from the hardcoded vocab list. No real out-of-evidence entities this run — the guard is noisy in the safe direction, and the vocab list is the obvious next thing to widen.
 
 ### 8.4 What is NOT built
 
